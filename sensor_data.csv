@@ -1,0 +1,501 @@
+machine_id,machine_name,location,running_hours,temperature,vibration,pressure,oil_level,error_code,last_maintenance,failure_risk
+7,Molino de bolas,Sala 1A,946,101.6,0.4,83,76,NONE,2025-03-09,0
+20,Compresor de aire,Sala 2B,313,87.0,0.9,229,74,NONE,2025-03-28,0
+29,Torre de enfriamiento,Sala 3C,974,87.4,0.2,155,59,NONE,2025-01-30,0
+15,Rectificadora,Sala 1A,104,111.0,0.2,146,96,NONE,2025-02-03,0
+11,Grúa puente,Sala 1C,920,79.3,0.6,165,72,VIBRATION_ALERT,2025-02-16,0
+8,Caldera industrial,Sala 2A,692,93.2,0.9,241,70,LOW_OIL,2025-07-05,0
+29,Bomba centrífuga,Sala 1A,849,81.0,0.7,170,70,NONE,2025-06-17,0
+21,Trituradora/molino,Sala 1A,827,81.0,0.2,184,92,OVERHEAT,2025-03-02,0
+7,Sistema de filtración,Sala 3B,507,67.5,0.3,80,62,NONE,2025-02-23,0
+26,Torre de enfriamiento,Sala 1B,927,73.9,0.8,151,86,VIBRATION_ALERT,2025-02-14,0
+19,Dobladora de tubos y láminas,Sala 4C,211,71.1,0.3,166,82,NONE,2025-05-25,0
+23,Caldera industrial,Sala 3B,429,93.9,0.7,245,73,OVERHEAT,2025-03-21,0
+11,Prensa hidráulica,Sala 3A,136,100.6,0.8,85,93,LOW_OIL,2025-05-05,0
+11,Trituradora/molino,Sala 4A,104,83.6,0.5,232,60,NONE,2025-06-28,1
+24,Durómetro,Sala 4A,525,88.4,0.4,224,66,LOW_OIL,2025-01-28,0
+21,Torno CNC,Sala 1B,849,82.7,0.5,140,53,NONE,2025-03-08,0
+4,Inyectora de plástico,Sala 2C,227,72.8,0.3,91,96,NONE,2025-04-23,0
+8,Tamizadora,Sala 2C,440,97.9,0.8,85,74,NONE,2025-01-31,0
+24,Banda transportadora,Sala 1C,398,94.8,0.5,106,79,VIBRATION_ALERT,2025-05-21,0
+3,Tamizadora,Sala 4B,57,56.6,0.8,215,58,LOW_OIL,2025-04-21,1
+22,Horno industrial,Sala 1B,882,80.8,0.2,203,70,OVERHEAT,2025-02-19,0
+21,Microscopio industrial,Sala 4C,362,71.8,0.9,185,69,OVERHEAT,2025-04-27,0
+2,Compresor de aire,Sala 1A,808,79.1,0.5,172,68,NONE,2025-05-15,0
+24,Montacargas,Sala 2C,884,74.9,0.1,188,68,VIBRATION_ALERT,2025-05-16,0
+12,Sistema de filtración,Sala 4C,492,84.3,0.1,178,61,NONE,2025-05-09,0
+30,Fresadora CNC,Sala 2B,816,80.1,0.7,247,86,NONE,2025-07-15,0
+6,Fresadora CNC,Sala 4B,377,79.7,0.6,221,91,NONE,2025-02-26,0
+2,Compresor de aire,Sala 3C,103,101.6,0.7,114,66,OVERHEAT,2025-04-06,0
+28,Espectrómetro,Sala 1A,810,93.4,0.2,163,86,OVERHEAT,2025-02-19,0
+21,Microscopio industrial,Sala 3A,288,74.4,0.1,135,97,NONE,2025-01-25,0
+1,Caldera industrial,Sala 2B,278,76.7,0.5,220,88,NONE,2025-04-17,1
+12,Torre de enfriamiento,Sala 2B,628,92.4,0.4,128,77,LOW_OIL,2025-01-26,0
+26,Máquina de envasado,Sala 1B,100,92.4,0.5,125,90,NONE,2025-02-27,0
+22,Ventilador industrial,Sala 4B,658,75.9,0.9,192,84,OVERHEAT,2025-01-22,0
+29,Espectrómetro,Sala 1C,653,81.5,0.9,215,96,VIBRATION_ALERT,2025-02-21,1
+12,Torre de enfriamiento,Sala 3A,313,112.7,0.9,122,97,NONE,2025-01-22,1
+25,Torre de enfriamiento,Sala 2C,467,76.2,0.7,227,67,NONE,2025-03-29,0
+17,Espectrómetro,Sala 4C,852,113.7,0.4,203,63,OVERHEAT,2025-02-08,0
+27,Apiladora/recogedora automática,Sala 1B,145,101.6,0.4,176,84,LOW_OIL,2025-03-22,0
+27,Durómetro,Sala 2C,137,110.9,0.5,169,93,NONE,2025-05-21,0
+10,Molino de bolas,Sala 1B,127,75.6,0.8,118,90,VIBRATION_ALERT,2025-06-06,0
+28,Cortadora láser/plasma,Sala 1B,337,82.5,0.2,164,56,NONE,2025-07-07,0
+28,Montacargas,Sala 1B,169,78.3,0.4,141,90,NONE,2025-06-09,0
+16,Espectrómetro,Sala 4B,863,101.9,0.2,185,62,OVERHEAT,2025-03-23,0
+15,Extrusora,Sala 1C,540,76.5,0.5,186,67,LOW_OIL,2025-06-29,0
+30,Sistema de filtración,Sala 1B,961,96.0,0.8,133,86,NONE,2025-02-03,1
+30,Máquina de soldadura (MIG/TIG/Arco),Sala 2A,501,95.2,0.7,205,62,LOW_OIL,2025-03-10,0
+15,Torno CNC,Sala 3C,549,84.3,0.3,88,85,NONE,2025-02-13,0
+30,Inyectora de plástico,Sala 2C,214,104.5,0.9,167,80,NONE,2025-04-20,0
+19,CMM (Máquina de medición por coordenadas),Sala 1A,231,86.6,0.6,116,51,NONE,2025-04-16,0
+12,Sistema de filtración,Sala 3B,518,97.5,0.1,128,65,LOW_OIL,2025-07-06,0
+23,Horno industrial,Sala 4C,959,77.6,0.3,120,58,NONE,2025-05-14,0
+20,Horno industrial,Sala 3A,784,74.1,0.3,96,58,NONE,2025-06-12,1
+25,Máquina de soldadura (MIG/TIG/Arco),Sala 4A,872,96.0,0.2,167,87,NONE,2025-01-23,0
+3,Dobladora de tubos y láminas,Sala 1C,993,91.5,0.9,100,60,LOW_OIL,2025-05-14,0
+5,Prensa hidráulica,Sala 1A,56,88.6,0.5,130,71,NONE,2025-06-13,0
+19,Cortadora láser/plasma,Sala 2B,379,79.8,0.8,138,82,OVERHEAT,2025-06-23,0
+7,Trituradora/molino,Sala 2A,824,108.2,0.4,246,85,NONE,2025-05-05,0
+21,Durómetro,Sala 4A,722,68.3,0.2,120,94,NONE,2025-04-02,0
+9,Máquina de envasado,Sala 3B,200,67.4,0.5,118,72,NONE,2025-02-01,0
+7,Montacargas,Sala 1A,134,99.1,0.2,220,94,LOW_OIL,2025-06-06,0
+18,Rectificadora,Sala 4A,196,97.9,0.5,90,94,VIBRATION_ALERT,2025-02-19,0
+4,Compresor de aire,Sala 1A,673,90.3,0.8,226,83,NONE,2025-02-21,0
+25,Inyectora de plástico,Sala 4C,430,80.7,0.5,218,58,NONE,2025-07-11,0
+28,Durómetro,Sala 2A,964,92.5,0.6,156,73,NONE,2025-06-20,0
+14,Banda transportadora,Sala 3B,597,110.8,0.2,206,57,NONE,2025-06-09,0
+18,Trituradora/molino,Sala 2B,334,122.7,0.1,125,56,NONE,2025-02-11,0
+26,Grúa puente,Sala 1B,749,60.2,0.2,124,85,NONE,2025-03-13,1
+9,Sistema de filtración,Sala 2C,131,78.7,0.6,80,67,NONE,2025-04-26,0
+26,Molino de bolas,Sala 2B,563,77.8,0.2,247,52,NONE,2025-03-25,0
+21,Máquina de envasado,Sala 1B,946,109.4,0.4,187,77,NONE,2025-02-25,1
+2,Microscopio industrial,Sala 4B,864,47.8,0.5,98,55,OVERHEAT,2025-01-26,0
+20,Apiladora/recogedora automática,Sala 4B,758,92.7,0.4,155,93,NONE,2025-05-18,0
+28,Bomba centrífuga,Sala 4B,965,81.1,0.2,151,93,NONE,2025-07-12,0
+15,Microscopio industrial,Sala 1C,572,109.6,0.3,188,70,OVERHEAT,2025-06-04,0
+28,Sistema de filtración,Sala 3C,795,107.5,0.8,91,77,NONE,2025-01-24,0
+7,Torre de enfriamiento,Sala 3A,435,90.5,0.6,240,89,NONE,2025-02-14,0
+12,Compresor de aire,Sala 3A,756,61.3,0.5,124,50,NONE,2025-04-22,0
+29,Torre de enfriamiento,Sala 4B,520,76.4,0.1,169,85,NONE,2025-05-07,0
+8,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,168,78.0,0.9,182,70,NONE,2025-02-06,1
+15,Torre de enfriamiento,Sala 3B,445,65.1,0.6,87,92,NONE,2025-01-21,0
+3,CMM (Máquina de medición por coordenadas),Sala 2A,581,102.3,0.4,232,84,VIBRATION_ALERT,2025-06-12,1
+14,Máquina de envasado,Sala 3B,310,63.2,0.8,170,62,NONE,2025-03-22,0
+17,Compresor de aire,Sala 2A,854,114.5,0.3,166,98,NONE,2025-05-23,0
+4,Mezcladora industrial,Sala 3B,983,114.4,0.5,237,59,NONE,2025-07-11,0
+18,Horno industrial,Sala 3C,305,79.2,0.6,163,93,NONE,2025-04-15,0
+8,CMM (Máquina de medición por coordenadas),Sala 1C,783,89.9,0.3,161,96,NONE,2025-03-24,0
+4,Torno CNC,Sala 1C,954,83.9,0.9,225,59,OVERHEAT,2025-03-31,0
+2,Torre de enfriamiento,Sala 4B,275,98.5,0.7,147,95,NONE,2025-06-29,0
+30,Torre de enfriamiento,Sala 1B,102,104.1,0.5,240,62,NONE,2025-03-17,1
+6,Torno CNC,Sala 4A,989,88.9,0.2,206,86,NONE,2025-05-27,0
+22,Montacargas,Sala 1C,916,92.0,0.1,243,87,NONE,2025-03-22,0
+10,Fresadora CNC,Sala 1C,549,75.7,0.4,161,73,VIBRATION_ALERT,2025-07-07,0
+4,Máquina de envasado,Sala 2B,555,91.6,0.7,226,51,NONE,2025-01-23,0
+22,Espectrómetro,Sala 2B,903,87.4,0.3,235,71,NONE,2025-07-02,0
+29,Banda transportadora,Sala 1B,413,71.3,0.5,247,66,NONE,2025-05-16,0
+18,Caldera industrial,Sala 4C,329,84.8,0.7,163,85,VIBRATION_ALERT,2025-06-07,0
+26,Inyectora de plástico,Sala 4A,642,79.3,0.2,192,63,NONE,2025-04-16,1
+12,Trituradora/molino,Sala 2C,763,75.9,0.6,155,59,NONE,2025-02-12,0
+2,CMM (Máquina de medición por coordenadas),Sala 2B,207,67.8,0.2,201,84,OVERHEAT,2025-02-22,0
+10,Torno CNC,Sala 2C,681,85.9,0.9,222,74,OVERHEAT,2025-07-08,0
+30,Banda transportadora,Sala 1A,108,73.3,0.5,120,52,NONE,2025-04-12,0
+4,Ventilador industrial,Sala 2B,776,77.9,0.2,246,96,NONE,2025-01-22,0
+14,Dobladora de tubos y láminas,Sala 3C,177,101.1,0.4,81,87,NONE,2025-05-09,0
+16,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,785,94.5,0.4,108,66,NONE,2025-04-02,1
+15,Espectrómetro,Sala 4A,770,70.3,0.7,184,61,NONE,2025-05-22,0
+8,Ventilador industrial,Sala 1B,931,90.3,0.7,130,73,NONE,2025-06-15,0
+14,Compresor de aire,Sala 1A,164,87.0,0.6,154,78,NONE,2025-06-29,1
+23,Rectificadora,Sala 4A,258,110.5,0.2,89,92,NONE,2025-05-30,0
+28,Horno industrial,Sala 4B,575,105.7,0.2,221,74,NONE,2025-04-08,0
+25,Torre de enfriamiento,Sala 3C,570,62.0,0.2,130,85,VIBRATION_ALERT,2025-03-03,0
+30,Banda transportadora,Sala 4A,601,97.9,0.6,197,75,NONE,2025-02-09,0
+8,Microscopio industrial,Sala 3C,286,104.0,0.8,200,87,NONE,2025-05-28,0
+21,Máquina de soldadura (MIG/TIG/Arco),Sala 3C,330,93.4,0.4,118,50,NONE,2025-07-04,0
+16,Espectrómetro,Sala 2C,408,80.0,0.2,107,69,VIBRATION_ALERT,2025-04-26,0
+13,Caldera industrial,Sala 3B,250,121.2,0.5,82,77,NONE,2025-03-10,0
+18,Ventilador industrial,Sala 4B,807,94.8,0.7,163,65,NONE,2025-06-12,0
+15,Tamizadora,Sala 1A,327,114.6,0.7,234,96,NONE,2025-03-15,0
+21,Sistema de filtración,Sala 4A,284,105.3,0.8,196,66,NONE,2025-06-09,0
+24,Máquina de soldadura (MIG/TIG/Arco),Sala 2A,543,92.0,0.3,81,89,NONE,2025-05-08,0
+26,Montacargas,Sala 1A,53,76.3,0.3,172,77,NONE,2025-06-09,0
+25,Apiladora/recogedora automática,Sala 3B,715,84.6,0.8,245,61,NONE,2025-05-24,0
+28,Máquina de envasado,Sala 1A,491,81.7,0.6,210,76,VIBRATION_ALERT,2025-02-18,0
+28,Tamizadora,Sala 1C,78,66.8,0.3,223,91,NONE,2025-04-06,1
+28,Máquina de envasado,Sala 2A,158,94.8,0.7,173,96,NONE,2025-03-02,0
+13,Durómetro,Sala 3B,659,108.5,0.8,119,79,OVERHEAT,2025-03-31,0
+9,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,776,80.5,0.6,81,90,NONE,2025-03-05,0
+29,Horno industrial,Sala 4A,854,117.5,0.7,160,83,NONE,2025-04-17,0
+15,Banda transportadora,Sala 4C,124,61.6,0.4,248,86,NONE,2025-04-16,0
+13,Torre de enfriamiento,Sala 3A,887,100.8,0.5,91,55,NONE,2025-05-24,1
+1,Torre de enfriamiento,Sala 3B,195,110.1,0.5,242,56,LOW_OIL,2025-05-20,0
+25,Banda transportadora,Sala 1B,177,81.9,0.8,144,81,VIBRATION_ALERT,2025-03-03,0
+7,CMM (Máquina de medición por coordenadas),Sala 4A,902,82.2,0.8,134,81,NONE,2025-06-10,0
+9,Dobladora de tubos y láminas,Sala 4B,91,100.6,0.8,124,74,NONE,2025-06-21,1
+24,Prensa hidráulica,Sala 3B,405,92.6,0.1,180,82,VIBRATION_ALERT,2025-05-31,0
+1,Torno CNC,Sala 1C,90,55.0,0.7,141,56,OVERHEAT,2025-02-05,1
+12,Máquina de envasado,Sala 3A,983,72.3,0.7,128,61,LOW_OIL,2025-03-16,0
+8,Máquina de envasado,Sala 1C,83,84.8,0.6,206,65,NONE,2025-07-06,0
+24,Máquina de soldadura (MIG/TIG/Arco),Sala 3A,66,64.5,0.7,232,65,NONE,2025-06-13,0
+11,Compresor de aire,Sala 4B,726,77.9,0.8,102,92,OVERHEAT,2025-04-09,0
+19,Torre de enfriamiento,Sala 4C,202,64.8,0.5,231,85,NONE,2025-06-23,0
+17,Molino de bolas,Sala 1B,427,79.4,0.5,117,62,NONE,2025-04-24,0
+8,Espectrómetro,Sala 4A,637,80.0,0.2,107,56,NONE,2025-07-15,0
+3,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,648,90.3,0.4,100,85,NONE,2025-04-28,0
+3,Prensa hidráulica,Sala 1C,678,83.6,0.6,186,96,NONE,2025-02-03,0
+1,Fresadora CNC,Sala 1C,923,92.5,0.7,225,58,NONE,2025-03-14,0
+27,Durómetro,Sala 3C,391,90.8,0.3,243,81,VIBRATION_ALERT,2025-04-22,0
+5,Molino de bolas,Sala 3A,76,100.5,0.2,178,60,NONE,2025-03-14,0
+10,Torre de enfriamiento,Sala 2B,874,98.1,0.6,198,57,LOW_OIL,2025-03-21,0
+7,Microscopio industrial,Sala 4C,336,96.5,0.1,152,82,NONE,2025-06-27,0
+26,Torre de enfriamiento,Sala 4A,695,131.6,0.2,201,72,NONE,2025-03-11,0
+9,Torno CNC,Sala 3A,780,90.2,0.1,109,74,VIBRATION_ALERT,2025-06-18,0
+28,Bomba centrífuga,Sala 3C,217,123.9,0.2,187,57,NONE,2025-03-22,0
+7,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,659,91.2,0.2,177,94,NONE,2025-07-08,0
+9,Trituradora/molino,Sala 3A,317,83.8,0.4,111,71,NONE,2025-06-03,0
+8,Prensa hidráulica,Sala 2C,798,79.4,0.4,235,53,NONE,2025-04-14,0
+12,Banda transportadora,Sala 4A,870,107.6,0.8,158,89,OVERHEAT,2025-07-09,0
+2,Bomba centrífuga,Sala 4C,504,109.6,0.5,120,52,VIBRATION_ALERT,2025-02-01,0
+1,Banda transportadora,Sala 3C,955,94.0,0.7,142,78,NONE,2025-03-13,0
+16,Compresor de aire,Sala 1A,734,102.0,0.2,102,90,NONE,2025-02-17,0
+23,Fresadora CNC,Sala 2A,450,65.8,0.3,183,78,NONE,2025-04-11,0
+23,Apiladora/recogedora automática,Sala 3C,971,61.8,0.7,154,83,OVERHEAT,2025-01-28,0
+30,Sistema de filtración,Sala 2A,525,103.7,0.1,127,83,NONE,2025-03-29,0
+24,Generador eléctrico,Sala 4A,751,83.1,0.5,239,77,NONE,2025-05-20,0
+5,Durómetro,Sala 1C,683,96.2,0.6,136,62,NONE,2025-04-23,0
+3,Bomba centrífuga,Sala 3C,607,74.2,0.6,197,64,NONE,2025-02-24,1
+12,Horno industrial,Sala 1B,625,109.9,0.1,179,72,NONE,2025-05-15,0
+8,Grúa puente,Sala 2A,179,61.9,0.4,203,93,OVERHEAT,2025-05-23,0
+22,Rectificadora,Sala 2C,871,64.2,0.6,240,75,NONE,2025-04-04,0
+27,Sistema de filtración,Sala 1B,412,106.7,0.2,231,53,NONE,2025-07-10,0
+3,Torno CNC,Sala 3B,754,45.9,0.7,246,75,LOW_OIL,2025-06-27,0
+1,Torno CNC,Sala 3B,868,90.7,0.7,113,89,OVERHEAT,2025-02-28,0
+3,Ventilador industrial,Sala 1A,742,83.4,0.9,235,58,NONE,2025-04-21,0
+5,Microscopio industrial,Sala 4C,341,74.0,0.3,244,54,NONE,2025-01-24,0
+15,Extrusora,Sala 1C,420,82.0,0.8,86,81,NONE,2025-07-01,1
+14,Máquina de soldadura (MIG/TIG/Arco),Sala 4A,843,72.3,0.5,244,69,NONE,2025-03-26,0
+3,Horno industrial,Sala 3C,78,108.1,0.4,135,99,NONE,2025-02-01,0
+1,Rectificadora,Sala 2B,198,112.1,0.2,144,60,NONE,2025-02-24,0
+5,Torno CNC,Sala 2C,828,74.7,0.7,126,64,NONE,2025-02-26,0
+26,Torno CNC,Sala 2A,345,89.1,0.3,227,81,OVERHEAT,2025-04-04,0
+23,Inyectora de plástico,Sala 4A,60,65.1,0.4,98,77,NONE,2025-07-04,0
+14,Molino de bolas,Sala 1B,561,101.1,0.2,236,71,NONE,2025-05-17,0
+7,Extrusora,Sala 4B,725,100.7,0.7,225,90,NONE,2025-02-02,0
+27,Horno industrial,Sala 3B,162,80.6,0.7,242,66,VIBRATION_ALERT,2025-07-06,0
+9,Ventilador industrial,Sala 4B,236,85.3,0.7,205,75,LOW_OIL,2025-04-29,0
+15,Trituradora/molino,Sala 2C,856,83.6,0.3,218,93,LOW_OIL,2025-06-17,0
+15,Horno industrial,Sala 2B,793,60.7,0.2,128,56,LOW_OIL,2025-03-04,1
+26,Tamizadora,Sala 3C,276,108.2,0.6,192,91,VIBRATION_ALERT,2025-06-09,0
+10,Fresadora CNC,Sala 1A,359,73.5,0.5,117,75,NONE,2025-02-21,0
+28,Ventilador industrial,Sala 2B,147,73.6,0.2,143,74,NONE,2025-04-28,0
+13,Microscopio industrial,Sala 2C,104,82.7,0.6,148,59,NONE,2025-05-03,0
+19,Grúa puente,Sala 2B,672,99.9,0.9,215,94,OVERHEAT,2025-05-04,0
+7,Rectificadora,Sala 2C,713,76.1,0.7,241,68,OVERHEAT,2025-01-28,0
+17,Compresor de aire,Sala 2C,807,55.7,0.7,195,60,NONE,2025-06-11,1
+20,Apiladora/recogedora automática,Sala 3A,455,71.7,0.9,144,62,NONE,2025-05-09,0
+29,Torre de enfriamiento,Sala 2A,118,91.4,0.3,110,57,NONE,2025-06-01,0
+4,Inyectora de plástico,Sala 4B,361,117.8,0.6,211,89,VIBRATION_ALERT,2025-07-01,0
+30,Ventilador industrial,Sala 3B,338,66.1,0.9,192,53,NONE,2025-02-25,0
+5,Torre de enfriamiento,Sala 3A,811,65.6,0.2,188,96,NONE,2025-06-10,0
+23,Molino de bolas,Sala 3C,597,62.3,0.7,148,80,NONE,2025-04-21,0
+7,Torre de enfriamiento,Sala 3A,800,60.4,0.6,237,77,NONE,2025-05-18,0
+13,Máquina de envasado,Sala 1C,197,103.1,0.6,199,60,LOW_OIL,2025-02-28,0
+15,Fresadora CNC,Sala 1C,516,107.4,0.7,167,92,NONE,2025-04-01,0
+11,Microscopio industrial,Sala 3B,788,87.7,0.8,146,50,OVERHEAT,2025-04-29,1
+29,Mezcladora industrial,Sala 2B,293,78.0,0.7,154,98,NONE,2025-03-07,0
+4,Dobladora de tubos y láminas,Sala 2A,540,111.9,0.1,124,96,NONE,2025-05-03,0
+13,Prensa hidráulica,Sala 3B,898,87.6,0.8,83,87,NONE,2025-04-20,0
+7,Torre de enfriamiento,Sala 2C,556,101.3,0.3,233,73,OVERHEAT,2025-07-05,0
+27,CMM (Máquina de medición por coordenadas),Sala 1B,414,77.3,0.4,234,96,NONE,2025-04-15,0
+19,Grúa puente,Sala 2A,531,85.7,0.5,186,80,NONE,2025-05-26,0
+22,Trituradora/molino,Sala 4C,250,66.4,0.5,130,90,NONE,2025-03-09,0
+28,Extrusora,Sala 4B,203,94.4,0.4,129,95,VIBRATION_ALERT,2025-06-10,0
+2,Ventilador industrial,Sala 2A,499,87.9,0.8,85,99,NONE,2025-05-08,0
+10,Bomba centrífuga,Sala 2C,550,71.6,0.7,138,75,LOW_OIL,2025-06-24,1
+13,Prensa hidráulica,Sala 2C,122,71.8,0.6,204,98,NONE,2025-05-03,0
+30,Caldera industrial,Sala 1A,762,109.2,0.1,222,99,NONE,2025-02-09,0
+25,CMM (Máquina de medición por coordenadas),Sala 3B,345,114.6,0.8,109,54,NONE,2025-02-03,0
+21,Ventilador industrial,Sala 2C,66,81.8,0.8,249,69,NONE,2025-03-21,0
+6,Caldera industrial,Sala 1C,690,86.0,0.7,201,90,NONE,2025-05-27,0
+28,Prensa hidráulica,Sala 3C,266,91.0,0.1,204,60,NONE,2025-02-13,0
+28,Molino de bolas,Sala 1B,110,87.2,0.1,116,82,NONE,2025-03-10,0
+12,Máquina de soldadura (MIG/TIG/Arco),Sala 4B,988,59.9,0.3,249,99,VIBRATION_ALERT,2025-02-19,0
+12,Mezcladora industrial,Sala 3B,665,91.4,0.2,203,87,NONE,2025-04-14,0
+20,Bomba centrífuga,Sala 4A,91,53.7,0.4,180,76,OVERHEAT,2025-02-03,0
+30,Rectificadora,Sala 1C,74,74.0,0.8,114,83,NONE,2025-05-08,0
+30,Apiladora/recogedora automática,Sala 4C,88,92.6,0.5,166,64,NONE,2025-05-18,0
+11,Rectificadora,Sala 2B,852,94.0,0.1,213,81,NONE,2025-07-13,0
+26,Banda transportadora,Sala 2C,180,72.8,0.3,97,70,NONE,2025-06-17,0
+23,Prensa hidráulica,Sala 4A,547,78.1,0.1,192,95,NONE,2025-04-11,0
+28,Grúa puente,Sala 2C,278,76.1,0.1,108,54,NONE,2025-03-03,0
+25,Apiladora/recogedora automática,Sala 2A,157,83.5,0.3,156,55,NONE,2025-03-10,0
+7,Dobladora de tubos y láminas,Sala 1C,221,84.6,0.3,138,87,NONE,2025-05-04,0
+30,Bomba centrífuga,Sala 2A,484,95.0,0.7,205,71,LOW_OIL,2025-01-23,0
+1,Compresor de aire,Sala 1A,527,77.2,0.9,224,67,LOW_OIL,2025-05-21,0
+1,Máquina de envasado,Sala 2A,151,90.6,0.4,188,63,NONE,2025-06-18,0
+25,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,915,92.6,0.4,101,59,NONE,2025-04-17,0
+27,Horno industrial,Sala 4C,573,88.0,0.8,147,95,NONE,2025-05-11,0
+30,Apiladora/recogedora automática,Sala 1A,324,81.1,0.3,148,62,NONE,2025-05-28,0
+25,Compresor de aire,Sala 4A,662,87.7,0.2,244,80,NONE,2025-04-21,0
+20,Trituradora/molino,Sala 2C,93,96.3,0.8,128,79,NONE,2025-03-14,0
+13,Compresor de aire,Sala 2B,866,97.6,0.1,220,52,NONE,2025-01-31,1
+9,Caldera industrial,Sala 4B,66,112.2,0.6,241,79,NONE,2025-06-18,0
+3,Rectificadora,Sala 2A,379,70.1,0.5,188,55,NONE,2025-04-26,0
+7,Mezcladora industrial,Sala 4B,618,78.4,0.4,165,78,LOW_OIL,2025-03-14,1
+6,Máquina de envasado,Sala 1C,872,60.8,0.4,132,57,OVERHEAT,2025-02-19,1
+8,Apiladora/recogedora automática,Sala 1A,546,99.0,0.7,202,93,NONE,2025-03-09,0
+27,Apiladora/recogedora automática,Sala 2C,864,80.0,0.2,166,94,VIBRATION_ALERT,2025-07-06,0
+9,Máquina de envasado,Sala 1B,61,88.1,0.3,210,92,VIBRATION_ALERT,2025-06-04,0
+30,Durómetro,Sala 3B,367,75.9,0.7,121,93,NONE,2025-03-14,0
+5,Banda transportadora,Sala 4A,641,80.1,0.5,177,82,NONE,2025-01-30,0
+1,Caldera industrial,Sala 2B,265,103.3,0.2,239,66,NONE,2025-03-27,0
+19,Espectrómetro,Sala 3A,388,95.4,0.8,188,97,VIBRATION_ALERT,2025-01-23,0
+10,Trituradora/molino,Sala 4A,825,83.3,0.4,130,60,LOW_OIL,2025-06-29,1
+12,Generador eléctrico,Sala 4C,710,96.5,0.8,164,62,NONE,2025-04-29,0
+24,Microscopio industrial,Sala 1B,130,96.8,0.7,206,99,NONE,2025-02-05,0
+15,Apiladora/recogedora automática,Sala 3B,776,79.1,0.6,100,60,NONE,2025-03-12,0
+27,Prensa hidráulica,Sala 1B,534,63.0,0.5,123,80,NONE,2025-02-26,0
+22,Horno industrial,Sala 2A,423,71.5,0.9,218,77,NONE,2025-07-02,0
+24,Ventilador industrial,Sala 1A,759,64.9,0.2,182,93,LOW_OIL,2025-02-17,0
+9,Mezcladora industrial,Sala 2B,249,102.5,0.7,147,55,NONE,2025-05-22,0
+20,Microscopio industrial,Sala 3C,586,105.1,0.3,208,90,LOW_OIL,2025-05-08,0
+17,Horno industrial,Sala 1A,515,108.8,0.4,171,65,LOW_OIL,2025-04-01,0
+30,Mezcladora industrial,Sala 3C,138,54.7,0.3,103,53,OVERHEAT,2025-06-26,1
+17,Dobladora de tubos y láminas,Sala 4B,317,101.1,0.9,204,84,NONE,2025-01-26,0
+26,Sistema de filtración,Sala 3B,704,118.2,0.9,220,97,NONE,2025-05-08,0
+20,Tamizadora,Sala 2C,620,101.7,0.2,190,75,NONE,2025-07-11,0
+12,Durómetro,Sala 3A,971,52.7,0.1,177,61,NONE,2025-05-21,0
+30,Microscopio industrial,Sala 1C,538,111.5,0.7,218,60,NONE,2025-03-30,0
+7,Torre de enfriamiento,Sala 1A,926,85.6,0.4,96,86,NONE,2025-07-06,0
+2,Montacargas,Sala 2B,587,81.5,0.2,178,74,NONE,2025-02-02,0
+3,Banda transportadora,Sala 4C,96,91.8,0.6,161,67,NONE,2025-02-13,0
+17,CMM (Máquina de medición por coordenadas),Sala 4C,337,69.3,0.5,183,68,NONE,2025-07-03,0
+5,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,827,85.0,0.9,231,72,NONE,2025-03-22,0
+17,Rectificadora,Sala 2B,65,109.3,0.3,98,87,OVERHEAT,2025-07-17,0
+24,Horno industrial,Sala 3B,760,94.3,0.4,244,67,OVERHEAT,2025-02-24,0
+17,Caldera industrial,Sala 4B,450,85.9,0.5,164,75,NONE,2025-06-19,0
+27,Durómetro,Sala 3C,968,86.3,0.7,87,55,NONE,2025-04-07,0
+17,Generador eléctrico,Sala 1B,843,67.3,0.5,107,53,NONE,2025-07-06,0
+2,CMM (Máquina de medición por coordenadas),Sala 4C,135,82.8,0.6,84,93,NONE,2025-04-14,0
+2,Prensa hidráulica,Sala 1C,299,60.5,0.3,224,78,NONE,2025-04-16,0
+28,CMM (Máquina de medición por coordenadas),Sala 1C,440,100.3,0.8,180,83,LOW_OIL,2025-04-28,0
+22,Compresor de aire,Sala 1A,831,52.2,0.4,243,66,NONE,2025-07-06,0
+23,Banda transportadora,Sala 3B,384,97.8,0.2,197,92,NONE,2025-01-29,0
+5,Caldera industrial,Sala 2C,678,99.7,0.6,226,92,NONE,2025-04-16,0
+1,Dobladora de tubos y láminas,Sala 4C,568,104.8,0.3,143,65,NONE,2025-02-20,0
+1,Trituradora/molino,Sala 3B,186,86.3,0.2,170,51,NONE,2025-03-29,0
+19,CMM (Máquina de medición por coordenadas),Sala 4B,932,98.7,0.8,196,83,NONE,2025-05-25,0
+30,Molino de bolas,Sala 3C,737,82.6,0.5,177,57,NONE,2025-04-29,0
+2,Torre de enfriamiento,Sala 2B,889,67.2,0.7,90,62,NONE,2025-02-01,1
+21,Dobladora de tubos y láminas,Sala 4C,547,108.0,0.3,133,91,NONE,2025-03-25,0
+12,Tamizadora,Sala 1C,876,83.5,0.7,126,57,NONE,2025-02-26,1
+26,Torre de enfriamiento,Sala 2B,776,63.9,0.2,219,79,NONE,2025-04-02,1
+6,Máquina de soldadura (MIG/TIG/Arco),Sala 2B,526,78.0,0.4,228,81,VIBRATION_ALERT,2025-05-27,0
+23,Rectificadora,Sala 2B,643,78.6,0.9,218,85,NONE,2025-03-13,0
+4,Compresor de aire,Sala 1C,272,91.9,0.7,84,96,NONE,2025-02-11,1
+23,Ventilador industrial,Sala 4B,421,120.2,0.5,99,79,NONE,2025-02-08,0
+11,Extrusora,Sala 4A,984,92.8,0.4,248,50,NONE,2025-05-23,0
+24,Extrusora,Sala 2A,451,88.1,0.8,125,92,NONE,2025-05-28,0
+27,Grúa puente,Sala 3C,492,121.8,0.5,91,88,NONE,2025-03-04,0
+17,Montacargas,Sala 4A,539,99.7,0.7,149,66,OVERHEAT,2025-03-30,0
+6,Horno industrial,Sala 3C,664,88.8,0.7,96,69,NONE,2025-07-18,0
+24,Mezcladora industrial,Sala 1B,322,77.8,0.1,194,73,NONE,2025-06-05,0
+5,Molino de bolas,Sala 3B,575,89.7,0.2,226,99,NONE,2025-05-05,0
+20,Torre de enfriamiento,Sala 3B,208,84.0,0.6,233,71,LOW_OIL,2025-04-12,1
+2,Horno industrial,Sala 3A,201,86.4,0.2,127,78,NONE,2025-07-10,0
+6,Apiladora/recogedora automática,Sala 3B,669,104.7,0.3,187,71,NONE,2025-06-17,0
+22,Ventilador industrial,Sala 1C,237,76.9,0.9,131,93,NONE,2025-07-04,0
+11,Cortadora láser/plasma,Sala 2C,862,92.7,0.5,175,58,NONE,2025-03-01,0
+16,Dobladora de tubos y láminas,Sala 1A,147,99.2,0.7,149,86,NONE,2025-03-05,0
+16,Tamizadora,Sala 3A,180,75.1,0.5,181,59,NONE,2025-05-08,1
+1,Trituradora/molino,Sala 1A,854,72.7,0.5,154,85,NONE,2025-02-14,0
+9,Inyectora de plástico,Sala 3C,220,82.7,0.2,240,86,NONE,2025-07-07,0
+28,Molino de bolas,Sala 1A,985,78.1,0.4,230,77,NONE,2025-05-15,0
+27,Mezcladora industrial,Sala 1A,232,102.3,0.3,222,77,NONE,2025-04-03,0
+6,Grúa puente,Sala 3A,413,70.0,0.4,234,91,LOW_OIL,2025-06-07,1
+16,Generador eléctrico,Sala 1B,88,86.0,0.7,161,92,NONE,2025-03-26,0
+29,Torre de enfriamiento,Sala 2B,576,123.2,0.4,171,70,NONE,2025-03-02,0
+3,Fresadora CNC,Sala 3B,937,91.2,0.5,83,73,NONE,2025-04-07,0
+20,Máquina de soldadura (MIG/TIG/Arco),Sala 3B,546,93.7,0.4,214,91,NONE,2025-01-29,1
+28,Ventilador industrial,Sala 1C,565,102.4,0.2,188,89,OVERHEAT,2025-04-15,0
+27,Máquina de soldadura (MIG/TIG/Arco),Sala 3A,398,78.1,0.5,242,51,NONE,2025-07-02,0
+4,Cortadora láser/plasma,Sala 1C,970,68.8,0.3,127,57,NONE,2025-02-09,0
+19,Microscopio industrial,Sala 2C,446,87.6,0.2,152,97,NONE,2025-04-25,1
+26,Inyectora de plástico,Sala 2C,771,89.0,0.2,151,76,NONE,2025-02-01,0
+3,Banda transportadora,Sala 1C,210,60.7,0.4,195,71,NONE,2025-02-18,0
+19,Trituradora/molino,Sala 3A,65,90.6,0.7,160,86,NONE,2025-05-24,0
+20,Torno CNC,Sala 1C,542,101.0,0.3,160,76,NONE,2025-03-07,0
+7,Espectrómetro,Sala 3B,475,71.3,0.3,192,78,OVERHEAT,2025-04-24,0
+20,Durómetro,Sala 4A,157,91.5,0.6,175,52,NONE,2025-01-22,0
+9,Apiladora/recogedora automática,Sala 2A,943,98.4,0.3,151,93,LOW_OIL,2025-04-08,1
+1,Dobladora de tubos y láminas,Sala 1A,499,93.8,0.8,226,62,LOW_OIL,2025-02-04,0
+8,Caldera industrial,Sala 2A,360,95.2,0.5,142,94,LOW_OIL,2025-05-26,1
+7,Trituradora/molino,Sala 3A,788,81.3,0.5,117,59,NONE,2025-01-23,0
+18,Prensa hidráulica,Sala 4B,219,68.1,0.5,146,85,NONE,2025-03-26,0
+8,Prensa hidráulica,Sala 2A,595,78.3,0.2,148,58,OVERHEAT,2025-03-02,0
+1,Cortadora láser/plasma,Sala 2C,463,76.2,0.6,92,76,NONE,2025-04-22,0
+11,Sistema de filtración,Sala 3C,300,83.8,0.4,110,83,NONE,2025-05-31,1
+28,Microscopio industrial,Sala 1A,808,101.4,0.8,193,50,LOW_OIL,2025-02-20,0
+25,Ventilador industrial,Sala 2B,830,65.3,0.2,101,81,LOW_OIL,2025-03-26,0
+25,Horno industrial,Sala 4B,190,87.2,0.5,172,74,NONE,2025-05-17,0
+18,Espectrómetro,Sala 3A,323,69.0,0.6,146,78,NONE,2025-04-06,0
+23,Dobladora de tubos y láminas,Sala 1A,465,73.9,0.1,133,56,NONE,2025-04-27,0
+30,Generador eléctrico,Sala 2A,657,93.4,0.4,217,98,LOW_OIL,2025-04-07,0
+10,Molino de bolas,Sala 2C,788,67.2,0.7,121,52,VIBRATION_ALERT,2025-02-13,1
+3,Torre de enfriamiento,Sala 1B,940,96.0,0.8,143,69,NONE,2025-07-02,0
+7,Microscopio industrial,Sala 4A,88,64.7,0.4,205,69,NONE,2025-07-13,0
+28,Dobladora de tubos y láminas,Sala 2B,863,95.0,0.7,100,79,LOW_OIL,2025-02-22,0
+16,Máquina de envasado,Sala 4B,78,61.8,0.9,248,84,NONE,2025-06-21,1
+26,Rectificadora,Sala 4A,526,75.7,0.8,231,84,NONE,2025-06-11,0
+16,Trituradora/molino,Sala 1A,367,113.4,0.2,114,98,VIBRATION_ALERT,2025-03-22,0
+25,Trituradora/molino,Sala 2C,294,110.6,0.7,109,88,NONE,2025-06-12,0
+20,Grúa puente,Sala 2C,797,78.8,0.4,136,76,NONE,2025-03-26,0
+28,Sistema de filtración,Sala 2A,746,90.8,0.9,126,75,NONE,2025-05-12,0
+17,Máquina de envasado,Sala 3B,321,103.1,0.5,242,63,NONE,2025-01-23,1
+2,Torre de enfriamiento,Sala 2A,489,95.2,0.2,98,66,LOW_OIL,2025-06-06,0
+1,Durómetro,Sala 3B,797,80.9,0.7,193,67,NONE,2025-02-05,0
+16,Sistema de filtración,Sala 3B,288,73.8,0.4,87,94,VIBRATION_ALERT,2025-05-22,0
+30,Inyectora de plástico,Sala 2B,426,98.0,0.9,105,78,NONE,2025-07-06,0
+12,Ventilador industrial,Sala 2A,315,102.0,0.9,192,69,NONE,2025-05-28,0
+5,Mezcladora industrial,Sala 4C,975,110.7,0.6,150,76,NONE,2025-05-22,0
+5,Dobladora de tubos y láminas,Sala 1B,970,59.7,0.2,109,67,NONE,2025-06-17,0
+27,Torno CNC,Sala 4B,408,66.2,0.6,214,53,NONE,2025-04-05,0
+23,Rectificadora,Sala 1C,389,102.4,0.2,146,50,NONE,2025-04-27,0
+9,Trituradora/molino,Sala 1C,438,61.7,0.1,144,99,NONE,2025-04-11,0
+9,Sistema de filtración,Sala 2A,626,103.6,0.8,115,50,NONE,2025-04-06,1
+3,Máquina de envasado,Sala 2A,738,81.8,0.3,104,75,OVERHEAT,2025-06-21,0
+19,Caldera industrial,Sala 4A,52,77.2,0.4,116,94,NONE,2025-03-12,0
+16,Sistema de filtración,Sala 4B,478,88.1,0.9,80,69,OVERHEAT,2025-01-30,0
+16,Apiladora/recogedora automática,Sala 4B,191,64.8,0.4,222,72,NONE,2025-06-01,0
+3,Caldera industrial,Sala 2B,425,97.4,0.3,116,59,NONE,2025-06-09,0
+20,Bomba centrífuga,Sala 2A,719,110.3,0.8,220,60,NONE,2025-04-13,0
+24,Torno CNC,Sala 4B,373,98.1,0.2,215,90,NONE,2025-03-27,0
+22,Cortadora láser/plasma,Sala 4A,195,81.3,0.7,212,90,NONE,2025-03-09,0
+24,CMM (Máquina de medición por coordenadas),Sala 3B,342,61.9,0.9,207,54,LOW_OIL,2025-02-03,0
+1,Cortadora láser/plasma,Sala 2C,714,62.5,0.8,206,50,OVERHEAT,2025-02-14,0
+24,Torre de enfriamiento,Sala 2C,481,65.1,0.6,80,66,NONE,2025-03-04,0
+20,Horno industrial,Sala 3B,754,84.8,0.4,243,71,NONE,2025-03-30,0
+11,Trituradora/molino,Sala 3A,998,86.7,0.3,114,83,OVERHEAT,2025-02-25,0
+17,Trituradora/molino,Sala 4A,634,98.0,0.8,183,94,NONE,2025-05-04,0
+8,Ventilador industrial,Sala 4B,448,58.1,0.8,102,90,OVERHEAT,2025-06-18,0
+4,Montacargas,Sala 4C,866,104.7,0.5,88,78,OVERHEAT,2025-03-22,0
+6,CMM (Máquina de medición por coordenadas),Sala 4A,938,95.4,0.3,113,53,LOW_OIL,2025-02-27,0
+8,Banda transportadora,Sala 3B,393,80.1,0.2,207,54,NONE,2025-06-24,1
+20,Espectrómetro,Sala 1B,189,67.2,0.2,83,60,NONE,2025-06-15,0
+30,CMM (Máquina de medición por coordenadas),Sala 3C,236,103.7,0.7,237,70,NONE,2025-05-13,0
+3,Extrusora,Sala 1A,854,80.5,0.4,181,84,NONE,2025-02-17,0
+16,Sistema de filtración,Sala 3B,110,84.7,0.8,154,61,OVERHEAT,2025-03-23,0
+30,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,988,90.8,0.7,178,75,NONE,2025-05-07,1
+25,Prensa hidráulica,Sala 4B,429,71.3,0.3,151,68,NONE,2025-06-23,0
+3,Rectificadora,Sala 4C,759,80.8,0.6,82,94,LOW_OIL,2025-02-21,0
+25,Microscopio industrial,Sala 4C,856,98.0,0.4,221,56,OVERHEAT,2025-04-06,0
+29,Durómetro,Sala 2A,489,96.5,0.6,113,96,VIBRATION_ALERT,2025-07-09,0
+18,Caldera industrial,Sala 2A,368,96.6,0.7,124,56,OVERHEAT,2025-05-13,0
+14,Grúa puente,Sala 2B,351,67.7,0.7,140,75,NONE,2025-02-17,0
+18,Montacargas,Sala 3B,393,81.5,0.8,162,89,NONE,2025-07-14,1
+2,Mezcladora industrial,Sala 2B,60,79.1,0.3,202,54,LOW_OIL,2025-06-22,0
+22,Apiladora/recogedora automática,Sala 3B,111,91.4,0.1,181,70,NONE,2025-03-28,0
+3,Tamizadora,Sala 4A,894,90.0,0.7,95,63,NONE,2025-07-04,1
+16,Montacargas,Sala 1A,275,87.3,0.2,145,53,NONE,2025-02-06,0
+29,Torno CNC,Sala 4C,202,122.0,0.4,247,72,NONE,2025-04-05,1
+9,CMM (Máquina de medición por coordenadas),Sala 4A,760,80.6,0.1,224,91,OVERHEAT,2025-06-05,1
+4,Espectrómetro,Sala 3C,613,78.9,0.6,198,69,NONE,2025-06-23,0
+1,Espectrómetro,Sala 2C,821,67.6,0.2,241,64,NONE,2025-01-25,0
+4,Rectificadora,Sala 1C,620,61.9,0.6,203,99,NONE,2025-02-07,0
+1,Banda transportadora,Sala 3B,633,66.7,0.9,223,94,NONE,2025-04-15,1
+14,Compresor de aire,Sala 3C,709,74.2,0.2,181,78,NONE,2025-01-22,0
+21,Caldera industrial,Sala 2C,910,104.7,0.2,145,57,NONE,2025-04-26,0
+16,Extrusora,Sala 4B,624,85.6,0.4,92,90,VIBRATION_ALERT,2025-03-01,1
+20,Horno industrial,Sala 3A,359,87.9,0.8,190,97,NONE,2025-03-09,1
+24,Molino de bolas,Sala 1A,934,83.6,0.3,238,68,NONE,2025-04-23,0
+8,Banda transportadora,Sala 2B,292,90.5,0.4,113,97,NONE,2025-01-24,0
+7,Inyectora de plástico,Sala 2B,542,106.0,0.2,118,88,NONE,2025-03-29,1
+3,Cortadora láser/plasma,Sala 4A,415,55.1,0.7,215,95,NONE,2025-03-12,0
+17,Horno industrial,Sala 2A,379,103.3,0.4,199,77,LOW_OIL,2025-04-21,1
+1,Bomba centrífuga,Sala 2C,156,47.3,0.7,205,95,NONE,2025-05-14,0
+16,Sistema de filtración,Sala 3A,275,85.4,0.8,134,76,OVERHEAT,2025-02-11,0
+12,CMM (Máquina de medición por coordenadas),Sala 3C,874,117.9,0.3,106,53,NONE,2025-03-10,0
+27,Inyectora de plástico,Sala 1A,267,95.2,0.7,197,64,NONE,2025-03-19,0
+19,Torre de enfriamiento,Sala 2C,986,90.6,0.1,132,84,NONE,2025-02-20,0
+22,Sistema de filtración,Sala 3A,802,115.0,0.8,118,86,VIBRATION_ALERT,2025-04-26,0
+23,Prensa hidráulica,Sala 1C,555,74.5,0.6,144,50,NONE,2025-01-23,0
+22,Torre de enfriamiento,Sala 3B,308,91.5,0.8,224,52,NONE,2025-03-25,0
+14,Inyectora de plástico,Sala 2B,937,93.7,0.1,237,96,NONE,2025-03-25,0
+30,Torre de enfriamiento,Sala 3C,823,77.2,0.2,92,73,NONE,2025-06-11,0
+6,Sistema de filtración,Sala 2B,566,78.5,0.4,100,76,NONE,2025-02-26,0
+6,Grúa puente,Sala 3C,822,76.8,0.4,226,89,NONE,2025-03-31,0
+13,Sistema de filtración,Sala 4A,103,86.3,0.3,132,85,NONE,2025-06-03,0
+19,Sistema de filtración,Sala 2A,96,93.2,0.4,98,83,NONE,2025-06-24,0
+22,Máquina de soldadura (MIG/TIG/Arco),Sala 3C,776,86.8,0.2,136,78,NONE,2025-06-28,0
+8,Mezcladora industrial,Sala 2B,738,95.6,0.4,104,73,LOW_OIL,2025-03-20,0
+27,Prensa hidráulica,Sala 4A,570,55.5,0.7,110,73,OVERHEAT,2025-03-19,1
+27,Generador eléctrico,Sala 3C,148,81.7,0.5,160,91,OVERHEAT,2025-03-08,1
+2,Espectrómetro,Sala 1C,69,69.6,0.1,102,53,NONE,2025-05-10,0
+21,Apiladora/recogedora automática,Sala 2A,939,89.5,0.4,111,52,NONE,2025-03-28,1
+30,Mezcladora industrial,Sala 3C,802,89.3,0.1,153,83,NONE,2025-04-03,0
+1,Torno CNC,Sala 4A,622,83.3,0.9,89,98,NONE,2025-03-29,0
+28,CMM (Máquina de medición por coordenadas),Sala 4B,940,92.7,0.2,133,72,NONE,2025-04-02,0
+15,Durómetro,Sala 2C,539,100.0,0.7,131,72,NONE,2025-06-02,0
+1,Trituradora/molino,Sala 1B,468,84.1,0.9,227,94,NONE,2025-04-19,0
+5,Sistema de filtración,Sala 3A,739,69.2,0.8,239,54,NONE,2025-07-01,0
+28,Banda transportadora,Sala 1B,899,61.3,0.7,193,80,LOW_OIL,2025-02-20,0
+29,Ventilador industrial,Sala 4B,111,85.5,0.8,93,90,NONE,2025-04-06,0
+16,Trituradora/molino,Sala 1B,194,88.6,0.9,235,55,NONE,2025-02-18,0
+19,Tamizadora,Sala 4B,265,70.5,0.6,189,86,NONE,2025-06-09,0
+4,Rectificadora,Sala 1A,52,95.9,0.5,132,59,NONE,2025-03-03,0
+3,Ventilador industrial,Sala 4B,209,78.1,0.6,231,89,NONE,2025-04-21,0
+17,Cortadora láser/plasma,Sala 4B,788,60.2,0.5,158,56,LOW_OIL,2025-05-19,0
+17,Grúa puente,Sala 4C,830,103.8,0.6,101,88,LOW_OIL,2025-07-14,0
+12,Microscopio industrial,Sala 4B,169,102.2,0.5,109,87,NONE,2025-03-19,1
+28,Máquina de soldadura (MIG/TIG/Arco),Sala 1C,942,54.8,0.3,83,70,VIBRATION_ALERT,2025-05-25,0
+30,Montacargas,Sala 2C,138,76.6,0.2,138,69,VIBRATION_ALERT,2025-06-12,0
+29,Caldera industrial,Sala 3B,378,76.0,0.2,87,52,LOW_OIL,2025-05-24,0
+14,Fresadora CNC,Sala 3C,629,109.6,0.3,91,71,LOW_OIL,2025-04-08,0
+21,Molino de bolas,Sala 3A,959,83.5,0.1,198,96,NONE,2025-04-17,0
+6,Bomba centrífuga,Sala 2A,406,62.6,0.6,238,53,NONE,2025-05-07,0
+3,Máquina de envasado,Sala 2C,659,98.2,0.3,113,77,NONE,2025-05-21,0
+28,Grúa puente,Sala 2B,316,66.5,0.8,161,61,NONE,2025-07-17,0
+9,Generador eléctrico,Sala 3B,666,81.1,0.2,177,87,VIBRATION_ALERT,2025-04-06,0
+5,Trituradora/molino,Sala 1A,372,73.5,0.3,206,85,NONE,2025-05-29,0
+24,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,684,76.6,0.7,154,96,OVERHEAT,2025-06-19,0
+29,Compresor de aire,Sala 4B,590,99.1,0.6,184,90,LOW_OIL,2025-07-08,0
+17,Bomba centrífuga,Sala 2C,698,107.8,0.2,128,54,LOW_OIL,2025-04-02,0
+14,Torno CNC,Sala 4A,244,65.9,0.8,158,62,VIBRATION_ALERT,2025-05-04,0
+21,Espectrómetro,Sala 4C,970,94.4,0.8,172,72,NONE,2025-02-02,0
+3,Torno CNC,Sala 1B,787,74.0,0.4,233,99,NONE,2025-04-20,0
+28,Grúa puente,Sala 2B,381,74.5,0.4,97,79,NONE,2025-03-18,0
+1,Montacargas,Sala 1A,219,92.4,0.9,175,86,NONE,2025-03-16,0
+20,Apiladora/recogedora automática,Sala 3A,570,69.6,0.6,117,74,NONE,2025-03-19,1
+29,Extrusora,Sala 1A,512,92.1,0.5,166,97,NONE,2025-04-16,0
+21,CMM (Máquina de medición por coordenadas),Sala 2A,89,96.0,0.8,167,76,OVERHEAT,2025-04-07,1
+23,Torre de enfriamiento,Sala 3C,586,78.5,0.3,129,63,NONE,2025-02-07,0
+1,Caldera industrial,Sala 1A,310,104.9,0.4,87,97,NONE,2025-06-18,0
+3,Espectrómetro,Sala 2A,444,65.9,0.3,248,96,NONE,2025-05-28,0
+18,Generador eléctrico,Sala 2C,275,105.2,0.7,213,85,NONE,2025-04-21,0
+25,Generador eléctrico,Sala 2C,173,55.8,0.6,148,88,NONE,2025-05-04,0
+10,Apiladora/recogedora automática,Sala 4C,87,125.5,0.6,200,65,OVERHEAT,2025-03-12,0
+22,Trituradora/molino,Sala 3B,377,78.9,0.3,143,71,NONE,2025-06-27,0
+26,Torno CNC,Sala 1A,300,67.6,0.3,236,70,OVERHEAT,2025-06-09,0
+3,Fresadora CNC,Sala 3A,950,81.5,0.5,235,70,NONE,2025-04-09,0
+8,Mezcladora industrial,Sala 1A,225,69.3,0.7,218,57,LOW_OIL,2025-03-30,1
+14,Rectificadora,Sala 3A,651,90.8,0.5,200,98,NONE,2025-03-12,0
+24,Torno CNC,Sala 1C,963,105.5,0.1,144,65,NONE,2025-05-15,0
+18,CMM (Máquina de medición por coordenadas),Sala 4B,503,70.1,0.8,186,80,NONE,2025-01-30,0
+15,Banda transportadora,Sala 3B,86,93.7,0.2,226,91,LOW_OIL,2025-02-20,0
+22,Compresor de aire,Sala 1C,365,62.0,0.9,216,59,NONE,2025-05-01,0
+23,Cortadora láser/plasma,Sala 1A,737,100.5,0.1,234,81,NONE,2025-06-27,1
+2,Sistema de filtración,Sala 3B,845,91.2,0.7,241,83,VIBRATION_ALERT,2025-02-03,0
+27,Apiladora/recogedora automática,Sala 1C,642,101.1,0.2,179,58,OVERHEAT,2025-04-11,0
+10,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,163,83.2,0.8,161,66,NONE,2025-07-11,0
+2,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,89,78.5,0.5,222,60,OVERHEAT,2025-01-25,0
+26,Cortadora láser/plasma,Sala 1C,350,97.2,0.2,130,81,NONE,2025-07-02,0
+17,Rectificadora,Sala 1B,273,65.4,0.4,220,59,NONE,2025-07-02,0
+8,CMM (Máquina de medición por coordenadas),Sala 1B,367,58.9,0.2,162,71,NONE,2025-04-20,1
+1,Compresor de aire,Sala 2C,398,84.9,0.2,191,66,VIBRATION_ALERT,2025-02-28,0
+9,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,164,79.2,0.9,135,53,VIBRATION_ALERT,2025-02-24,1
+11,CMM (Máquina de medición por coordenadas),Sala 1A,747,93.3,0.5,244,97,NONE,2025-02-03,0
+22,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,372,101.4,0.7,224,96,NONE,2025-04-29,0
+16,Molino de bolas,Sala 2C,617,93.0,0.6,236,74,NONE,2025-05-02,0
+7,Molino de bolas,Sala 1C,89,100.2,0.6,240,70,VIBRATION_ALERT,2025-01-27,0
+29,Microscopio industrial,Sala 2A,915,89.8,0.2,139,86,VIBRATION_ALERT,2025-07-13,1

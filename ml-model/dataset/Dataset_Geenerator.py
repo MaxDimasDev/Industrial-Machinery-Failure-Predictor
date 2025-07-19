@@ -7,7 +7,7 @@ np.random.seed(42)
 n_machines = 30
 n_rows = 500
 
-# Datos simulados
+# Datos simulados (sin failure_risk)
 data = {
     "machine_id": np.random.randint(1, n_machines + 1, n_rows),
     "machine_name": np.random.choice(["Torno CNC", "Fresadora CNC", "Rectificadora", "Prensa hidráulica", "Máquina de soldadura (MIG/TIG/Arco)", 
@@ -23,8 +23,7 @@ data = {
     "pressure": np.random.randint(80, 250, n_rows),
     "oil_level": np.random.randint(50, 100, n_rows),
     "error_code": np.random.choice(["NONE", "OVERHEAT", "LOW_OIL", "VIBRATION_ALERT"], n_rows, p=[0.7, 0.1, 0.1, 0.1]),
-    "last_maintenance": [(datetime.now() - timedelta(days=np.random.randint(1, 180))).strftime("%Y-%m-%d") for _ in range(n_rows)],
-    "failure_risk": np.random.choice([0, 1], n_rows, p=[0.85, 0.15])  # 15% de fallas
+    "last_maintenance": [(datetime.now() - timedelta(days=np.random.randint(1, 180))).strftime("%Y-%m-%d") for _ in range(n_rows)]
 }
 
 pd.DataFrame(data).to_csv("sensor_data.csv", index=False)

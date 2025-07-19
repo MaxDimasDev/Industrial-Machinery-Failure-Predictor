@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ---
 
 ## **🔧 Usage Guide**
-### **1. Generate Synthetic Data**
+### **1. Generate Data**
 ```bash
 cd ml-model/dataset
 python Dataset_Generator.py
@@ -103,7 +103,19 @@ python predict_api.py
 |----------|--------|-------------|
 | `/predict` | POST | Predict failure risk |
 ---
-
+**Request**
+```json
+{
+  "machine_id": "string",
+  "running_hours": "int",
+  "temperature": "float",
+  "vibration": "float",
+  "pressure": "int",
+  "oil_level": "int",
+  "error_code": "string (NONE|OVERHEAT|LOW_OIL|VIBRATION_ALERT)",
+  "last_maintenance": "date (YYYY-MM-DD)"
+}
+```
 ## **🧠 Model Details**
 ### **Training Methodology**
 - **Label Generation**: Synthetic `failure_risk` based on domain rules  

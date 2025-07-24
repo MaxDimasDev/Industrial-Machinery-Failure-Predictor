@@ -1,15 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { predictFailure } = require('../services/ml.service');
+const machineController = require('../controllers/machine.controller');
+const predictController = require('../controllers/predict.controller');
 
-// Endpoint de predicción
-router.post('/predict', async (req, res) => {
-  try {
-    const prediction = await predictFailure(req.body);
-    res.json(prediction);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
+// Machine CRUD
+router.post('/machines', machineController.create);
+router.get('/machines', machineController.getAll);
+router.get('/machines/:machineId', machineController.getById);
+router.put('/machines/:machineId', machineController.update);
+router.delete('/machines/:machineId', machineController.delete);
+
+// Prediction endpoint
+router.post('/predict', predictController.predict);
 
 module.exports = router;

@@ -1,501 +1,1001 @@
 machine_id,machine_name,location,running_hours,temperature,vibration,pressure,oil_level,error_code,last_maintenance
-7,Molino de bolas,Sala 1A,946,101.6,0.4,83,76,NONE,2025-03-09
-20,Compresor de aire,Sala 2B,313,87.0,0.9,229,74,NONE,2025-03-28
-29,Torre de enfriamiento,Sala 3C,974,87.4,0.2,155,59,NONE,2025-01-30
-15,Rectificadora,Sala 1A,104,111.0,0.2,146,96,NONE,2025-02-03
-11,Grúa puente,Sala 1C,920,79.3,0.6,165,72,VIBRATION_ALERT,2025-02-16
-8,Caldera industrial,Sala 2A,692,93.2,0.9,241,70,LOW_OIL,2025-07-05
-29,Bomba centrífuga,Sala 1A,849,81.0,0.7,170,70,NONE,2025-06-17
-21,Trituradora/molino,Sala 1A,827,81.0,0.2,184,92,OVERHEAT,2025-03-02
-7,Sistema de filtración,Sala 3B,507,67.5,0.3,80,62,NONE,2025-02-23
-26,Torre de enfriamiento,Sala 1B,927,73.9,0.8,151,86,VIBRATION_ALERT,2025-02-14
-19,Dobladora de tubos y láminas,Sala 4C,211,71.1,0.3,166,82,NONE,2025-05-25
-23,Caldera industrial,Sala 3B,429,93.9,0.7,245,73,OVERHEAT,2025-03-21
-11,Prensa hidráulica,Sala 3A,136,100.6,0.8,85,93,LOW_OIL,2025-05-05
-11,Trituradora/molino,Sala 4A,104,83.6,0.5,232,60,NONE,2025-06-28
-24,Durómetro,Sala 4A,525,88.4,0.4,224,66,LOW_OIL,2025-01-28
-21,Torno CNC,Sala 1B,849,82.7,0.5,140,53,NONE,2025-03-08
-4,Inyectora de plástico,Sala 2C,227,72.8,0.3,91,96,NONE,2025-04-23
-8,Tamizadora,Sala 2C,440,97.9,0.8,85,74,NONE,2025-01-31
-24,Banda transportadora,Sala 1C,398,94.8,0.5,106,79,VIBRATION_ALERT,2025-05-21
-3,Tamizadora,Sala 4B,57,56.6,0.8,215,58,LOW_OIL,2025-04-21
-22,Horno industrial,Sala 1B,882,80.8,0.2,203,70,OVERHEAT,2025-02-19
-21,Microscopio industrial,Sala 4C,362,71.8,0.9,185,69,OVERHEAT,2025-04-27
-2,Compresor de aire,Sala 1A,808,79.1,0.5,172,68,NONE,2025-05-15
-24,Montacargas,Sala 2C,884,74.9,0.1,188,68,VIBRATION_ALERT,2025-05-16
-12,Sistema de filtración,Sala 4C,492,84.3,0.1,178,61,NONE,2025-05-09
-30,Fresadora CNC,Sala 2B,816,80.1,0.7,247,86,NONE,2025-07-15
-6,Fresadora CNC,Sala 4B,377,79.7,0.6,221,91,NONE,2025-02-26
-2,Compresor de aire,Sala 3C,103,101.6,0.7,114,66,OVERHEAT,2025-04-06
-28,Espectrómetro,Sala 1A,810,93.4,0.2,163,86,OVERHEAT,2025-02-19
-21,Microscopio industrial,Sala 3A,288,74.4,0.1,135,97,NONE,2025-01-25
-1,Caldera industrial,Sala 2B,278,76.7,0.5,220,88,NONE,2025-04-17
-12,Torre de enfriamiento,Sala 2B,628,92.4,0.4,128,77,LOW_OIL,2025-01-26
-26,Máquina de envasado,Sala 1B,100,92.4,0.5,125,90,NONE,2025-02-27
-22,Ventilador industrial,Sala 4B,658,75.9,0.9,192,84,OVERHEAT,2025-01-22
-29,Espectrómetro,Sala 1C,653,81.5,0.9,215,96,VIBRATION_ALERT,2025-02-21
-12,Torre de enfriamiento,Sala 3A,313,112.7,0.9,122,97,NONE,2025-01-22
-25,Torre de enfriamiento,Sala 2C,467,76.2,0.7,227,67,NONE,2025-03-29
-17,Espectrómetro,Sala 4C,852,113.7,0.4,203,63,OVERHEAT,2025-02-08
-27,Apiladora/recogedora automática,Sala 1B,145,101.6,0.4,176,84,LOW_OIL,2025-03-22
-27,Durómetro,Sala 2C,137,110.9,0.5,169,93,NONE,2025-05-21
-10,Molino de bolas,Sala 1B,127,75.6,0.8,118,90,VIBRATION_ALERT,2025-06-06
-28,Cortadora láser/plasma,Sala 1B,337,82.5,0.2,164,56,NONE,2025-07-07
-28,Montacargas,Sala 1B,169,78.3,0.4,141,90,NONE,2025-06-09
-16,Espectrómetro,Sala 4B,863,101.9,0.2,185,62,OVERHEAT,2025-03-23
-15,Extrusora,Sala 1C,540,76.5,0.5,186,67,LOW_OIL,2025-06-29
-30,Sistema de filtración,Sala 1B,961,96.0,0.8,133,86,NONE,2025-02-03
-30,Máquina de soldadura (MIG/TIG/Arco),Sala 2A,501,95.2,0.7,205,62,LOW_OIL,2025-03-10
-15,Torno CNC,Sala 3C,549,84.3,0.3,88,85,NONE,2025-02-13
-30,Inyectora de plástico,Sala 2C,214,104.5,0.9,167,80,NONE,2025-04-20
-19,CMM (Máquina de medición por coordenadas),Sala 1A,231,86.6,0.6,116,51,NONE,2025-04-16
-12,Sistema de filtración,Sala 3B,518,97.5,0.1,128,65,LOW_OIL,2025-07-06
-23,Horno industrial,Sala 4C,959,77.6,0.3,120,58,NONE,2025-05-14
-20,Horno industrial,Sala 3A,784,74.1,0.3,96,58,NONE,2025-06-12
-25,Máquina de soldadura (MIG/TIG/Arco),Sala 4A,872,96.0,0.2,167,87,NONE,2025-01-23
-3,Dobladora de tubos y láminas,Sala 1C,993,91.5,0.9,100,60,LOW_OIL,2025-05-14
-5,Prensa hidráulica,Sala 1A,56,88.6,0.5,130,71,NONE,2025-06-13
-19,Cortadora láser/plasma,Sala 2B,379,79.8,0.8,138,82,OVERHEAT,2025-06-23
-7,Trituradora/molino,Sala 2A,824,108.2,0.4,246,85,NONE,2025-05-05
-21,Durómetro,Sala 4A,722,68.3,0.2,120,94,NONE,2025-04-02
-9,Máquina de envasado,Sala 3B,200,67.4,0.5,118,72,NONE,2025-02-01
-7,Montacargas,Sala 1A,134,99.1,0.2,220,94,LOW_OIL,2025-06-06
-18,Rectificadora,Sala 4A,196,97.9,0.5,90,94,VIBRATION_ALERT,2025-02-19
-4,Compresor de aire,Sala 1A,673,90.3,0.8,226,83,NONE,2025-02-21
-25,Inyectora de plástico,Sala 4C,430,80.7,0.5,218,58,NONE,2025-07-11
-28,Durómetro,Sala 2A,964,92.5,0.6,156,73,NONE,2025-06-20
-14,Banda transportadora,Sala 3B,597,110.8,0.2,206,57,NONE,2025-06-09
-18,Trituradora/molino,Sala 2B,334,122.7,0.1,125,56,NONE,2025-02-11
-26,Grúa puente,Sala 1B,749,60.2,0.2,124,85,NONE,2025-03-13
-9,Sistema de filtración,Sala 2C,131,78.7,0.6,80,67,NONE,2025-04-26
-26,Molino de bolas,Sala 2B,563,77.8,0.2,247,52,NONE,2025-03-25
-21,Máquina de envasado,Sala 1B,946,109.4,0.4,187,77,NONE,2025-02-25
-2,Microscopio industrial,Sala 4B,864,47.8,0.5,98,55,OVERHEAT,2025-01-26
-20,Apiladora/recogedora automática,Sala 4B,758,92.7,0.4,155,93,NONE,2025-05-18
-28,Bomba centrífuga,Sala 4B,965,81.1,0.2,151,93,NONE,2025-07-12
-15,Microscopio industrial,Sala 1C,572,109.6,0.3,188,70,OVERHEAT,2025-06-04
-28,Sistema de filtración,Sala 3C,795,107.5,0.8,91,77,NONE,2025-01-24
-7,Torre de enfriamiento,Sala 3A,435,90.5,0.6,240,89,NONE,2025-02-14
-12,Compresor de aire,Sala 3A,756,61.3,0.5,124,50,NONE,2025-04-22
-29,Torre de enfriamiento,Sala 4B,520,76.4,0.1,169,85,NONE,2025-05-07
-8,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,168,78.0,0.9,182,70,NONE,2025-02-06
-15,Torre de enfriamiento,Sala 3B,445,65.1,0.6,87,92,NONE,2025-01-21
-3,CMM (Máquina de medición por coordenadas),Sala 2A,581,102.3,0.4,232,84,VIBRATION_ALERT,2025-06-12
-14,Máquina de envasado,Sala 3B,310,63.2,0.8,170,62,NONE,2025-03-22
-17,Compresor de aire,Sala 2A,854,114.5,0.3,166,98,NONE,2025-05-23
-4,Mezcladora industrial,Sala 3B,983,114.4,0.5,237,59,NONE,2025-07-11
-18,Horno industrial,Sala 3C,305,79.2,0.6,163,93,NONE,2025-04-15
-8,CMM (Máquina de medición por coordenadas),Sala 1C,783,89.9,0.3,161,96,NONE,2025-03-24
-4,Torno CNC,Sala 1C,954,83.9,0.9,225,59,OVERHEAT,2025-03-31
-2,Torre de enfriamiento,Sala 4B,275,98.5,0.7,147,95,NONE,2025-06-29
-30,Torre de enfriamiento,Sala 1B,102,104.1,0.5,240,62,NONE,2025-03-17
-6,Torno CNC,Sala 4A,989,88.9,0.2,206,86,NONE,2025-05-27
-22,Montacargas,Sala 1C,916,92.0,0.1,243,87,NONE,2025-03-22
-10,Fresadora CNC,Sala 1C,549,75.7,0.4,161,73,VIBRATION_ALERT,2025-07-07
-4,Máquina de envasado,Sala 2B,555,91.6,0.7,226,51,NONE,2025-01-23
-22,Espectrómetro,Sala 2B,903,87.4,0.3,235,71,NONE,2025-07-02
-29,Banda transportadora,Sala 1B,413,71.3,0.5,247,66,NONE,2025-05-16
-18,Caldera industrial,Sala 4C,329,84.8,0.7,163,85,VIBRATION_ALERT,2025-06-07
-26,Inyectora de plástico,Sala 4A,642,79.3,0.2,192,63,NONE,2025-04-16
-12,Trituradora/molino,Sala 2C,763,75.9,0.6,155,59,NONE,2025-02-12
-2,CMM (Máquina de medición por coordenadas),Sala 2B,207,67.8,0.2,201,84,OVERHEAT,2025-02-22
-10,Torno CNC,Sala 2C,681,85.9,0.9,222,74,OVERHEAT,2025-07-08
-30,Banda transportadora,Sala 1A,108,73.3,0.5,120,52,NONE,2025-04-12
-4,Ventilador industrial,Sala 2B,776,77.9,0.2,246,96,NONE,2025-01-22
-14,Dobladora de tubos y láminas,Sala 3C,177,101.1,0.4,81,87,NONE,2025-05-09
-16,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,785,94.5,0.4,108,66,NONE,2025-04-02
-15,Espectrómetro,Sala 4A,770,70.3,0.7,184,61,NONE,2025-05-22
-8,Ventilador industrial,Sala 1B,931,90.3,0.7,130,73,NONE,2025-06-15
-14,Compresor de aire,Sala 1A,164,87.0,0.6,154,78,NONE,2025-06-29
-23,Rectificadora,Sala 4A,258,110.5,0.2,89,92,NONE,2025-05-30
-28,Horno industrial,Sala 4B,575,105.7,0.2,221,74,NONE,2025-04-08
-25,Torre de enfriamiento,Sala 3C,570,62.0,0.2,130,85,VIBRATION_ALERT,2025-03-03
-30,Banda transportadora,Sala 4A,601,97.9,0.6,197,75,NONE,2025-02-09
-8,Microscopio industrial,Sala 3C,286,104.0,0.8,200,87,NONE,2025-05-28
-21,Máquina de soldadura (MIG/TIG/Arco),Sala 3C,330,93.4,0.4,118,50,NONE,2025-07-04
-16,Espectrómetro,Sala 2C,408,80.0,0.2,107,69,VIBRATION_ALERT,2025-04-26
-13,Caldera industrial,Sala 3B,250,121.2,0.5,82,77,NONE,2025-03-10
-18,Ventilador industrial,Sala 4B,807,94.8,0.7,163,65,NONE,2025-06-12
-15,Tamizadora,Sala 1A,327,114.6,0.7,234,96,NONE,2025-03-15
-21,Sistema de filtración,Sala 4A,284,105.3,0.8,196,66,NONE,2025-06-09
-24,Máquina de soldadura (MIG/TIG/Arco),Sala 2A,543,92.0,0.3,81,89,NONE,2025-05-08
-26,Montacargas,Sala 1A,53,76.3,0.3,172,77,NONE,2025-06-09
-25,Apiladora/recogedora automática,Sala 3B,715,84.6,0.8,245,61,NONE,2025-05-24
-28,Máquina de envasado,Sala 1A,491,81.7,0.6,210,76,VIBRATION_ALERT,2025-02-18
-28,Tamizadora,Sala 1C,78,66.8,0.3,223,91,NONE,2025-04-06
-28,Máquina de envasado,Sala 2A,158,94.8,0.7,173,96,NONE,2025-03-02
-13,Durómetro,Sala 3B,659,108.5,0.8,119,79,OVERHEAT,2025-03-31
-9,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,776,80.5,0.6,81,90,NONE,2025-03-05
-29,Horno industrial,Sala 4A,854,117.5,0.7,160,83,NONE,2025-04-17
-15,Banda transportadora,Sala 4C,124,61.6,0.4,248,86,NONE,2025-04-16
-13,Torre de enfriamiento,Sala 3A,887,100.8,0.5,91,55,NONE,2025-05-24
-1,Torre de enfriamiento,Sala 3B,195,110.1,0.5,242,56,LOW_OIL,2025-05-20
-25,Banda transportadora,Sala 1B,177,81.9,0.8,144,81,VIBRATION_ALERT,2025-03-03
-7,CMM (Máquina de medición por coordenadas),Sala 4A,902,82.2,0.8,134,81,NONE,2025-06-10
-9,Dobladora de tubos y láminas,Sala 4B,91,100.6,0.8,124,74,NONE,2025-06-21
-24,Prensa hidráulica,Sala 3B,405,92.6,0.1,180,82,VIBRATION_ALERT,2025-05-31
-1,Torno CNC,Sala 1C,90,55.0,0.7,141,56,OVERHEAT,2025-02-05
-12,Máquina de envasado,Sala 3A,983,72.3,0.7,128,61,LOW_OIL,2025-03-16
-8,Máquina de envasado,Sala 1C,83,84.8,0.6,206,65,NONE,2025-07-06
-24,Máquina de soldadura (MIG/TIG/Arco),Sala 3A,66,64.5,0.7,232,65,NONE,2025-06-13
-11,Compresor de aire,Sala 4B,726,77.9,0.8,102,92,OVERHEAT,2025-04-09
-19,Torre de enfriamiento,Sala 4C,202,64.8,0.5,231,85,NONE,2025-06-23
-17,Molino de bolas,Sala 1B,427,79.4,0.5,117,62,NONE,2025-04-24
-8,Espectrómetro,Sala 4A,637,80.0,0.2,107,56,NONE,2025-07-15
-3,Máquina de soldadura (MIG/TIG/Arco),Sala 2C,648,90.3,0.4,100,85,NONE,2025-04-28
-3,Prensa hidráulica,Sala 1C,678,83.6,0.6,186,96,NONE,2025-02-03
-1,Fresadora CNC,Sala 1C,923,92.5,0.7,225,58,NONE,2025-03-14
-27,Durómetro,Sala 3C,391,90.8,0.3,243,81,VIBRATION_ALERT,2025-04-22
-5,Molino de bolas,Sala 3A,76,100.5,0.2,178,60,NONE,2025-03-14
-10,Torre de enfriamiento,Sala 2B,874,98.1,0.6,198,57,LOW_OIL,2025-03-21
-7,Microscopio industrial,Sala 4C,336,96.5,0.1,152,82,NONE,2025-06-27
-26,Torre de enfriamiento,Sala 4A,695,131.6,0.2,201,72,NONE,2025-03-11
-9,Torno CNC,Sala 3A,780,90.2,0.1,109,74,VIBRATION_ALERT,2025-06-18
-28,Bomba centrífuga,Sala 3C,217,123.9,0.2,187,57,NONE,2025-03-22
-7,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,659,91.2,0.2,177,94,NONE,2025-07-08
-9,Trituradora/molino,Sala 3A,317,83.8,0.4,111,71,NONE,2025-06-03
-8,Prensa hidráulica,Sala 2C,798,79.4,0.4,235,53,NONE,2025-04-14
-12,Banda transportadora,Sala 4A,870,107.6,0.8,158,89,OVERHEAT,2025-07-09
-2,Bomba centrífuga,Sala 4C,504,109.6,0.5,120,52,VIBRATION_ALERT,2025-02-01
-1,Banda transportadora,Sala 3C,955,94.0,0.7,142,78,NONE,2025-03-13
-16,Compresor de aire,Sala 1A,734,102.0,0.2,102,90,NONE,2025-02-17
-23,Fresadora CNC,Sala 2A,450,65.8,0.3,183,78,NONE,2025-04-11
-23,Apiladora/recogedora automática,Sala 3C,971,61.8,0.7,154,83,OVERHEAT,2025-01-28
-30,Sistema de filtración,Sala 2A,525,103.7,0.1,127,83,NONE,2025-03-29
-24,Generador eléctrico,Sala 4A,751,83.1,0.5,239,77,NONE,2025-05-20
-5,Durómetro,Sala 1C,683,96.2,0.6,136,62,NONE,2025-04-23
-3,Bomba centrífuga,Sala 3C,607,74.2,0.6,197,64,NONE,2025-02-24
-12,Horno industrial,Sala 1B,625,109.9,0.1,179,72,NONE,2025-05-15
-8,Grúa puente,Sala 2A,179,61.9,0.4,203,93,OVERHEAT,2025-05-23
-22,Rectificadora,Sala 2C,871,64.2,0.6,240,75,NONE,2025-04-04
-27,Sistema de filtración,Sala 1B,412,106.7,0.2,231,53,NONE,2025-07-10
-3,Torno CNC,Sala 3B,754,45.9,0.7,246,75,LOW_OIL,2025-06-27
-1,Torno CNC,Sala 3B,868,90.7,0.7,113,89,OVERHEAT,2025-02-28
-3,Ventilador industrial,Sala 1A,742,83.4,0.9,235,58,NONE,2025-04-21
-5,Microscopio industrial,Sala 4C,341,74.0,0.3,244,54,NONE,2025-01-24
-15,Extrusora,Sala 1C,420,82.0,0.8,86,81,NONE,2025-07-01
-14,Máquina de soldadura (MIG/TIG/Arco),Sala 4A,843,72.3,0.5,244,69,NONE,2025-03-26
-3,Horno industrial,Sala 3C,78,108.1,0.4,135,99,NONE,2025-02-01
-1,Rectificadora,Sala 2B,198,112.1,0.2,144,60,NONE,2025-02-24
-5,Torno CNC,Sala 2C,828,74.7,0.7,126,64,NONE,2025-02-26
-26,Torno CNC,Sala 2A,345,89.1,0.3,227,81,OVERHEAT,2025-04-04
-23,Inyectora de plástico,Sala 4A,60,65.1,0.4,98,77,NONE,2025-07-04
-14,Molino de bolas,Sala 1B,561,101.1,0.2,236,71,NONE,2025-05-17
-7,Extrusora,Sala 4B,725,100.7,0.7,225,90,NONE,2025-02-02
-27,Horno industrial,Sala 3B,162,80.6,0.7,242,66,VIBRATION_ALERT,2025-07-06
-9,Ventilador industrial,Sala 4B,236,85.3,0.7,205,75,LOW_OIL,2025-04-29
-15,Trituradora/molino,Sala 2C,856,83.6,0.3,218,93,LOW_OIL,2025-06-17
-15,Horno industrial,Sala 2B,793,60.7,0.2,128,56,LOW_OIL,2025-03-04
-26,Tamizadora,Sala 3C,276,108.2,0.6,192,91,VIBRATION_ALERT,2025-06-09
-10,Fresadora CNC,Sala 1A,359,73.5,0.5,117,75,NONE,2025-02-21
-28,Ventilador industrial,Sala 2B,147,73.6,0.2,143,74,NONE,2025-04-28
-13,Microscopio industrial,Sala 2C,104,82.7,0.6,148,59,NONE,2025-05-03
-19,Grúa puente,Sala 2B,672,99.9,0.9,215,94,OVERHEAT,2025-05-04
-7,Rectificadora,Sala 2C,713,76.1,0.7,241,68,OVERHEAT,2025-01-28
-17,Compresor de aire,Sala 2C,807,55.7,0.7,195,60,NONE,2025-06-11
-20,Apiladora/recogedora automática,Sala 3A,455,71.7,0.9,144,62,NONE,2025-05-09
-29,Torre de enfriamiento,Sala 2A,118,91.4,0.3,110,57,NONE,2025-06-01
-4,Inyectora de plástico,Sala 4B,361,117.8,0.6,211,89,VIBRATION_ALERT,2025-07-01
-30,Ventilador industrial,Sala 3B,338,66.1,0.9,192,53,NONE,2025-02-25
-5,Torre de enfriamiento,Sala 3A,811,65.6,0.2,188,96,NONE,2025-06-10
-23,Molino de bolas,Sala 3C,597,62.3,0.7,148,80,NONE,2025-04-21
-7,Torre de enfriamiento,Sala 3A,800,60.4,0.6,237,77,NONE,2025-05-18
-13,Máquina de envasado,Sala 1C,197,103.1,0.6,199,60,LOW_OIL,2025-02-28
-15,Fresadora CNC,Sala 1C,516,107.4,0.7,167,92,NONE,2025-04-01
-11,Microscopio industrial,Sala 3B,788,87.7,0.8,146,50,OVERHEAT,2025-04-29
-29,Mezcladora industrial,Sala 2B,293,78.0,0.7,154,98,NONE,2025-03-07
-4,Dobladora de tubos y láminas,Sala 2A,540,111.9,0.1,124,96,NONE,2025-05-03
-13,Prensa hidráulica,Sala 3B,898,87.6,0.8,83,87,NONE,2025-04-20
-7,Torre de enfriamiento,Sala 2C,556,101.3,0.3,233,73,OVERHEAT,2025-07-05
-27,CMM (Máquina de medición por coordenadas),Sala 1B,414,77.3,0.4,234,96,NONE,2025-04-15
-19,Grúa puente,Sala 2A,531,85.7,0.5,186,80,NONE,2025-05-26
-22,Trituradora/molino,Sala 4C,250,66.4,0.5,130,90,NONE,2025-03-09
-28,Extrusora,Sala 4B,203,94.4,0.4,129,95,VIBRATION_ALERT,2025-06-10
-2,Ventilador industrial,Sala 2A,499,87.9,0.8,85,99,NONE,2025-05-08
-10,Bomba centrífuga,Sala 2C,550,71.6,0.7,138,75,LOW_OIL,2025-06-24
-13,Prensa hidráulica,Sala 2C,122,71.8,0.6,204,98,NONE,2025-05-03
-30,Caldera industrial,Sala 1A,762,109.2,0.1,222,99,NONE,2025-02-09
-25,CMM (Máquina de medición por coordenadas),Sala 3B,345,114.6,0.8,109,54,NONE,2025-02-03
-21,Ventilador industrial,Sala 2C,66,81.8,0.8,249,69,NONE,2025-03-21
-6,Caldera industrial,Sala 1C,690,86.0,0.7,201,90,NONE,2025-05-27
-28,Prensa hidráulica,Sala 3C,266,91.0,0.1,204,60,NONE,2025-02-13
-28,Molino de bolas,Sala 1B,110,87.2,0.1,116,82,NONE,2025-03-10
-12,Máquina de soldadura (MIG/TIG/Arco),Sala 4B,988,59.9,0.3,249,99,VIBRATION_ALERT,2025-02-19
-12,Mezcladora industrial,Sala 3B,665,91.4,0.2,203,87,NONE,2025-04-14
-20,Bomba centrífuga,Sala 4A,91,53.7,0.4,180,76,OVERHEAT,2025-02-03
-30,Rectificadora,Sala 1C,74,74.0,0.8,114,83,NONE,2025-05-08
-30,Apiladora/recogedora automática,Sala 4C,88,92.6,0.5,166,64,NONE,2025-05-18
-11,Rectificadora,Sala 2B,852,94.0,0.1,213,81,NONE,2025-07-13
-26,Banda transportadora,Sala 2C,180,72.8,0.3,97,70,NONE,2025-06-17
-23,Prensa hidráulica,Sala 4A,547,78.1,0.1,192,95,NONE,2025-04-11
-28,Grúa puente,Sala 2C,278,76.1,0.1,108,54,NONE,2025-03-03
-25,Apiladora/recogedora automática,Sala 2A,157,83.5,0.3,156,55,NONE,2025-03-10
-7,Dobladora de tubos y láminas,Sala 1C,221,84.6,0.3,138,87,NONE,2025-05-04
-30,Bomba centrífuga,Sala 2A,484,95.0,0.7,205,71,LOW_OIL,2025-01-23
-1,Compresor de aire,Sala 1A,527,77.2,0.9,224,67,LOW_OIL,2025-05-21
-1,Máquina de envasado,Sala 2A,151,90.6,0.4,188,63,NONE,2025-06-18
-25,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,915,92.6,0.4,101,59,NONE,2025-04-17
-27,Horno industrial,Sala 4C,573,88.0,0.8,147,95,NONE,2025-05-11
-30,Apiladora/recogedora automática,Sala 1A,324,81.1,0.3,148,62,NONE,2025-05-28
-25,Compresor de aire,Sala 4A,662,87.7,0.2,244,80,NONE,2025-04-21
-20,Trituradora/molino,Sala 2C,93,96.3,0.8,128,79,NONE,2025-03-14
-13,Compresor de aire,Sala 2B,866,97.6,0.1,220,52,NONE,2025-01-31
-9,Caldera industrial,Sala 4B,66,112.2,0.6,241,79,NONE,2025-06-18
-3,Rectificadora,Sala 2A,379,70.1,0.5,188,55,NONE,2025-04-26
-7,Mezcladora industrial,Sala 4B,618,78.4,0.4,165,78,LOW_OIL,2025-03-14
-6,Máquina de envasado,Sala 1C,872,60.8,0.4,132,57,OVERHEAT,2025-02-19
-8,Apiladora/recogedora automática,Sala 1A,546,99.0,0.7,202,93,NONE,2025-03-09
-27,Apiladora/recogedora automática,Sala 2C,864,80.0,0.2,166,94,VIBRATION_ALERT,2025-07-06
-9,Máquina de envasado,Sala 1B,61,88.1,0.3,210,92,VIBRATION_ALERT,2025-06-04
-30,Durómetro,Sala 3B,367,75.9,0.7,121,93,NONE,2025-03-14
-5,Banda transportadora,Sala 4A,641,80.1,0.5,177,82,NONE,2025-01-30
-1,Caldera industrial,Sala 2B,265,103.3,0.2,239,66,NONE,2025-03-27
-19,Espectrómetro,Sala 3A,388,95.4,0.8,188,97,VIBRATION_ALERT,2025-01-23
-10,Trituradora/molino,Sala 4A,825,83.3,0.4,130,60,LOW_OIL,2025-06-29
-12,Generador eléctrico,Sala 4C,710,96.5,0.8,164,62,NONE,2025-04-29
-24,Microscopio industrial,Sala 1B,130,96.8,0.7,206,99,NONE,2025-02-05
-15,Apiladora/recogedora automática,Sala 3B,776,79.1,0.6,100,60,NONE,2025-03-12
-27,Prensa hidráulica,Sala 1B,534,63.0,0.5,123,80,NONE,2025-02-26
-22,Horno industrial,Sala 2A,423,71.5,0.9,218,77,NONE,2025-07-02
-24,Ventilador industrial,Sala 1A,759,64.9,0.2,182,93,LOW_OIL,2025-02-17
-9,Mezcladora industrial,Sala 2B,249,102.5,0.7,147,55,NONE,2025-05-22
-20,Microscopio industrial,Sala 3C,586,105.1,0.3,208,90,LOW_OIL,2025-05-08
-17,Horno industrial,Sala 1A,515,108.8,0.4,171,65,LOW_OIL,2025-04-01
-30,Mezcladora industrial,Sala 3C,138,54.7,0.3,103,53,OVERHEAT,2025-06-26
-17,Dobladora de tubos y láminas,Sala 4B,317,101.1,0.9,204,84,NONE,2025-01-26
-26,Sistema de filtración,Sala 3B,704,118.2,0.9,220,97,NONE,2025-05-08
-20,Tamizadora,Sala 2C,620,101.7,0.2,190,75,NONE,2025-07-11
-12,Durómetro,Sala 3A,971,52.7,0.1,177,61,NONE,2025-05-21
-30,Microscopio industrial,Sala 1C,538,111.5,0.7,218,60,NONE,2025-03-30
-7,Torre de enfriamiento,Sala 1A,926,85.6,0.4,96,86,NONE,2025-07-06
-2,Montacargas,Sala 2B,587,81.5,0.2,178,74,NONE,2025-02-02
-3,Banda transportadora,Sala 4C,96,91.8,0.6,161,67,NONE,2025-02-13
-17,CMM (Máquina de medición por coordenadas),Sala 4C,337,69.3,0.5,183,68,NONE,2025-07-03
-5,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,827,85.0,0.9,231,72,NONE,2025-03-22
-17,Rectificadora,Sala 2B,65,109.3,0.3,98,87,OVERHEAT,2025-07-17
-24,Horno industrial,Sala 3B,760,94.3,0.4,244,67,OVERHEAT,2025-02-24
-17,Caldera industrial,Sala 4B,450,85.9,0.5,164,75,NONE,2025-06-19
-27,Durómetro,Sala 3C,968,86.3,0.7,87,55,NONE,2025-04-07
-17,Generador eléctrico,Sala 1B,843,67.3,0.5,107,53,NONE,2025-07-06
-2,CMM (Máquina de medición por coordenadas),Sala 4C,135,82.8,0.6,84,93,NONE,2025-04-14
-2,Prensa hidráulica,Sala 1C,299,60.5,0.3,224,78,NONE,2025-04-16
-28,CMM (Máquina de medición por coordenadas),Sala 1C,440,100.3,0.8,180,83,LOW_OIL,2025-04-28
-22,Compresor de aire,Sala 1A,831,52.2,0.4,243,66,NONE,2025-07-06
-23,Banda transportadora,Sala 3B,384,97.8,0.2,197,92,NONE,2025-01-29
-5,Caldera industrial,Sala 2C,678,99.7,0.6,226,92,NONE,2025-04-16
-1,Dobladora de tubos y láminas,Sala 4C,568,104.8,0.3,143,65,NONE,2025-02-20
-1,Trituradora/molino,Sala 3B,186,86.3,0.2,170,51,NONE,2025-03-29
-19,CMM (Máquina de medición por coordenadas),Sala 4B,932,98.7,0.8,196,83,NONE,2025-05-25
-30,Molino de bolas,Sala 3C,737,82.6,0.5,177,57,NONE,2025-04-29
-2,Torre de enfriamiento,Sala 2B,889,67.2,0.7,90,62,NONE,2025-02-01
-21,Dobladora de tubos y láminas,Sala 4C,547,108.0,0.3,133,91,NONE,2025-03-25
-12,Tamizadora,Sala 1C,876,83.5,0.7,126,57,NONE,2025-02-26
-26,Torre de enfriamiento,Sala 2B,776,63.9,0.2,219,79,NONE,2025-04-02
-6,Máquina de soldadura (MIG/TIG/Arco),Sala 2B,526,78.0,0.4,228,81,VIBRATION_ALERT,2025-05-27
-23,Rectificadora,Sala 2B,643,78.6,0.9,218,85,NONE,2025-03-13
-4,Compresor de aire,Sala 1C,272,91.9,0.7,84,96,NONE,2025-02-11
-23,Ventilador industrial,Sala 4B,421,120.2,0.5,99,79,NONE,2025-02-08
-11,Extrusora,Sala 4A,984,92.8,0.4,248,50,NONE,2025-05-23
-24,Extrusora,Sala 2A,451,88.1,0.8,125,92,NONE,2025-05-28
-27,Grúa puente,Sala 3C,492,121.8,0.5,91,88,NONE,2025-03-04
-17,Montacargas,Sala 4A,539,99.7,0.7,149,66,OVERHEAT,2025-03-30
-6,Horno industrial,Sala 3C,664,88.8,0.7,96,69,NONE,2025-07-18
-24,Mezcladora industrial,Sala 1B,322,77.8,0.1,194,73,NONE,2025-06-05
-5,Molino de bolas,Sala 3B,575,89.7,0.2,226,99,NONE,2025-05-05
-20,Torre de enfriamiento,Sala 3B,208,84.0,0.6,233,71,LOW_OIL,2025-04-12
-2,Horno industrial,Sala 3A,201,86.4,0.2,127,78,NONE,2025-07-10
-6,Apiladora/recogedora automática,Sala 3B,669,104.7,0.3,187,71,NONE,2025-06-17
-22,Ventilador industrial,Sala 1C,237,76.9,0.9,131,93,NONE,2025-07-04
-11,Cortadora láser/plasma,Sala 2C,862,92.7,0.5,175,58,NONE,2025-03-01
-16,Dobladora de tubos y láminas,Sala 1A,147,99.2,0.7,149,86,NONE,2025-03-05
-16,Tamizadora,Sala 3A,180,75.1,0.5,181,59,NONE,2025-05-08
-1,Trituradora/molino,Sala 1A,854,72.7,0.5,154,85,NONE,2025-02-14
-9,Inyectora de plástico,Sala 3C,220,82.7,0.2,240,86,NONE,2025-07-07
-28,Molino de bolas,Sala 1A,985,78.1,0.4,230,77,NONE,2025-05-15
-27,Mezcladora industrial,Sala 1A,232,102.3,0.3,222,77,NONE,2025-04-03
-6,Grúa puente,Sala 3A,413,70.0,0.4,234,91,LOW_OIL,2025-06-07
-16,Generador eléctrico,Sala 1B,88,86.0,0.7,161,92,NONE,2025-03-26
-29,Torre de enfriamiento,Sala 2B,576,123.2,0.4,171,70,NONE,2025-03-02
-3,Fresadora CNC,Sala 3B,937,91.2,0.5,83,73,NONE,2025-04-07
-20,Máquina de soldadura (MIG/TIG/Arco),Sala 3B,546,93.7,0.4,214,91,NONE,2025-01-29
-28,Ventilador industrial,Sala 1C,565,102.4,0.2,188,89,OVERHEAT,2025-04-15
-27,Máquina de soldadura (MIG/TIG/Arco),Sala 3A,398,78.1,0.5,242,51,NONE,2025-07-02
-4,Cortadora láser/plasma,Sala 1C,970,68.8,0.3,127,57,NONE,2025-02-09
-19,Microscopio industrial,Sala 2C,446,87.6,0.2,152,97,NONE,2025-04-25
-26,Inyectora de plástico,Sala 2C,771,89.0,0.2,151,76,NONE,2025-02-01
-3,Banda transportadora,Sala 1C,210,60.7,0.4,195,71,NONE,2025-02-18
-19,Trituradora/molino,Sala 3A,65,90.6,0.7,160,86,NONE,2025-05-24
-20,Torno CNC,Sala 1C,542,101.0,0.3,160,76,NONE,2025-03-07
-7,Espectrómetro,Sala 3B,475,71.3,0.3,192,78,OVERHEAT,2025-04-24
-20,Durómetro,Sala 4A,157,91.5,0.6,175,52,NONE,2025-01-22
-9,Apiladora/recogedora automática,Sala 2A,943,98.4,0.3,151,93,LOW_OIL,2025-04-08
-1,Dobladora de tubos y láminas,Sala 1A,499,93.8,0.8,226,62,LOW_OIL,2025-02-04
-8,Caldera industrial,Sala 2A,360,95.2,0.5,142,94,LOW_OIL,2025-05-26
-7,Trituradora/molino,Sala 3A,788,81.3,0.5,117,59,NONE,2025-01-23
-18,Prensa hidráulica,Sala 4B,219,68.1,0.5,146,85,NONE,2025-03-26
-8,Prensa hidráulica,Sala 2A,595,78.3,0.2,148,58,OVERHEAT,2025-03-02
-1,Cortadora láser/plasma,Sala 2C,463,76.2,0.6,92,76,NONE,2025-04-22
-11,Sistema de filtración,Sala 3C,300,83.8,0.4,110,83,NONE,2025-05-31
-28,Microscopio industrial,Sala 1A,808,101.4,0.8,193,50,LOW_OIL,2025-02-20
-25,Ventilador industrial,Sala 2B,830,65.3,0.2,101,81,LOW_OIL,2025-03-26
-25,Horno industrial,Sala 4B,190,87.2,0.5,172,74,NONE,2025-05-17
-18,Espectrómetro,Sala 3A,323,69.0,0.6,146,78,NONE,2025-04-06
-23,Dobladora de tubos y láminas,Sala 1A,465,73.9,0.1,133,56,NONE,2025-04-27
-30,Generador eléctrico,Sala 2A,657,93.4,0.4,217,98,LOW_OIL,2025-04-07
-10,Molino de bolas,Sala 2C,788,67.2,0.7,121,52,VIBRATION_ALERT,2025-02-13
-3,Torre de enfriamiento,Sala 1B,940,96.0,0.8,143,69,NONE,2025-07-02
-7,Microscopio industrial,Sala 4A,88,64.7,0.4,205,69,NONE,2025-07-13
-28,Dobladora de tubos y láminas,Sala 2B,863,95.0,0.7,100,79,LOW_OIL,2025-02-22
-16,Máquina de envasado,Sala 4B,78,61.8,0.9,248,84,NONE,2025-06-21
-26,Rectificadora,Sala 4A,526,75.7,0.8,231,84,NONE,2025-06-11
-16,Trituradora/molino,Sala 1A,367,113.4,0.2,114,98,VIBRATION_ALERT,2025-03-22
-25,Trituradora/molino,Sala 2C,294,110.6,0.7,109,88,NONE,2025-06-12
-20,Grúa puente,Sala 2C,797,78.8,0.4,136,76,NONE,2025-03-26
-28,Sistema de filtración,Sala 2A,746,90.8,0.9,126,75,NONE,2025-05-12
-17,Máquina de envasado,Sala 3B,321,103.1,0.5,242,63,NONE,2025-01-23
-2,Torre de enfriamiento,Sala 2A,489,95.2,0.2,98,66,LOW_OIL,2025-06-06
-1,Durómetro,Sala 3B,797,80.9,0.7,193,67,NONE,2025-02-05
-16,Sistema de filtración,Sala 3B,288,73.8,0.4,87,94,VIBRATION_ALERT,2025-05-22
-30,Inyectora de plástico,Sala 2B,426,98.0,0.9,105,78,NONE,2025-07-06
-12,Ventilador industrial,Sala 2A,315,102.0,0.9,192,69,NONE,2025-05-28
-5,Mezcladora industrial,Sala 4C,975,110.7,0.6,150,76,NONE,2025-05-22
-5,Dobladora de tubos y láminas,Sala 1B,970,59.7,0.2,109,67,NONE,2025-06-17
-27,Torno CNC,Sala 4B,408,66.2,0.6,214,53,NONE,2025-04-05
-23,Rectificadora,Sala 1C,389,102.4,0.2,146,50,NONE,2025-04-27
-9,Trituradora/molino,Sala 1C,438,61.7,0.1,144,99,NONE,2025-04-11
-9,Sistema de filtración,Sala 2A,626,103.6,0.8,115,50,NONE,2025-04-06
-3,Máquina de envasado,Sala 2A,738,81.8,0.3,104,75,OVERHEAT,2025-06-21
-19,Caldera industrial,Sala 4A,52,77.2,0.4,116,94,NONE,2025-03-12
-16,Sistema de filtración,Sala 4B,478,88.1,0.9,80,69,OVERHEAT,2025-01-30
-16,Apiladora/recogedora automática,Sala 4B,191,64.8,0.4,222,72,NONE,2025-06-01
-3,Caldera industrial,Sala 2B,425,97.4,0.3,116,59,NONE,2025-06-09
-20,Bomba centrífuga,Sala 2A,719,110.3,0.8,220,60,NONE,2025-04-13
-24,Torno CNC,Sala 4B,373,98.1,0.2,215,90,NONE,2025-03-27
-22,Cortadora láser/plasma,Sala 4A,195,81.3,0.7,212,90,NONE,2025-03-09
-24,CMM (Máquina de medición por coordenadas),Sala 3B,342,61.9,0.9,207,54,LOW_OIL,2025-02-03
-1,Cortadora láser/plasma,Sala 2C,714,62.5,0.8,206,50,OVERHEAT,2025-02-14
-24,Torre de enfriamiento,Sala 2C,481,65.1,0.6,80,66,NONE,2025-03-04
-20,Horno industrial,Sala 3B,754,84.8,0.4,243,71,NONE,2025-03-30
-11,Trituradora/molino,Sala 3A,998,86.7,0.3,114,83,OVERHEAT,2025-02-25
-17,Trituradora/molino,Sala 4A,634,98.0,0.8,183,94,NONE,2025-05-04
-8,Ventilador industrial,Sala 4B,448,58.1,0.8,102,90,OVERHEAT,2025-06-18
-4,Montacargas,Sala 4C,866,104.7,0.5,88,78,OVERHEAT,2025-03-22
-6,CMM (Máquina de medición por coordenadas),Sala 4A,938,95.4,0.3,113,53,LOW_OIL,2025-02-27
-8,Banda transportadora,Sala 3B,393,80.1,0.2,207,54,NONE,2025-06-24
-20,Espectrómetro,Sala 1B,189,67.2,0.2,83,60,NONE,2025-06-15
-30,CMM (Máquina de medición por coordenadas),Sala 3C,236,103.7,0.7,237,70,NONE,2025-05-13
-3,Extrusora,Sala 1A,854,80.5,0.4,181,84,NONE,2025-02-17
-16,Sistema de filtración,Sala 3B,110,84.7,0.8,154,61,OVERHEAT,2025-03-23
-30,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,988,90.8,0.7,178,75,NONE,2025-05-07
-25,Prensa hidráulica,Sala 4B,429,71.3,0.3,151,68,NONE,2025-06-23
-3,Rectificadora,Sala 4C,759,80.8,0.6,82,94,LOW_OIL,2025-02-21
-25,Microscopio industrial,Sala 4C,856,98.0,0.4,221,56,OVERHEAT,2025-04-06
-29,Durómetro,Sala 2A,489,96.5,0.6,113,96,VIBRATION_ALERT,2025-07-09
-18,Caldera industrial,Sala 2A,368,96.6,0.7,124,56,OVERHEAT,2025-05-13
-14,Grúa puente,Sala 2B,351,67.7,0.7,140,75,NONE,2025-02-17
-18,Montacargas,Sala 3B,393,81.5,0.8,162,89,NONE,2025-07-14
-2,Mezcladora industrial,Sala 2B,60,79.1,0.3,202,54,LOW_OIL,2025-06-22
-22,Apiladora/recogedora automática,Sala 3B,111,91.4,0.1,181,70,NONE,2025-03-28
-3,Tamizadora,Sala 4A,894,90.0,0.7,95,63,NONE,2025-07-04
-16,Montacargas,Sala 1A,275,87.3,0.2,145,53,NONE,2025-02-06
-29,Torno CNC,Sala 4C,202,122.0,0.4,247,72,NONE,2025-04-05
-9,CMM (Máquina de medición por coordenadas),Sala 4A,760,80.6,0.1,224,91,OVERHEAT,2025-06-05
-4,Espectrómetro,Sala 3C,613,78.9,0.6,198,69,NONE,2025-06-23
-1,Espectrómetro,Sala 2C,821,67.6,0.2,241,64,NONE,2025-01-25
-4,Rectificadora,Sala 1C,620,61.9,0.6,203,99,NONE,2025-02-07
-1,Banda transportadora,Sala 3B,633,66.7,0.9,223,94,NONE,2025-04-15
-14,Compresor de aire,Sala 3C,709,74.2,0.2,181,78,NONE,2025-01-22
-21,Caldera industrial,Sala 2C,910,104.7,0.2,145,57,NONE,2025-04-26
-16,Extrusora,Sala 4B,624,85.6,0.4,92,90,VIBRATION_ALERT,2025-03-01
-20,Horno industrial,Sala 3A,359,87.9,0.8,190,97,NONE,2025-03-09
-24,Molino de bolas,Sala 1A,934,83.6,0.3,238,68,NONE,2025-04-23
-8,Banda transportadora,Sala 2B,292,90.5,0.4,113,97,NONE,2025-01-24
-7,Inyectora de plástico,Sala 2B,542,106.0,0.2,118,88,NONE,2025-03-29
-3,Cortadora láser/plasma,Sala 4A,415,55.1,0.7,215,95,NONE,2025-03-12
-17,Horno industrial,Sala 2A,379,103.3,0.4,199,77,LOW_OIL,2025-04-21
-1,Bomba centrífuga,Sala 2C,156,47.3,0.7,205,95,NONE,2025-05-14
-16,Sistema de filtración,Sala 3A,275,85.4,0.8,134,76,OVERHEAT,2025-02-11
-12,CMM (Máquina de medición por coordenadas),Sala 3C,874,117.9,0.3,106,53,NONE,2025-03-10
-27,Inyectora de plástico,Sala 1A,267,95.2,0.7,197,64,NONE,2025-03-19
-19,Torre de enfriamiento,Sala 2C,986,90.6,0.1,132,84,NONE,2025-02-20
-22,Sistema de filtración,Sala 3A,802,115.0,0.8,118,86,VIBRATION_ALERT,2025-04-26
-23,Prensa hidráulica,Sala 1C,555,74.5,0.6,144,50,NONE,2025-01-23
-22,Torre de enfriamiento,Sala 3B,308,91.5,0.8,224,52,NONE,2025-03-25
-14,Inyectora de plástico,Sala 2B,937,93.7,0.1,237,96,NONE,2025-03-25
-30,Torre de enfriamiento,Sala 3C,823,77.2,0.2,92,73,NONE,2025-06-11
-6,Sistema de filtración,Sala 2B,566,78.5,0.4,100,76,NONE,2025-02-26
-6,Grúa puente,Sala 3C,822,76.8,0.4,226,89,NONE,2025-03-31
-13,Sistema de filtración,Sala 4A,103,86.3,0.3,132,85,NONE,2025-06-03
-19,Sistema de filtración,Sala 2A,96,93.2,0.4,98,83,NONE,2025-06-24
-22,Máquina de soldadura (MIG/TIG/Arco),Sala 3C,776,86.8,0.2,136,78,NONE,2025-06-28
-8,Mezcladora industrial,Sala 2B,738,95.6,0.4,104,73,LOW_OIL,2025-03-20
-27,Prensa hidráulica,Sala 4A,570,55.5,0.7,110,73,OVERHEAT,2025-03-19
-27,Generador eléctrico,Sala 3C,148,81.7,0.5,160,91,OVERHEAT,2025-03-08
-2,Espectrómetro,Sala 1C,69,69.6,0.1,102,53,NONE,2025-05-10
-21,Apiladora/recogedora automática,Sala 2A,939,89.5,0.4,111,52,NONE,2025-03-28
-30,Mezcladora industrial,Sala 3C,802,89.3,0.1,153,83,NONE,2025-04-03
-1,Torno CNC,Sala 4A,622,83.3,0.9,89,98,NONE,2025-03-29
-28,CMM (Máquina de medición por coordenadas),Sala 4B,940,92.7,0.2,133,72,NONE,2025-04-02
-15,Durómetro,Sala 2C,539,100.0,0.7,131,72,NONE,2025-06-02
-1,Trituradora/molino,Sala 1B,468,84.1,0.9,227,94,NONE,2025-04-19
-5,Sistema de filtración,Sala 3A,739,69.2,0.8,239,54,NONE,2025-07-01
-28,Banda transportadora,Sala 1B,899,61.3,0.7,193,80,LOW_OIL,2025-02-20
-29,Ventilador industrial,Sala 4B,111,85.5,0.8,93,90,NONE,2025-04-06
-16,Trituradora/molino,Sala 1B,194,88.6,0.9,235,55,NONE,2025-02-18
-19,Tamizadora,Sala 4B,265,70.5,0.6,189,86,NONE,2025-06-09
-4,Rectificadora,Sala 1A,52,95.9,0.5,132,59,NONE,2025-03-03
-3,Ventilador industrial,Sala 4B,209,78.1,0.6,231,89,NONE,2025-04-21
-17,Cortadora láser/plasma,Sala 4B,788,60.2,0.5,158,56,LOW_OIL,2025-05-19
-17,Grúa puente,Sala 4C,830,103.8,0.6,101,88,LOW_OIL,2025-07-14
-12,Microscopio industrial,Sala 4B,169,102.2,0.5,109,87,NONE,2025-03-19
-28,Máquina de soldadura (MIG/TIG/Arco),Sala 1C,942,54.8,0.3,83,70,VIBRATION_ALERT,2025-05-25
-30,Montacargas,Sala 2C,138,76.6,0.2,138,69,VIBRATION_ALERT,2025-06-12
-29,Caldera industrial,Sala 3B,378,76.0,0.2,87,52,LOW_OIL,2025-05-24
-14,Fresadora CNC,Sala 3C,629,109.6,0.3,91,71,LOW_OIL,2025-04-08
-21,Molino de bolas,Sala 3A,959,83.5,0.1,198,96,NONE,2025-04-17
-6,Bomba centrífuga,Sala 2A,406,62.6,0.6,238,53,NONE,2025-05-07
-3,Máquina de envasado,Sala 2C,659,98.2,0.3,113,77,NONE,2025-05-21
-28,Grúa puente,Sala 2B,316,66.5,0.8,161,61,NONE,2025-07-17
-9,Generador eléctrico,Sala 3B,666,81.1,0.2,177,87,VIBRATION_ALERT,2025-04-06
-5,Trituradora/molino,Sala 1A,372,73.5,0.3,206,85,NONE,2025-05-29
-24,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,684,76.6,0.7,154,96,OVERHEAT,2025-06-19
-29,Compresor de aire,Sala 4B,590,99.1,0.6,184,90,LOW_OIL,2025-07-08
-17,Bomba centrífuga,Sala 2C,698,107.8,0.2,128,54,LOW_OIL,2025-04-02
-14,Torno CNC,Sala 4A,244,65.9,0.8,158,62,VIBRATION_ALERT,2025-05-04
-21,Espectrómetro,Sala 4C,970,94.4,0.8,172,72,NONE,2025-02-02
-3,Torno CNC,Sala 1B,787,74.0,0.4,233,99,NONE,2025-04-20
-28,Grúa puente,Sala 2B,381,74.5,0.4,97,79,NONE,2025-03-18
-1,Montacargas,Sala 1A,219,92.4,0.9,175,86,NONE,2025-03-16
-20,Apiladora/recogedora automática,Sala 3A,570,69.6,0.6,117,74,NONE,2025-03-19
-29,Extrusora,Sala 1A,512,92.1,0.5,166,97,NONE,2025-04-16
-21,CMM (Máquina de medición por coordenadas),Sala 2A,89,96.0,0.8,167,76,OVERHEAT,2025-04-07
-23,Torre de enfriamiento,Sala 3C,586,78.5,0.3,129,63,NONE,2025-02-07
-1,Caldera industrial,Sala 1A,310,104.9,0.4,87,97,NONE,2025-06-18
-3,Espectrómetro,Sala 2A,444,65.9,0.3,248,96,NONE,2025-05-28
-18,Generador eléctrico,Sala 2C,275,105.2,0.7,213,85,NONE,2025-04-21
-25,Generador eléctrico,Sala 2C,173,55.8,0.6,148,88,NONE,2025-05-04
-10,Apiladora/recogedora automática,Sala 4C,87,125.5,0.6,200,65,OVERHEAT,2025-03-12
-22,Trituradora/molino,Sala 3B,377,78.9,0.3,143,71,NONE,2025-06-27
-26,Torno CNC,Sala 1A,300,67.6,0.3,236,70,OVERHEAT,2025-06-09
-3,Fresadora CNC,Sala 3A,950,81.5,0.5,235,70,NONE,2025-04-09
-8,Mezcladora industrial,Sala 1A,225,69.3,0.7,218,57,LOW_OIL,2025-03-30
-14,Rectificadora,Sala 3A,651,90.8,0.5,200,98,NONE,2025-03-12
-24,Torno CNC,Sala 1C,963,105.5,0.1,144,65,NONE,2025-05-15
-18,CMM (Máquina de medición por coordenadas),Sala 4B,503,70.1,0.8,186,80,NONE,2025-01-30
-15,Banda transportadora,Sala 3B,86,93.7,0.2,226,91,LOW_OIL,2025-02-20
-22,Compresor de aire,Sala 1C,365,62.0,0.9,216,59,NONE,2025-05-01
-23,Cortadora láser/plasma,Sala 1A,737,100.5,0.1,234,81,NONE,2025-06-27
-2,Sistema de filtración,Sala 3B,845,91.2,0.7,241,83,VIBRATION_ALERT,2025-02-03
-27,Apiladora/recogedora automática,Sala 1C,642,101.1,0.2,179,58,OVERHEAT,2025-04-11
-10,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,163,83.2,0.8,161,66,NONE,2025-07-11
-2,Máquina de soldadura (MIG/TIG/Arco),Sala 1A,89,78.5,0.5,222,60,OVERHEAT,2025-01-25
-26,Cortadora láser/plasma,Sala 1C,350,97.2,0.2,130,81,NONE,2025-07-02
-17,Rectificadora,Sala 1B,273,65.4,0.4,220,59,NONE,2025-07-02
-8,CMM (Máquina de medición por coordenadas),Sala 1B,367,58.9,0.2,162,71,NONE,2025-04-20
-1,Compresor de aire,Sala 2C,398,84.9,0.2,191,66,VIBRATION_ALERT,2025-02-28
-9,Máquina de soldadura (MIG/TIG/Arco),Sala 4C,164,79.2,0.9,135,53,VIBRATION_ALERT,2025-02-24
-11,CMM (Máquina de medición por coordenadas),Sala 1A,747,93.3,0.5,244,97,NONE,2025-02-03
-22,Máquina de soldadura (MIG/TIG/Arco),Sala 1B,372,101.4,0.7,224,96,NONE,2025-04-29
-16,Molino de bolas,Sala 2C,617,93.0,0.6,236,74,NONE,2025-05-02
-7,Molino de bolas,Sala 1C,89,100.2,0.6,240,70,VIBRATION_ALERT,2025-01-27
-29,Microscopio industrial,Sala 2A,915,89.8,0.2,139,86,VIBRATION_ALERT,2025-07-13
+7,Torno CNC,Sala 3A,712,65.7,0.29,142,70,HIGH_VIBRATION,2025-04-04
+20,Máquina de soldadura,Sala 3A,516,79.5,0.14,139,83,NONE,2025-06-09
+29,Cortadora láser,Sala 4C,336,76.7,0.0,178,81,LOW_OIL,2024-08-06
+15,Torno CNC,Sala 3A,1060,97.0,0.02,141,85,NONE,2025-01-01
+11,Cortadora láser,Sala 3B,1590,63.9,0.62,109,72,NONE,2025-06-03
+8,Torno CNC,Sala 1A,1540,79.5,0.49,101,60,NONE,2025-03-09
+29,Rectificadora,Sala 2A,827,50.5,0.55,205,83,NONE,2025-05-12
+21,Máquina de soldadura,Sala 2C,394,64.0,0.0,121,69,NONE,2025-06-14
+7,Máquina de soldadura,Sala 3C,691,74.2,0.28,177,94,NONE,2025-05-09
+26,Prensa hidráulica,Sala 1B,431,86.7,0.81,110,83,NONE,2025-01-19
+19,Cortadora láser,Sala 1A,1852,55.3,0.37,191,87,NONE,2025-06-03
+23,Torno CNC,Sala 4A,739,79.4,0.02,201,95,NONE,2025-04-29
+11,Torno CNC,Sala 4C,1326,69.2,0.37,96,75,NONE,2025-04-07
+11,Inyectora,Sala 1B,1129,51.7,0.17,117,99,HIGH_VIBRATION,2024-12-12
+24,Inyectora,Sala 3A,1536,72.2,0.5,189,75,NONE,2024-11-19
+21,Fresadora CNC,Sala 1C,506,90.5,0.41,101,76,NONE,2025-05-17
+4,Prensa hidráulica,Sala 4A,1032,56.6,0.56,135,74,NONE,2025-03-27
+8,Dobladora,Sala 1B,132,68.7,0.03,198,75,NONE,2025-05-19
+24,Inyectora,Sala 4B,1978,58.2,0.27,136,74,NONE,2025-05-25
+3,Dobladora,Sala 3A,1172,64.4,0.73,114,93,NONE,2024-09-01
+22,Fresadora CNC,Sala 1B,198,87.2,0.0,193,70,NONE,2025-01-15
+21,Fresadora CNC,Sala 1C,1402,66.7,0.1,204,60,HIGH_VIBRATION,2025-01-17
+2,Fresadora CNC,Sala 4B,1229,86.8,0.46,208,74,NONE,2025-02-24
+24,Cortadora láser,Sala 3A,239,83.3,0.49,131,85,NONE,2024-10-12
+12,Cortadora láser,Sala 2A,1567,65.6,0.25,164,63,NONE,2025-04-20
+30,Rectificadora,Sala 1A,932,64.0,0.32,144,64,NONE,2024-09-16
+6,Rectificadora,Sala 2B,312,59.2,0.56,208,94,NONE,2024-09-19
+2,Fresadora CNC,Sala 4C,1153,58.8,0.65,100,72,NONE,2024-11-04
+28,Prensa hidráulica,Sala 3C,449,74.2,0.08,95,69,NONE,2025-04-19
+21,Torno CNC,Sala 3B,813,69.8,0.51,202,70,NONE,2025-04-03
+1,Cortadora láser,Sala 4C,658,62.5,0.85,140,77,NONE,2025-03-22
+12,Prensa hidráulica,Sala 3C,1333,51.4,0.37,133,93,NONE,2025-03-15
+26,Máquina de soldadura,Sala 4A,1845,71.3,0.08,105,98,NONE,2025-03-26
+22,Cortadora láser,Sala 3C,1688,64.4,0.06,159,82,NONE,2025-01-09
+29,Cortadora láser,Sala 3A,1625,67.7,0.35,144,66,LOW_OIL,2024-10-04
+12,Rectificadora,Sala 2A,834,73.7,0.71,179,98,OVERHEAT,2025-03-25
+25,Torno CNC,Sala 2B,150,40.0,0.39,153,62,NONE,2024-10-16
+17,Torno CNC,Sala 1A,1432,51.6,0.46,96,71,NONE,2024-11-07
+27,Inyectora,Sala 1A,1453,97.6,0.1,200,66,NONE,2025-06-16
+27,Dobladora,Sala 1C,869,63.9,0.69,102,85,NONE,2025-06-01
+10,Dobladora,Sala 3B,1294,39.8,0.06,214,92,NONE,2025-02-14
+28,Dobladora,Sala 1B,869,52.6,0.25,150,96,NONE,2024-10-09
+28,Dobladora,Sala 2A,469,99.8,0.59,187,74,NONE,2025-01-06
+16,Máquina de soldadura,Sala 1B,173,61.6,0.0,158,61,NONE,2024-10-22
+15,Máquina de soldadura,Sala 2B,471,83.9,0.45,125,66,NONE,2025-07-09
+30,Cortadora láser,Sala 3C,1304,71.5,0.09,157,91,HIGH_VIBRATION,2025-02-02
+30,Fresadora CNC,Sala 1A,1763,64.2,0.4,95,63,NONE,2024-11-19
+15,Rectificadora,Sala 2B,1136,79.3,0.29,150,79,NONE,2024-12-19
+30,Rectificadora,Sala 3C,1558,41.4,1.03,175,95,NONE,2025-04-29
+19,Dobladora,Sala 1A,1701,52.7,0.28,81,91,NONE,2025-05-04
+12,Cortadora láser,Sala 3C,1776,64.1,0.95,89,87,NONE,2025-05-24
+23,Inyectora,Sala 3B,1647,53.9,0.58,204,72,NONE,2024-10-11
+20,Prensa hidráulica,Sala 2A,817,63.0,0.16,160,60,HIGH_VIBRATION,2025-06-13
+25,Fresadora CNC,Sala 4C,532,80.2,0.5,219,94,NONE,2025-07-13
+3,Cortadora láser,Sala 4B,568,71.6,0.31,149,89,NONE,2024-09-07
+5,Fresadora CNC,Sala 4A,204,86.0,0.47,111,95,NONE,2024-12-03
+19,Fresadora CNC,Sala 2B,141,72.3,0.19,184,84,NONE,2024-08-30
+7,Fresadora CNC,Sala 2B,1031,81.9,0.91,163,75,NONE,2025-03-16
+21,Cortadora láser,Sala 4B,1599,69.2,0.68,208,78,LOW_OIL,2025-04-01
+9,Dobladora,Sala 4C,504,62.9,0.41,137,60,LOW_OIL,2024-12-19
+7,Rectificadora,Sala 2C,1814,87.8,0.92,213,64,NONE,2025-03-10
+18,Rectificadora,Sala 3A,647,61.5,0.42,124,81,NONE,2025-04-10
+4,Dobladora,Sala 3B,1718,74.1,0.73,176,83,NONE,2025-01-27
+25,Fresadora CNC,Sala 3B,559,79.2,0.41,102,96,NONE,2025-07-09
+28,Prensa hidráulica,Sala 4B,1256,80.1,0.52,102,95,OVERHEAT,2024-11-25
+14,Torno CNC,Sala 1B,435,56.0,0.38,214,95,NONE,2024-08-25
+18,Cortadora láser,Sala 3C,1647,82.6,0.43,158,63,NONE,2024-12-11
+26,Torno CNC,Sala 3A,1804,58.3,0.45,123,95,NONE,2024-11-25
+9,Inyectora,Sala 2A,454,79.7,0.2,106,77,NONE,2025-03-06
+26,Dobladora,Sala 2A,295,76.4,0.28,105,75,HIGH_VIBRATION,2025-01-07
+21,Prensa hidráulica,Sala 4B,791,79.8,0.33,176,77,NONE,2025-04-04
+2,Cortadora láser,Sala 3B,1664,55.5,0.47,115,81,NONE,2025-03-20
+20,Dobladora,Sala 2A,710,77.1,0.39,188,61,NONE,2025-07-04
+28,Fresadora CNC,Sala 2C,699,83.0,0.75,134,80,NONE,2025-02-28
+15,Rectificadora,Sala 2B,1544,72.3,0.65,148,95,NONE,2025-04-27
+28,Torno CNC,Sala 1C,1899,60.2,0.34,140,98,NONE,2024-09-25
+7,Máquina de soldadura,Sala 4A,1961,81.0,0.81,209,98,NONE,2025-01-03
+12,Máquina de soldadura,Sala 4B,1496,71.4,0.96,134,88,NONE,2025-05-01
+29,Prensa hidráulica,Sala 1B,950,49.9,0.0,201,85,NONE,2025-02-08
+8,Fresadora CNC,Sala 3C,114,59.2,0.68,176,80,NONE,2025-05-14
+15,Inyectora,Sala 4A,1086,63.7,0.19,159,76,NONE,2024-09-30
+3,Torno CNC,Sala 3C,262,88.1,0.64,166,75,NONE,2025-07-16
+14,Fresadora CNC,Sala 1A,291,86.0,0.77,117,90,NONE,2024-10-17
+17,Torno CNC,Sala 4A,542,85.9,0.14,198,68,NONE,2024-11-09
+4,Prensa hidráulica,Sala 1C,1286,72.8,0.0,157,90,NONE,2024-10-23
+18,Prensa hidráulica,Sala 3B,1766,81.0,0.65,114,73,NONE,2024-11-29
+8,Inyectora,Sala 2C,387,56.3,0.44,158,96,HIGH_VIBRATION,2025-07-05
+4,Máquina de soldadura,Sala 2B,222,70.1,0.0,146,61,NONE,2024-12-04
+2,Fresadora CNC,Sala 2B,721,75.4,1.16,166,73,NONE,2024-12-16
+30,Cortadora láser,Sala 2C,213,57.1,0.59,113,92,NONE,2024-09-02
+6,Máquina de soldadura,Sala 3A,514,72.5,0.6,176,94,NONE,2025-07-08
+22,Fresadora CNC,Sala 1A,1044,90.2,0.81,150,98,NONE,2025-04-27
+10,Máquina de soldadura,Sala 3C,546,76.7,0.23,82,79,NONE,2025-01-10
+4,Cortadora láser,Sala 1C,749,81.0,0.44,137,61,NONE,2024-08-09
+22,Rectificadora,Sala 2A,444,40.6,0.0,111,78,NONE,2025-05-02
+29,Rectificadora,Sala 4A,752,88.7,0.22,110,96,NONE,2025-04-29
+18,Inyectora,Sala 1A,1990,67.8,0.52,161,77,NONE,2024-09-21
+26,Rectificadora,Sala 4B,357,60.8,0.0,122,75,NONE,2024-08-21
+12,Rectificadora,Sala 4A,1841,67.9,0.21,214,63,NONE,2025-02-21
+2,Dobladora,Sala 1C,232,52.2,0.12,184,71,NONE,2024-12-09
+10,Torno CNC,Sala 1B,678,82.6,0.44,80,88,OVERHEAT,2024-11-03
+30,Dobladora,Sala 1B,1867,66.0,0.57,140,66,NONE,2024-12-14
+4,Dobladora,Sala 1A,559,61.1,0.62,93,73,NONE,2025-03-26
+14,Inyectora,Sala 3B,1781,68.0,0.7,85,71,LOW_OIL,2025-02-02
+16,Dobladora,Sala 1C,595,83.4,0.81,182,94,NONE,2025-07-21
+15,Rectificadora,Sala 1C,1637,71.6,0.58,89,64,NONE,2024-08-17
+8,Cortadora láser,Sala 2C,673,53.1,0.97,150,76,NONE,2025-03-19
+14,Inyectora,Sala 3B,1837,75.6,0.44,169,91,OVERHEAT,2025-04-06
+23,Inyectora,Sala 3C,643,58.9,0.35,205,69,LOW_OIL,2024-08-04
+28,Prensa hidráulica,Sala 3C,793,44.1,0.58,176,76,NONE,2025-06-18
+25,Inyectora,Sala 2A,1300,88.0,0.34,153,64,NONE,2025-05-15
+30,Prensa hidráulica,Sala 2B,1818,75.5,0.96,194,68,NONE,2024-10-09
+8,Inyectora,Sala 1B,1806,69.1,0.74,130,92,NONE,2025-06-24
+21,Torno CNC,Sala 4B,1509,65.9,0.63,135,95,NONE,2024-10-30
+16,Rectificadora,Sala 3C,1998,86.8,0.44,120,95,NONE,2025-07-14
+13,Inyectora,Sala 3B,1495,100.0,0.28,111,77,NONE,2024-08-15
+18,Rectificadora,Sala 1C,603,75.4,0.61,94,68,NONE,2024-08-31
+15,Rectificadora,Sala 4B,70,57.6,0.06,141,88,NONE,2025-06-23
+21,Máquina de soldadura,Sala 4C,603,68.1,0.86,107,73,NONE,2025-05-29
+24,Inyectora,Sala 3C,446,75.2,0.35,143,84,NONE,2025-02-09
+26,Fresadora CNC,Sala 1C,674,41.8,0.49,209,74,OVERHEAT,2025-01-18
+25,Máquina de soldadura,Sala 3C,154,74.0,0.13,206,65,NONE,2024-08-17
+28,Fresadora CNC,Sala 1B,241,75.2,0.62,115,88,NONE,2025-07-06
+28,Rectificadora,Sala 4C,66,85.9,0.26,193,74,NONE,2025-03-31
+28,Rectificadora,Sala 4A,1193,84.7,0.59,92,88,NONE,2025-01-22
+13,Máquina de soldadura,Sala 3C,442,71.3,0.63,94,63,LOW_OIL,2024-10-28
+9,Máquina de soldadura,Sala 3B,474,88.2,0.21,168,77,NONE,2025-06-22
+29,Fresadora CNC,Sala 3C,178,94.4,0.06,101,98,NONE,2025-07-15
+15,Prensa hidráulica,Sala 2B,1203,70.3,0.86,153,75,NONE,2025-05-06
+13,Fresadora CNC,Sala 4B,621,75.0,0.34,104,70,NONE,2025-01-14
+1,Máquina de soldadura,Sala 4B,1633,48.8,0.47,180,73,NONE,2024-09-08
+25,Cortadora láser,Sala 1B,78,52.6,0.55,196,62,NONE,2025-01-16
+7,Máquina de soldadura,Sala 3B,1170,59.9,0.02,120,97,NONE,2025-05-18
+9,Cortadora láser,Sala 4C,1083,64.7,0.54,167,77,NONE,2024-08-11
+24,Torno CNC,Sala 2C,291,56.8,0.43,189,79,NONE,2025-03-22
+1,Máquina de soldadura,Sala 3B,1899,69.6,0.21,199,84,LOW_OIL,2024-08-23
+12,Torno CNC,Sala 4B,281,65.0,0.05,176,97,NONE,2025-05-27
+8,Prensa hidráulica,Sala 2B,838,82.9,0.58,136,72,OVERHEAT,2025-04-19
+24,Fresadora CNC,Sala 4A,1357,64.3,0.74,209,63,NONE,2024-10-23
+11,Cortadora láser,Sala 1B,764,42.6,0.45,175,73,NONE,2025-02-26
+19,Fresadora CNC,Sala 2C,808,71.5,0.0,200,92,NONE,2024-10-20
+17,Torno CNC,Sala 2B,851,69.8,0.08,141,87,NONE,2024-11-02
+8,Cortadora láser,Sala 4C,825,59.7,0.27,216,96,NONE,2025-07-16
+3,Fresadora CNC,Sala 4C,775,71.1,0.87,147,67,NONE,2024-10-15
+3,Máquina de soldadura,Sala 2B,249,57.1,0.33,160,93,NONE,2024-10-25
+1,Rectificadora,Sala 1A,994,74.0,0.26,96,64,NONE,2024-09-27
+27,Torno CNC,Sala 1B,128,100.0,0.0,196,64,NONE,2025-07-17
+5,Fresadora CNC,Sala 3B,1986,48.3,0.2,129,90,NONE,2024-12-29
+10,Torno CNC,Sala 1C,1005,63.8,0.03,191,68,NONE,2025-03-22
+7,Dobladora,Sala 4A,1928,61.9,0.1,173,91,NONE,2025-03-24
+26,Torno CNC,Sala 1C,905,64.8,0.44,164,92,NONE,2025-06-22
+9,Cortadora láser,Sala 3B,1246,82.2,0.28,153,62,NONE,2025-07-24
+28,Dobladora,Sala 3B,516,76.5,0.91,188,89,NONE,2025-01-02
+7,Inyectora,Sala 1B,630,80.2,0.72,97,71,NONE,2025-07-19
+9,Cortadora láser,Sala 3B,1489,70.4,0.22,121,88,NONE,2024-10-01
+8,Rectificadora,Sala 4B,989,54.1,0.12,180,62,NONE,2025-07-20
+12,Dobladora,Sala 1A,498,56.6,0.81,124,85,NONE,2025-05-06
+2,Inyectora,Sala 2C,136,79.0,0.9,161,89,NONE,2024-10-24
+1,Máquina de soldadura,Sala 3B,150,72.0,0.0,96,68,NONE,2025-01-29
+16,Torno CNC,Sala 1C,1081,85.1,0.43,152,85,NONE,2024-08-21
+23,Fresadora CNC,Sala 3B,894,73.5,0.32,93,61,NONE,2024-09-07
+23,Prensa hidráulica,Sala 4C,1273,55.8,0.59,211,62,NONE,2024-08-20
+30,Torno CNC,Sala 1A,1578,63.7,0.98,161,63,NONE,2025-03-11
+24,Inyectora,Sala 4B,136,76.8,0.25,199,84,LOW_OIL,2025-06-30
+5,Torno CNC,Sala 4B,92,78.5,0.0,199,72,NONE,2024-09-03
+3,Rectificadora,Sala 3C,1458,80.3,0.57,126,98,NONE,2025-01-23
+12,Máquina de soldadura,Sala 4B,1694,57.4,0.82,186,94,NONE,2025-02-07
+8,Prensa hidráulica,Sala 3C,1508,55.6,0.31,187,82,NONE,2024-08-21
+22,Dobladora,Sala 2B,457,67.7,0.19,88,68,NONE,2025-01-28
+27,Dobladora,Sala 4A,1556,87.3,0.27,158,61,NONE,2025-04-21
+3,Dobladora,Sala 2A,713,61.7,0.66,94,90,OVERHEAT,2025-06-22
+1,Inyectora,Sala 4B,1090,75.5,0.26,98,61,NONE,2025-04-05
+3,Cortadora láser,Sala 2C,1718,75.5,0.5,169,91,NONE,2025-03-01
+5,Cortadora láser,Sala 4C,197,79.1,0.41,105,77,OVERHEAT,2024-12-06
+15,Fresadora CNC,Sala 3A,326,90.0,0.38,171,72,OVERHEAT,2024-10-26
+14,Prensa hidráulica,Sala 2B,281,88.7,0.61,161,64,NONE,2024-08-23
+3,Dobladora,Sala 4B,1899,62.9,0.26,210,69,OVERHEAT,2025-06-17
+1,Cortadora láser,Sala 4A,415,44.8,0.27,121,84,NONE,2025-03-12
+5,Inyectora,Sala 3C,1301,61.9,0.64,98,93,OVERHEAT,2024-08-25
+26,Fresadora CNC,Sala 1C,1724,70.9,0.1,96,96,NONE,2024-12-02
+23,Máquina de soldadura,Sala 3A,485,65.7,0.14,155,89,NONE,2024-09-09
+14,Fresadora CNC,Sala 4A,448,93.6,0.02,142,66,NONE,2024-08-14
+7,Cortadora láser,Sala 4A,1284,70.2,0.65,210,65,NONE,2025-02-15
+27,Rectificadora,Sala 4B,1464,77.8,0.37,186,62,NONE,2025-06-17
+9,Inyectora,Sala 2B,548,72.6,0.01,128,72,NONE,2025-02-25
+15,Rectificadora,Sala 3A,589,65.8,0.66,134,62,NONE,2024-09-20
+15,Dobladora,Sala 1B,612,46.9,0.23,178,85,NONE,2025-06-26
+26,Rectificadora,Sala 2A,1564,69.1,0.14,131,83,NONE,2025-03-03
+10,Dobladora,Sala 1B,491,100.0,0.34,179,65,NONE,2025-05-10
+28,Dobladora,Sala 4C,1334,55.1,0.84,196,71,NONE,2025-03-02
+13,Cortadora láser,Sala 3A,822,48.2,0.28,197,95,NONE,2024-12-08
+19,Rectificadora,Sala 1B,399,93.2,0.57,86,61,OVERHEAT,2025-05-22
+7,Dobladora,Sala 4B,1425,78.9,0.62,125,70,NONE,2024-08-12
+17,Prensa hidráulica,Sala 1A,569,72.2,0.53,125,98,NONE,2024-08-14
+20,Máquina de soldadura,Sala 3C,1393,86.4,0.78,179,93,NONE,2024-10-29
+29,Fresadora CNC,Sala 1A,187,60.0,0.19,133,85,NONE,2024-08-31
+4,Fresadora CNC,Sala 3B,1623,68.7,0.09,141,77,NONE,2025-01-22
+30,Cortadora láser,Sala 1B,1696,81.5,0.08,208,80,NONE,2024-11-06
+5,Rectificadora,Sala 4C,1041,95.3,0.36,128,95,NONE,2024-10-30
+23,Rectificadora,Sala 3B,417,56.0,0.12,104,99,NONE,2025-02-06
+7,Dobladora,Sala 1C,1293,85.4,0.44,89,81,NONE,2024-11-08
+13,Inyectora,Sala 2C,1410,74.6,0.42,197,89,NONE,2024-12-10
+15,Torno CNC,Sala 1C,1296,72.0,0.71,171,89,OVERHEAT,2025-06-22
+11,Dobladora,Sala 3A,1721,69.9,0.49,213,67,NONE,2024-12-23
+29,Máquina de soldadura,Sala 4A,1841,53.4,0.28,159,93,NONE,2025-06-05
+4,Prensa hidráulica,Sala 3C,409,81.6,0.52,150,68,NONE,2024-12-27
+13,Fresadora CNC,Sala 1B,970,60.6,0.09,157,79,NONE,2025-06-26
+7,Dobladora,Sala 4C,378,57.0,0.39,122,99,NONE,2025-06-16
+27,Torno CNC,Sala 4C,1011,80.6,0.5,169,84,NONE,2024-08-12
+19,Torno CNC,Sala 2B,512,79.5,0.44,157,78,OVERHEAT,2025-04-16
+22,Dobladora,Sala 2C,995,70.9,0.52,105,64,NONE,2025-02-02
+28,Cortadora láser,Sala 2A,1012,83.0,0.21,200,70,NONE,2025-07-08
+2,Fresadora CNC,Sala 2A,1634,87.1,0.75,124,74,NONE,2025-05-30
+10,Cortadora láser,Sala 2A,1877,85.7,0.95,142,67,NONE,2024-12-11
+13,Prensa hidráulica,Sala 1B,1455,63.7,0.0,147,78,NONE,2025-06-09
+30,Torno CNC,Sala 2A,885,82.2,0.04,81,82,NONE,2025-05-19
+25,Torno CNC,Sala 4B,1663,72.5,0.41,187,86,NONE,2025-01-09
+21,Máquina de soldadura,Sala 1A,1690,90.7,0.32,109,99,NONE,2025-03-05
+6,Prensa hidráulica,Sala 4C,218,68.5,0.97,128,91,NONE,2024-09-05
+28,Torno CNC,Sala 2C,266,65.7,0.47,219,85,NONE,2025-07-02
+28,Prensa hidráulica,Sala 1A,427,62.6,0.82,123,86,NONE,2025-04-22
+12,Fresadora CNC,Sala 4A,168,72.3,0.0,92,78,NONE,2024-11-25
+12,Rectificadora,Sala 2C,239,75.6,0.64,157,88,NONE,2024-11-30
+20,Torno CNC,Sala 1A,816,75.8,0.19,205,98,NONE,2025-06-01
+30,Máquina de soldadura,Sala 2C,419,74.2,0.18,177,92,NONE,2025-03-09
+30,Fresadora CNC,Sala 4A,1851,78.1,0.33,105,78,NONE,2024-08-26
+11,Dobladora,Sala 3B,198,67.3,0.0,127,96,NONE,2024-10-26
+26,Prensa hidráulica,Sala 4B,1749,59.5,0.53,145,78,NONE,2025-06-14
+23,Dobladora,Sala 1B,701,58.5,0.46,166,92,NONE,2025-04-18
+28,Cortadora láser,Sala 1B,1932,81.7,0.48,158,75,NONE,2025-01-23
+25,Fresadora CNC,Sala 4C,1561,75.6,0.67,102,82,NONE,2025-03-19
+7,Dobladora,Sala 2A,819,47.7,0.85,160,66,NONE,2024-12-08
+30,Inyectora,Sala 4B,423,83.2,0.29,127,85,NONE,2024-09-11
+1,Inyectora,Sala 1C,830,92.6,0.54,203,91,LOW_OIL,2025-04-30
+1,Torno CNC,Sala 2A,1766,61.4,0.49,209,71,NONE,2024-11-11
+25,Prensa hidráulica,Sala 4C,209,74.0,0.51,163,67,NONE,2024-12-28
+27,Rectificadora,Sala 3A,400,64.3,0.52,99,64,LOW_OIL,2024-12-22
+30,Fresadora CNC,Sala 4B,1985,77.5,0.88,125,87,NONE,2025-04-16
+25,Torno CNC,Sala 1A,1361,56.0,0.26,210,64,NONE,2025-06-06
+20,Máquina de soldadura,Sala 2C,1361,69.1,0.0,91,85,NONE,2025-01-05
+13,Cortadora láser,Sala 1C,941,81.8,0.19,119,64,NONE,2024-11-09
+9,Prensa hidráulica,Sala 4B,1299,84.8,0.63,145,81,OVERHEAT,2025-01-28
+3,Fresadora CNC,Sala 4A,572,75.1,0.41,179,74,NONE,2024-11-22
+7,Inyectora,Sala 3A,571,65.9,0.26,157,72,NONE,2025-03-24
+6,Fresadora CNC,Sala 4A,832,50.9,0.08,95,87,NONE,2024-08-17
+8,Rectificadora,Sala 1B,322,60.9,0.47,162,92,NONE,2025-02-04
+27,Inyectora,Sala 1B,985,64.4,0.59,123,82,NONE,2024-08-26
+9,Rectificadora,Sala 2A,1475,61.6,0.49,213,92,NONE,2025-03-11
+30,Máquina de soldadura,Sala 1A,232,70.7,0.32,179,77,NONE,2025-05-27
+5,Cortadora láser,Sala 1C,1738,65.9,0.44,101,89,NONE,2025-01-13
+1,Máquina de soldadura,Sala 3C,537,72.1,0.44,97,85,NONE,2024-10-30
+19,Torno CNC,Sala 3A,1900,84.4,0.46,91,75,NONE,2024-11-07
+10,Torno CNC,Sala 3A,895,65.1,0.04,202,72,NONE,2025-04-21
+12,Máquina de soldadura,Sala 4B,173,53.4,0.46,196,98,NONE,2025-03-22
+24,Cortadora láser,Sala 2A,1034,61.6,0.27,130,92,NONE,2025-06-14
+15,Máquina de soldadura,Sala 1B,1699,77.0,0.71,150,85,HIGH_VIBRATION,2024-11-13
+27,Cortadora láser,Sala 2A,839,78.1,0.44,127,60,NONE,2025-07-18
+22,Cortadora láser,Sala 2C,463,74.9,0.65,98,97,NONE,2024-12-21
+24,Dobladora,Sala 4B,1798,85.6,0.31,85,61,NONE,2025-05-17
+9,Inyectora,Sala 4B,1245,67.8,0.32,163,65,LOW_OIL,2025-05-17
+20,Prensa hidráulica,Sala 1C,1361,94.6,0.85,132,97,NONE,2025-05-05
+17,Cortadora láser,Sala 1A,1508,79.8,0.53,186,83,NONE,2025-06-25
+30,Rectificadora,Sala 4C,735,39.7,0.19,180,77,NONE,2025-05-13
+17,Cortadora láser,Sala 3B,162,91.6,0.67,127,86,LOW_OIL,2024-11-05
+26,Cortadora láser,Sala 4C,937,60.8,0.24,214,67,NONE,2025-04-27
+20,Cortadora láser,Sala 2B,1990,57.6,0.47,148,87,NONE,2024-12-29
+12,Dobladora,Sala 2B,171,76.3,0.95,90,69,LOW_OIL,2024-12-24
+30,Inyectora,Sala 4B,1617,49.1,0.0,210,76,NONE,2024-09-06
+7,Dobladora,Sala 2A,1295,61.7,0.35,201,88,NONE,2024-11-01
+2,Torno CNC,Sala 2C,1704,88.7,0.52,148,65,NONE,2024-10-05
+3,Dobladora,Sala 1C,88,76.7,0.63,102,73,OVERHEAT,2024-12-30
+17,Rectificadora,Sala 3C,546,79.7,0.03,116,81,NONE,2024-08-26
+5,Rectificadora,Sala 2B,829,62.1,0.0,88,65,HIGH_VIBRATION,2025-05-09
+17,Dobladora,Sala 1C,1306,51.5,0.73,94,85,NONE,2024-10-10
+24,Inyectora,Sala 4B,992,78.5,0.18,210,98,NONE,2025-06-08
+17,Máquina de soldadura,Sala 1A,1603,81.2,0.17,172,71,HIGH_VIBRATION,2025-04-06
+27,Prensa hidráulica,Sala 4A,198,80.6,0.87,96,94,NONE,2025-01-06
+17,Inyectora,Sala 4C,1470,72.5,0.42,151,73,NONE,2024-12-27
+2,Dobladora,Sala 2C,1071,58.4,0.42,200,81,NONE,2025-02-21
+2,Cortadora láser,Sala 1B,710,99.3,0.35,90,82,NONE,2025-07-15
+28,Fresadora CNC,Sala 1C,1711,75.8,0.03,151,66,NONE,2024-08-06
+22,Prensa hidráulica,Sala 1A,1977,67.9,0.6,185,99,NONE,2025-02-18
+23,Prensa hidráulica,Sala 3C,351,68.0,0.52,204,84,NONE,2024-11-06
+5,Rectificadora,Sala 3B,1433,71.8,0.45,114,72,NONE,2025-05-09
+1,Prensa hidráulica,Sala 4C,287,82.8,0.37,198,80,NONE,2024-11-10
+1,Dobladora,Sala 1B,696,72.3,0.31,93,69,HIGH_VIBRATION,2025-03-16
+19,Cortadora láser,Sala 4C,712,80.3,0.67,93,68,NONE,2025-05-19
+30,Cortadora láser,Sala 4B,285,71.8,0.36,89,74,NONE,2024-12-09
+2,Torno CNC,Sala 3B,1809,68.7,0.38,219,61,NONE,2025-02-12
+21,Cortadora láser,Sala 4C,252,77.7,0.56,117,84,NONE,2025-07-10
+12,Inyectora,Sala 3C,305,77.2,0.46,187,72,NONE,2024-12-05
+26,Cortadora láser,Sala 1A,647,68.0,0.89,198,93,NONE,2025-01-11
+6,Rectificadora,Sala 2B,711,61.0,0.0,113,93,LOW_OIL,2024-08-10
+23,Cortadora láser,Sala 3B,284,74.1,0.49,89,94,HIGH_VIBRATION,2025-06-25
+4,Torno CNC,Sala 4B,1418,70.9,0.19,201,97,NONE,2024-07-31
+23,Fresadora CNC,Sala 1B,583,63.3,0.12,194,62,OVERHEAT,2024-08-21
+11,Dobladora,Sala 2A,909,59.9,0.26,80,65,NONE,2024-08-28
+24,Rectificadora,Sala 3A,1870,74.9,0.42,91,78,NONE,2024-09-12
+27,Inyectora,Sala 1C,1854,76.6,0.43,182,62,OVERHEAT,2024-10-02
+17,Fresadora CNC,Sala 4C,1539,65.7,0.0,83,77,NONE,2024-08-29
+6,Rectificadora,Sala 2B,819,63.0,0.24,177,98,NONE,2024-12-17
+24,Máquina de soldadura,Sala 3B,590,60.0,0.48,185,68,NONE,2025-02-28
+5,Prensa hidráulica,Sala 4C,262,74.6,0.14,164,71,NONE,2024-11-08
+20,Máquina de soldadura,Sala 4A,512,60.4,0.07,200,64,NONE,2024-10-06
+2,Cortadora láser,Sala 1C,485,96.9,0.0,211,62,NONE,2024-09-29
+6,Fresadora CNC,Sala 2A,332,65.1,0.2,161,70,HIGH_VIBRATION,2025-03-04
+22,Cortadora láser,Sala 3C,1635,40.9,0.06,98,89,NONE,2024-12-02
+11,Prensa hidráulica,Sala 3A,1680,69.6,0.1,209,63,NONE,2025-04-01
+16,Rectificadora,Sala 1A,1536,69.1,0.32,91,64,NONE,2025-04-26
+16,Prensa hidráulica,Sala 4C,1480,83.3,0.22,160,60,NONE,2024-12-29
+1,Torno CNC,Sala 2A,137,73.5,0.05,153,86,NONE,2025-02-11
+9,Prensa hidráulica,Sala 2A,1117,60.0,0.0,177,87,NONE,2025-05-02
+28,Torno CNC,Sala 3C,510,66.6,0.49,85,88,OVERHEAT,2025-05-09
+27,Prensa hidráulica,Sala 2C,327,73.9,0.63,215,77,LOW_OIL,2025-02-14
+6,Dobladora,Sala 3C,1756,44.0,0.28,204,71,NONE,2025-07-20
+16,Torno CNC,Sala 4C,470,86.1,0.32,130,72,OVERHEAT,2025-05-08
+29,Fresadora CNC,Sala 2C,1774,60.0,0.4,90,61,NONE,2025-04-25
+3,Cortadora láser,Sala 2C,1426,87.0,0.87,206,96,NONE,2025-04-29
+20,Inyectora,Sala 2B,745,74.7,0.0,219,75,NONE,2024-10-28
+28,Cortadora láser,Sala 2B,564,77.6,0.28,152,83,NONE,2025-04-12
+27,Máquina de soldadura,Sala 1B,752,83.8,0.0,81,94,NONE,2024-08-20
+4,Cortadora láser,Sala 3B,1703,76.9,0.51,87,81,NONE,2025-01-31
+19,Rectificadora,Sala 3B,68,78.1,0.36,218,95,NONE,2025-06-01
+26,Dobladora,Sala 4B,72,68.0,0.46,203,70,HIGH_VIBRATION,2024-12-26
+3,Prensa hidráulica,Sala 1A,462,74.5,0.45,132,88,NONE,2025-04-21
+19,Máquina de soldadura,Sala 3B,1103,63.0,0.7,89,94,NONE,2024-12-14
+20,Rectificadora,Sala 2B,1880,65.9,0.56,191,74,NONE,2025-07-16
+7,Rectificadora,Sala 1B,157,93.6,0.65,87,90,NONE,2025-06-02
+20,Torno CNC,Sala 1B,1440,60.3,0.08,115,75,NONE,2025-05-09
+9,Cortadora láser,Sala 2C,1354,71.9,0.76,185,69,NONE,2024-12-31
+1,Fresadora CNC,Sala 4B,1201,71.4,0.18,93,91,NONE,2024-09-12
+8,Inyectora,Sala 3C,1302,66.3,0.2,165,61,NONE,2024-09-26
+7,Fresadora CNC,Sala 1A,1184,76.2,0.48,129,83,NONE,2024-09-18
+18,Máquina de soldadura,Sala 4C,185,77.1,0.49,99,82,NONE,2024-08-29
+8,Dobladora,Sala 2C,411,58.9,0.08,166,61,NONE,2025-04-04
+1,Fresadora CNC,Sala 3C,1259,71.2,0.35,214,97,NONE,2024-08-08
+11,Prensa hidráulica,Sala 3B,1729,57.0,0.85,216,90,NONE,2025-02-10
+28,Fresadora CNC,Sala 4B,1657,79.5,0.0,208,99,NONE,2024-10-19
+25,Máquina de soldadura,Sala 2C,178,72.1,0.85,117,85,NONE,2025-06-28
+25,Inyectora,Sala 1C,1949,71.0,0.33,123,88,NONE,2025-05-16
+18,Fresadora CNC,Sala 3B,1334,77.9,0.0,165,62,NONE,2024-12-19
+23,Prensa hidráulica,Sala 3C,564,66.7,0.0,123,73,NONE,2025-01-17
+30,Torno CNC,Sala 1A,498,81.0,0.11,153,84,NONE,2024-08-26
+10,Dobladora,Sala 4C,1973,58.6,0.21,198,60,NONE,2024-09-22
+3,Máquina de soldadura,Sala 3C,1177,86.9,0.37,201,62,LOW_OIL,2025-03-23
+7,Torno CNC,Sala 2C,1556,63.4,0.0,213,85,OVERHEAT,2025-07-06
+28,Torno CNC,Sala 2C,1297,49.6,0.46,130,77,NONE,2024-11-10
+16,Torno CNC,Sala 4C,1905,66.1,0.08,117,68,NONE,2024-10-02
+26,Rectificadora,Sala 2A,923,64.7,0.82,130,97,NONE,2025-07-03
+16,Dobladora,Sala 1A,1939,66.0,0.32,89,82,HIGH_VIBRATION,2025-06-15
+25,Inyectora,Sala 4A,1564,72.8,0.68,199,80,HIGH_VIBRATION,2025-06-17
+20,Cortadora láser,Sala 3B,522,83.2,0.73,149,60,NONE,2025-06-07
+28,Dobladora,Sala 1B,1083,67.7,0.72,164,80,NONE,2025-01-23
+17,Rectificadora,Sala 4C,1478,61.7,0.23,136,86,NONE,2025-05-11
+2,Cortadora láser,Sala 1A,1969,56.5,0.23,205,65,NONE,2024-12-28
+1,Dobladora,Sala 1B,351,64.4,0.33,118,95,NONE,2025-01-23
+16,Torno CNC,Sala 1A,280,47.3,0.59,112,87,NONE,2025-04-09
+30,Máquina de soldadura,Sala 1A,1804,61.3,0.25,97,76,LOW_OIL,2025-01-18
+12,Cortadora láser,Sala 3C,972,84.9,0.36,136,99,NONE,2024-11-03
+5,Prensa hidráulica,Sala 1A,1139,60.1,0.48,175,62,NONE,2025-04-30
+5,Prensa hidráulica,Sala 2A,986,77.5,0.13,127,71,LOW_OIL,2024-09-04
+27,Fresadora CNC,Sala 4A,161,55.3,0.11,121,98,LOW_OIL,2024-08-28
+23,Cortadora láser,Sala 2C,1086,91.3,0.35,106,71,NONE,2025-03-10
+9,Máquina de soldadura,Sala 3A,1466,92.1,0.39,153,61,NONE,2024-08-13
+9,Inyectora,Sala 1B,549,77.1,0.53,189,81,NONE,2024-08-23
+3,Rectificadora,Sala 2C,981,93.9,0.6,111,82,NONE,2025-04-21
+19,Torno CNC,Sala 3A,647,74.3,0.07,105,89,HIGH_VIBRATION,2024-09-02
+16,Fresadora CNC,Sala 4A,283,79.2,0.16,104,64,LOW_OIL,2024-11-22
+16,Prensa hidráulica,Sala 4A,651,85.1,0.11,154,68,NONE,2025-04-26
+3,Rectificadora,Sala 1B,363,72.2,0.82,102,80,NONE,2025-05-27
+20,Rectificadora,Sala 1B,615,51.4,0.36,136,70,NONE,2025-06-27
+24,Torno CNC,Sala 4A,1085,79.5,0.4,205,64,LOW_OIL,2025-05-14
+22,Inyectora,Sala 3A,258,64.3,0.42,166,94,NONE,2024-10-28
+24,Inyectora,Sala 4C,1087,65.2,0.19,110,86,NONE,2025-07-01
+1,Cortadora láser,Sala 1A,1706,73.6,0.87,143,61,NONE,2025-04-04
+24,Prensa hidráulica,Sala 3B,1491,76.8,0.52,112,83,NONE,2024-09-28
+20,Inyectora,Sala 4B,1510,71.8,0.41,81,90,NONE,2025-05-30
+11,Máquina de soldadura,Sala 1C,1450,77.6,0.07,97,92,NONE,2024-12-14
+17,Inyectora,Sala 4B,1093,61.5,0.05,163,98,LOW_OIL,2025-03-27
+8,Rectificadora,Sala 2C,636,69.5,0.31,114,89,LOW_OIL,2025-01-27
+4,Torno CNC,Sala 3C,1985,80.2,0.19,193,96,NONE,2024-10-10
+6,Máquina de soldadura,Sala 2C,1828,91.3,0.08,189,87,NONE,2024-10-17
+8,Cortadora láser,Sala 3C,1808,95.5,0.29,167,90,NONE,2025-01-17
+20,Prensa hidráulica,Sala 3A,1064,75.2,0.34,151,70,NONE,2025-05-20
+30,Cortadora láser,Sala 3C,1143,80.1,0.44,204,82,NONE,2024-09-30
+3,Rectificadora,Sala 1B,1897,93.8,0.25,109,61,LOW_OIL,2024-11-18
+16,Máquina de soldadura,Sala 4C,1284,61.9,0.1,132,99,NONE,2025-05-10
+30,Máquina de soldadura,Sala 3B,1174,77.6,0.11,217,86,NONE,2025-03-10
+25,Máquina de soldadura,Sala 3B,747,79.2,0.76,166,94,LOW_OIL,2025-02-11
+3,Rectificadora,Sala 1B,181,87.4,0.02,218,61,HIGH_VIBRATION,2024-12-04
+25,Rectificadora,Sala 4C,1696,56.4,0.51,92,98,NONE,2024-11-12
+29,Cortadora láser,Sala 2A,1454,58.7,0.56,119,96,NONE,2024-10-04
+18,Fresadora CNC,Sala 4B,1205,70.3,0.36,168,80,NONE,2025-02-05
+14,Cortadora láser,Sala 3A,1093,74.5,0.93,147,64,NONE,2024-09-11
+18,Prensa hidráulica,Sala 4B,1979,83.5,0.55,121,80,NONE,2025-02-01
+2,Torno CNC,Sala 2A,585,76.2,0.95,173,88,NONE,2024-08-14
+22,Máquina de soldadura,Sala 2A,1063,68.2,0.2,98,79,HIGH_VIBRATION,2025-07-07
+3,Fresadora CNC,Sala 2C,276,75.0,0.21,102,97,NONE,2025-05-16
+16,Torno CNC,Sala 4A,1227,73.6,0.56,133,79,NONE,2024-08-21
+29,Fresadora CNC,Sala 2C,1878,90.9,0.32,144,84,NONE,2025-03-31
+9,Inyectora,Sala 4A,1815,72.0,0.91,219,61,NONE,2025-05-06
+4,Inyectora,Sala 1C,1542,65.4,0.5,103,91,OVERHEAT,2025-07-10
+1,Dobladora,Sala 3C,871,75.4,0.09,113,85,NONE,2025-01-30
+4,Inyectora,Sala 4C,920,72.4,0.0,132,65,NONE,2024-10-29
+1,Cortadora láser,Sala 4A,454,51.1,0.38,215,62,NONE,2025-03-28
+14,Inyectora,Sala 4B,251,69.8,0.37,97,92,NONE,2024-09-29
+21,Rectificadora,Sala 1B,87,68.8,0.49,136,60,NONE,2025-01-18
+16,Máquina de soldadura,Sala 2C,991,63.5,0.76,191,64,NONE,2025-05-29
+20,Cortadora láser,Sala 4C,1845,82.4,0.72,84,72,NONE,2025-01-07
+24,Torno CNC,Sala 3A,237,60.6,0.23,92,78,NONE,2025-07-08
+8,Dobladora,Sala 4C,1130,75.5,0.01,162,71,NONE,2024-10-10
+7,Dobladora,Sala 3C,990,68.2,0.03,108,84,LOW_OIL,2025-05-31
+3,Dobladora,Sala 1C,1093,71.3,0.18,82,94,LOW_OIL,2024-10-29
+17,Torno CNC,Sala 4A,322,74.9,0.29,169,71,NONE,2024-09-25
+1,Torno CNC,Sala 1C,1192,54.3,0.49,183,89,NONE,2025-04-29
+16,Torno CNC,Sala 3A,632,72.3,0.16,202,64,NONE,2024-09-10
+12,Torno CNC,Sala 2A,565,97.5,0.48,155,93,NONE,2025-06-26
+27,Dobladora,Sala 3B,1294,51.3,0.51,209,81,NONE,2025-07-03
+19,Dobladora,Sala 3A,575,69.3,0.44,187,98,LOW_OIL,2024-09-07
+22,Fresadora CNC,Sala 2B,1588,83.5,0.06,161,72,LOW_OIL,2024-10-13
+23,Cortadora láser,Sala 3A,1801,73.6,0.54,156,62,NONE,2025-06-07
+22,Máquina de soldadura,Sala 1C,1814,78.3,1.02,81,79,NONE,2025-07-20
+14,Inyectora,Sala 4C,385,41.5,0.47,206,90,OVERHEAT,2024-11-17
+30,Inyectora,Sala 1B,747,77.2,0.0,214,64,NONE,2025-02-12
+6,Rectificadora,Sala 2C,1128,60.9,0.77,105,83,NONE,2025-01-04
+6,Dobladora,Sala 1B,549,73.7,0.19,167,99,NONE,2025-04-15
+13,Rectificadora,Sala 1C,949,69.6,1.08,95,92,NONE,2025-05-15
+19,Cortadora láser,Sala 2C,1961,97.3,0.43,152,67,NONE,2025-02-12
+22,Cortadora láser,Sala 2B,815,76.6,0.0,111,83,NONE,2025-02-02
+8,Rectificadora,Sala 3B,585,68.6,0.0,94,79,NONE,2025-03-06
+27,Dobladora,Sala 3C,211,51.9,0.86,84,75,NONE,2025-03-09
+27,Rectificadora,Sala 4B,1743,71.5,0.73,153,71,NONE,2025-05-20
+2,Inyectora,Sala 1C,643,79.9,1.07,131,72,NONE,2025-01-08
+21,Fresadora CNC,Sala 4C,1988,69.0,0.4,156,98,NONE,2024-08-31
+30,Inyectora,Sala 4A,208,63.9,0.38,189,84,NONE,2024-12-09
+1,Prensa hidráulica,Sala 1C,1261,63.1,0.29,185,91,OVERHEAT,2024-10-17
+28,Dobladora,Sala 1C,109,76.4,0.2,206,83,NONE,2025-02-03
+15,Dobladora,Sala 2C,964,79.1,0.28,86,68,NONE,2024-09-12
+1,Máquina de soldadura,Sala 1A,1890,86.3,0.47,119,99,HIGH_VIBRATION,2025-06-15
+5,Torno CNC,Sala 3A,1392,58.1,0.15,178,82,NONE,2025-07-18
+28,Prensa hidráulica,Sala 4C,1951,76.3,0.0,164,72,NONE,2025-02-01
+29,Cortadora láser,Sala 1A,260,68.5,0.45,144,91,NONE,2025-02-24
+16,Dobladora,Sala 2B,455,68.9,0.14,211,74,NONE,2024-12-26
+19,Rectificadora,Sala 4A,713,74.8,0.0,90,95,NONE,2024-09-26
+4,Prensa hidráulica,Sala 3B,1182,74.9,0.57,187,64,LOW_OIL,2025-04-30
+3,Máquina de soldadura,Sala 2A,1149,76.3,0.07,105,81,NONE,2024-11-14
+17,Cortadora láser,Sala 2B,591,57.3,0.6,164,75,NONE,2025-07-04
+17,Torno CNC,Sala 2A,1387,61.0,0.59,202,69,LOW_OIL,2024-11-10
+12,Torno CNC,Sala 4C,1047,87.8,0.49,147,83,NONE,2025-06-22
+28,Máquina de soldadura,Sala 4C,1190,67.4,1.15,183,77,NONE,2024-11-07
+30,Máquina de soldadura,Sala 2A,976,73.7,0.36,159,77,NONE,2024-12-03
+29,Rectificadora,Sala 4C,917,82.7,0.31,132,66,NONE,2025-07-22
+14,Dobladora,Sala 3B,1777,75.6,0.61,185,63,NONE,2024-08-12
+21,Torno CNC,Sala 1B,68,76.6,0.38,123,85,NONE,2024-09-20
+6,Cortadora láser,Sala 1A,481,80.7,0.75,219,64,NONE,2024-12-10
+3,Prensa hidráulica,Sala 1C,1758,44.6,0.02,169,75,NONE,2024-10-14
+28,Cortadora láser,Sala 3C,789,64.1,0.02,180,94,NONE,2025-05-16
+9,Fresadora CNC,Sala 2A,1423,75.6,0.63,176,85,NONE,2024-09-15
+5,Fresadora CNC,Sala 4A,232,86.7,0.05,88,77,NONE,2024-07-26
+24,Máquina de soldadura,Sala 2B,162,70.8,0.58,91,88,NONE,2024-11-13
+29,Rectificadora,Sala 1B,1256,59.9,0.51,148,82,NONE,2025-03-03
+17,Fresadora CNC,Sala 2A,530,60.2,0.19,107,73,LOW_OIL,2025-07-01
+14,Torno CNC,Sala 1B,1219,80.6,0.51,135,74,NONE,2024-12-03
+21,Cortadora láser,Sala 1B,880,67.4,0.03,178,92,NONE,2024-08-26
+3,Cortadora láser,Sala 2A,1701,69.9,0.1,189,84,NONE,2025-01-31
+28,Máquina de soldadura,Sala 2C,1186,77.4,0.33,156,80,NONE,2024-08-27
+1,Dobladora,Sala 3A,812,35.2,0.42,182,76,NONE,2024-09-03
+20,Dobladora,Sala 4A,525,94.0,0.31,185,82,NONE,2024-08-02
+29,Prensa hidráulica,Sala 1C,812,61.2,0.53,188,76,OVERHEAT,2025-02-16
+21,Máquina de soldadura,Sala 1C,1376,72.9,0.52,191,73,NONE,2024-08-11
+23,Inyectora,Sala 4A,1020,49.5,0.86,137,88,NONE,2024-08-11
+1,Prensa hidráulica,Sala 2C,1898,64.9,0.37,157,79,NONE,2024-10-12
+3,Inyectora,Sala 4C,1069,84.9,0.76,154,89,NONE,2025-07-07
+18,Dobladora,Sala 1C,1191,47.0,0.68,121,78,NONE,2025-06-11
+25,Máquina de soldadura,Sala 1B,1886,83.5,1.09,147,98,NONE,2025-02-20
+10,Inyectora,Sala 3B,210,66.7,0.36,112,72,OVERHEAT,2024-08-04
+22,Máquina de soldadura,Sala 2B,450,75.8,0.27,150,77,NONE,2024-12-06
+26,Máquina de soldadura,Sala 1A,247,77.9,0.78,135,82,NONE,2024-09-12
+3,Dobladora,Sala 1C,1333,75.3,0.52,184,92,NONE,2024-12-12
+8,Prensa hidráulica,Sala 4A,709,59.6,0.78,180,98,NONE,2024-12-20
+14,Prensa hidráulica,Sala 3B,1825,65.6,0.62,130,99,NONE,2025-05-30
+24,Máquina de soldadura,Sala 2A,1120,52.5,0.0,153,77,NONE,2025-06-24
+18,Fresadora CNC,Sala 3A,448,75.9,0.51,200,68,NONE,2024-08-02
+15,Rectificadora,Sala 4A,1783,90.4,0.49,84,92,NONE,2025-05-27
+22,Dobladora,Sala 4C,1632,48.1,0.44,162,91,NONE,2024-08-06
+23,Rectificadora,Sala 1B,127,60.9,0.36,130,76,NONE,2024-12-02
+2,Rectificadora,Sala 3A,173,67.8,0.0,89,78,HIGH_VIBRATION,2025-04-09
+27,Prensa hidráulica,Sala 2B,124,72.1,0.66,219,86,NONE,2025-01-15
+10,Prensa hidráulica,Sala 2B,1944,80.6,0.51,83,65,NONE,2025-07-07
+2,Fresadora CNC,Sala 2C,186,68.2,0.73,174,94,HIGH_VIBRATION,2024-12-11
+26,Rectificadora,Sala 3C,651,66.2,0.0,159,96,NONE,2025-02-08
+17,Rectificadora,Sala 2C,1473,83.2,0.55,115,93,NONE,2025-05-15
+8,Máquina de soldadura,Sala 4C,886,77.9,0.33,104,79,NONE,2024-07-28
+1,Prensa hidráulica,Sala 3B,1578,76.5,0.44,177,84,NONE,2025-06-01
+9,Rectificadora,Sala 3A,549,71.4,0.33,180,63,NONE,2024-11-22
+11,Cortadora láser,Sala 3C,1646,81.8,0.56,88,69,NONE,2024-08-09
+22,Fresadora CNC,Sala 2A,187,62.1,0.35,140,69,NONE,2025-05-10
+16,Inyectora,Sala 1B,99,60.5,0.08,132,83,NONE,2025-06-20
+7,Cortadora láser,Sala 3A,1844,79.0,0.43,142,80,NONE,2024-10-31
+29,Cortadora láser,Sala 2C,1022,50.5,0.34,200,70,NONE,2024-09-11
+10,Inyectora,Sala 1A,1692,71.1,0.37,184,86,NONE,2024-09-28
+23,Dobladora,Sala 4B,1698,66.2,0.0,83,75,NONE,2025-03-26
+26,Dobladora,Sala 3C,1935,53.1,0.6,172,85,NONE,2024-09-04
+3,Fresadora CNC,Sala 3C,303,58.8,0.31,107,89,NONE,2025-06-30
+18,Cortadora láser,Sala 4C,1703,68.7,-0.0,159,75,NONE,2025-02-15
+25,Rectificadora,Sala 1B,759,82.4,0.68,155,66,NONE,2025-05-02
+24,Prensa hidráulica,Sala 1C,1922,62.2,0.59,195,75,NONE,2025-04-02
+13,Fresadora CNC,Sala 2B,1950,84.6,0.3,148,94,NONE,2024-12-14
+28,Máquina de soldadura,Sala 2B,612,70.8,0.05,177,75,NONE,2025-02-09
+26,Inyectora,Sala 1A,806,85.7,0.45,80,99,LOW_OIL,2025-01-15
+7,Cortadora láser,Sala 3B,1988,62.7,0.44,175,71,NONE,2025-01-31
+25,Fresadora CNC,Sala 4C,1499,69.4,0.68,96,94,NONE,2025-07-24
+4,Torno CNC,Sala 3B,596,74.4,0.27,191,80,NONE,2024-12-08
+13,Torno CNC,Sala 2A,1375,67.8,0.76,170,95,NONE,2025-04-30
+20,Dobladora,Sala 3A,971,81.4,0.24,167,76,NONE,2025-05-24
+1,Inyectora,Sala 4B,630,43.5,-0.0,169,91,NONE,2024-09-08
+8,Prensa hidráulica,Sala 4A,1422,99.1,0.06,128,65,NONE,2024-12-31
+14,Rectificadora,Sala 1C,1905,80.3,0.38,117,83,LOW_OIL,2025-04-11
+16,Prensa hidráulica,Sala 2C,98,67.9,0.38,211,86,NONE,2024-09-10
+14,Prensa hidráulica,Sala 4A,966,63.4,0.5,138,79,NONE,2024-10-07
+12,Prensa hidráulica,Sala 4A,1147,59.6,0.37,147,84,NONE,2024-11-17
+19,Inyectora,Sala 4C,753,77.7,0.69,209,61,LOW_OIL,2025-07-12
+23,Prensa hidráulica,Sala 3C,310,81.9,0.32,128,68,NONE,2025-02-12
+15,Máquina de soldadura,Sala 1A,405,68.0,0.0,205,87,NONE,2025-06-12
+28,Inyectora,Sala 2B,1655,83.3,0.36,190,97,LOW_OIL,2025-04-05
+2,Máquina de soldadura,Sala 2A,1675,59.1,0.0,127,62,NONE,2025-01-01
+2,Inyectora,Sala 3B,1333,57.0,0.48,130,79,NONE,2024-11-11
+23,Dobladora,Sala 4B,687,91.8,0.72,122,65,NONE,2024-09-21
+22,Fresadora CNC,Sala 4C,792,77.1,0.1,177,98,NONE,2025-03-03
+19,Torno CNC,Sala 1A,1368,86.8,0.83,203,92,NONE,2025-03-01
+25,Prensa hidráulica,Sala 3C,1059,59.8,0.65,159,60,NONE,2024-09-27
+26,Dobladora,Sala 2C,980,58.9,0.76,190,96,NONE,2025-02-11
+30,Fresadora CNC,Sala 2A,690,65.7,0.46,106,65,NONE,2025-02-06
+29,Torno CNC,Sala 4C,841,60.1,0.1,192,93,NONE,2024-09-30
+22,Cortadora láser,Sala 3C,1386,78.5,0.63,165,74,NONE,2024-12-04
+26,Rectificadora,Sala 4B,661,61.0,0.21,193,85,NONE,2024-10-27
+26,Máquina de soldadura,Sala 2B,1911,55.9,0.44,203,73,NONE,2025-05-26
+22,Cortadora láser,Sala 2B,858,71.7,0.35,128,66,NONE,2024-10-02
+17,Inyectora,Sala 4C,1255,54.5,0.74,155,90,NONE,2024-12-02
+20,Torno CNC,Sala 2B,735,48.4,0.62,134,83,NONE,2025-02-10
+10,Cortadora láser,Sala 1A,1901,71.6,0.38,135,90,NONE,2025-01-12
+6,Rectificadora,Sala 1A,1437,49.0,0.0,174,88,NONE,2024-12-03
+15,Dobladora,Sala 3B,237,79.3,0.21,123,91,OVERHEAT,2025-01-23
+22,Torno CNC,Sala 4C,1642,53.3,0.61,166,76,NONE,2024-08-26
+11,Cortadora láser,Sala 3B,1616,43.1,0.48,163,73,NONE,2024-12-05
+28,Máquina de soldadura,Sala 4C,1669,66.5,0.0,95,99,NONE,2024-07-29
+5,Máquina de soldadura,Sala 2C,1737,71.7,0.0,116,95,NONE,2025-04-09
+1,Fresadora CNC,Sala 4C,1034,75.9,0.46,156,83,NONE,2024-12-14
+8,Cortadora láser,Sala 4B,597,72.1,0.08,124,86,NONE,2025-05-06
+21,Prensa hidráulica,Sala 2A,774,57.3,0.11,141,84,HIGH_VIBRATION,2024-12-03
+28,Cortadora láser,Sala 1B,975,78.6,0.6,179,91,NONE,2025-01-22
+12,Dobladora,Sala 1B,1481,81.5,0.76,131,77,NONE,2025-01-21
+12,Torno CNC,Sala 3C,925,55.5,0.17,98,77,NONE,2025-03-13
+5,Torno CNC,Sala 2B,667,67.8,0.39,188,96,NONE,2024-12-17
+7,Dobladora,Sala 2A,463,66.7,0.38,123,85,HIGH_VIBRATION,2024-10-10
+4,Cortadora láser,Sala 4A,1415,72.6,0.35,86,68,NONE,2024-07-26
+6,Dobladora,Sala 1A,1293,67.5,0.41,196,94,NONE,2025-01-04
+13,Rectificadora,Sala 3A,952,69.2,0.63,147,67,NONE,2025-03-01
+20,Inyectora,Sala 1C,212,77.7,0.2,113,79,NONE,2024-09-04
+30,Dobladora,Sala 2C,1293,56.6,0.0,148,81,NONE,2025-03-20
+15,Máquina de soldadura,Sala 2B,319,78.8,0.91,134,78,NONE,2025-03-12
+3,Dobladora,Sala 2B,681,83.7,0.73,89,89,NONE,2025-04-02
+23,Torno CNC,Sala 4B,955,89.6,0.07,121,87,NONE,2024-11-03
+8,Máquina de soldadura,Sala 2B,1921,44.3,0.44,120,94,NONE,2025-05-22
+20,Torno CNC,Sala 1A,1473,67.8,0.7,201,70,NONE,2025-03-12
+16,Fresadora CNC,Sala 1A,1255,46.4,0.62,217,90,NONE,2025-06-14
+13,Prensa hidráulica,Sala 1C,1691,40.8,0.54,89,98,NONE,2024-10-02
+18,Torno CNC,Sala 4C,1802,71.7,0.35,181,95,NONE,2025-07-22
+28,Máquina de soldadura,Sala 4A,254,65.2,0.92,207,89,NONE,2025-01-12
+10,Fresadora CNC,Sala 2A,631,73.6,0.47,215,82,NONE,2025-04-06
+30,Torno CNC,Sala 2B,1629,75.8,0.25,171,78,NONE,2024-12-16
+19,Rectificadora,Sala 1B,890,85.0,0.66,192,71,LOW_OIL,2025-07-21
+17,Dobladora,Sala 3B,1886,70.6,0.43,157,74,NONE,2024-11-23
+24,Prensa hidráulica,Sala 4B,1301,100.0,0.5,164,90,NONE,2025-02-09
+19,Torno CNC,Sala 4B,1769,73.7,0.46,109,96,NONE,2025-06-29
+28,Fresadora CNC,Sala 1B,1692,92.1,0.55,128,96,NONE,2025-07-08
+26,Rectificadora,Sala 3C,645,42.0,0.11,88,74,NONE,2024-12-21
+23,Cortadora láser,Sala 1B,1923,86.2,0.0,148,88,OVERHEAT,2025-04-24
+26,Fresadora CNC,Sala 3C,299,67.8,0.83,137,85,NONE,2025-06-24
+5,Dobladora,Sala 3A,924,46.6,0.47,141,61,LOW_OIL,2025-01-01
+26,Fresadora CNC,Sala 3B,1514,75.0,0.63,131,79,NONE,2024-12-30
+21,Rectificadora,Sala 4B,1606,66.4,0.0,119,74,NONE,2025-04-09
+30,Fresadora CNC,Sala 1B,245,77.0,0.72,142,63,NONE,2025-03-01
+23,Rectificadora,Sala 3A,739,82.1,0.24,129,81,NONE,2025-04-15
+9,Torno CNC,Sala 4C,1592,52.1,0.16,157,97,NONE,2024-09-10
+12,Inyectora,Sala 2C,1143,82.2,0.38,176,82,OVERHEAT,2024-11-26
+21,Rectificadora,Sala 2A,688,70.1,0.11,122,85,LOW_OIL,2024-11-20
+1,Rectificadora,Sala 3A,1472,86.2,0.4,115,70,LOW_OIL,2025-02-12
+26,Prensa hidráulica,Sala 2A,721,67.5,0.36,201,87,NONE,2025-02-02
+26,Rectificadora,Sala 1B,1833,64.4,0.72,187,61,NONE,2025-06-20
+1,Rectificadora,Sala 4A,1276,70.3,0.85,89,67,NONE,2024-10-14
+15,Cortadora láser,Sala 4C,1221,71.2,0.84,174,88,NONE,2024-07-31
+2,Inyectora,Sala 3A,1545,62.0,0.0,85,70,NONE,2024-08-01
+30,Torno CNC,Sala 3B,1728,64.0,0.12,136,96,NONE,2025-07-04
+22,Dobladora,Sala 1B,993,55.3,0.0,208,77,NONE,2024-09-20
+16,Prensa hidráulica,Sala 2B,248,64.8,0.04,150,73,NONE,2025-02-12
+25,Cortadora láser,Sala 1A,1990,78.1,0.21,100,69,NONE,2025-04-19
+8,Máquina de soldadura,Sala 3A,1499,68.4,0.52,171,94,NONE,2024-09-21
+13,Inyectora,Sala 3B,1739,82.1,0.24,206,68,NONE,2024-08-20
+21,Torno CNC,Sala 2C,541,67.8,0.25,159,94,NONE,2025-05-31
+1,Torno CNC,Sala 2B,1961,52.8,0.45,135,70,NONE,2024-08-26
+16,Máquina de soldadura,Sala 2C,945,77.2,0.0,195,71,NONE,2025-03-20
+29,Dobladora,Sala 1B,191,61.9,0.15,104,62,NONE,2025-01-13
+7,Rectificadora,Sala 1A,1386,67.2,0.25,84,98,NONE,2024-11-24
+5,Cortadora láser,Sala 3A,214,84.9,0.34,199,73,NONE,2024-08-10
+22,Fresadora CNC,Sala 3A,363,56.1,0.42,100,87,NONE,2025-04-28
+29,Prensa hidráulica,Sala 4A,70,72.0,0.85,97,70,NONE,2024-08-23
+23,Fresadora CNC,Sala 4B,1155,69.5,0.67,136,98,NONE,2024-12-22
+3,Máquina de soldadura,Sala 4A,1654,78.4,0.17,172,84,NONE,2025-04-24
+12,Torno CNC,Sala 1B,1204,80.3,0.32,98,80,NONE,2024-09-25
+26,Dobladora,Sala 1B,1672,73.2,0.3,207,69,NONE,2024-12-02
+16,Torno CNC,Sala 1A,1803,65.7,0.25,176,74,NONE,2025-01-22
+19,Prensa hidráulica,Sala 4A,1033,75.7,0.48,210,78,NONE,2025-06-17
+5,Torno CNC,Sala 3B,354,86.0,0.0,100,81,NONE,2025-03-08
+22,Torno CNC,Sala 3B,1988,69.7,0.66,119,80,NONE,2025-01-11
+25,Prensa hidráulica,Sala 1A,420,66.8,0.91,146,91,NONE,2025-07-10
+29,Cortadora láser,Sala 4C,1930,74.7,0.32,206,82,NONE,2024-11-10
+14,Cortadora láser,Sala 4B,902,70.5,0.31,134,72,NONE,2025-03-12
+28,Prensa hidráulica,Sala 3B,433,53.9,0.45,188,64,LOW_OIL,2025-07-24
+5,Dobladora,Sala 3C,1981,72.9,0.71,177,63,NONE,2025-06-06
+15,Máquina de soldadura,Sala 2A,494,53.8,0.3,191,87,NONE,2025-04-20
+17,Inyectora,Sala 1A,474,74.5,0.68,194,73,NONE,2025-01-05
+30,Torno CNC,Sala 1A,210,60.4,0.55,196,67,NONE,2025-06-29
+14,Dobladora,Sala 1C,1251,70.4,1.11,166,68,NONE,2024-08-16
+30,Torno CNC,Sala 2B,678,74.7,0.3,160,94,NONE,2024-12-02
+20,Inyectora,Sala 2B,1781,99.4,0.0,145,96,NONE,2024-08-10
+5,Máquina de soldadura,Sala 3C,944,78.9,0.0,98,80,OVERHEAT,2024-11-23
+12,Cortadora láser,Sala 4A,539,86.4,0.4,214,77,NONE,2024-08-01
+16,Dobladora,Sala 4C,1066,92.5,0.71,197,92,NONE,2024-09-01
+26,Rectificadora,Sala 1B,376,75.9,0.2,121,67,HIGH_VIBRATION,2024-08-08
+26,Rectificadora,Sala 1B,647,73.4,0.33,121,76,NONE,2025-06-04
+16,Inyectora,Sala 2C,1064,57.2,0.61,138,90,NONE,2025-05-05
+21,Rectificadora,Sala 3C,338,68.6,0.11,99,93,NONE,2025-06-19
+7,Cortadora láser,Sala 1A,642,61.3,0.22,152,65,NONE,2025-05-19
+4,Inyectora,Sala 3C,1737,65.2,0.05,96,81,NONE,2025-03-18
+1,Cortadora láser,Sala 3C,1646,92.4,0.75,106,73,OVERHEAT,2025-02-20
+30,Máquina de soldadura,Sala 3C,622,71.4,0.86,81,62,NONE,2024-11-22
+30,Torno CNC,Sala 2B,1427,59.5,0.0,142,71,NONE,2025-04-05
+5,Máquina de soldadura,Sala 3C,77,86.5,0.36,141,95,LOW_OIL,2025-02-07
+23,Máquina de soldadura,Sala 4B,1003,81.5,0.82,179,71,NONE,2025-03-05
+26,Cortadora láser,Sala 2A,92,82.1,0.52,98,61,NONE,2024-08-03
+10,Inyectora,Sala 1B,1754,45.9,0.25,96,61,NONE,2025-01-09
+22,Inyectora,Sala 2C,472,93.4,0.0,148,74,LOW_OIL,2025-04-07
+5,Rectificadora,Sala 2A,1671,63.3,0.75,196,82,NONE,2025-05-07
+4,Fresadora CNC,Sala 2C,226,79.3,0.51,160,88,NONE,2025-02-14
+2,Torno CNC,Sala 1C,578,100.0,0.0,118,76,NONE,2025-07-06
+20,Cortadora láser,Sala 2C,1683,95.9,0.76,115,91,NONE,2025-03-20
+10,Rectificadora,Sala 1B,1015,58.3,0.0,211,66,LOW_OIL,2025-01-01
+26,Dobladora,Sala 1B,1567,52.7,0.33,108,89,NONE,2025-06-26
+19,Fresadora CNC,Sala 3C,247,87.2,0.32,130,87,NONE,2024-12-30
+26,Fresadora CNC,Sala 3A,659,71.7,0.89,93,73,OVERHEAT,2024-10-18
+1,Cortadora láser,Sala 1C,1650,64.0,0.32,148,89,NONE,2025-02-24
+24,Prensa hidráulica,Sala 4B,891,77.5,0.32,136,76,NONE,2024-11-27
+5,Torno CNC,Sala 1A,902,68.0,0.0,91,91,NONE,2024-11-01
+13,Fresadora CNC,Sala 3B,1590,78.4,0.21,96,65,NONE,2025-01-24
+4,Cortadora láser,Sala 2C,1587,70.8,0.15,109,83,NONE,2025-04-11
+16,Cortadora láser,Sala 3A,71,78.7,0.17,167,65,LOW_OIL,2024-12-01
+24,Rectificadora,Sala 3C,1185,59.3,0.4,178,86,NONE,2025-02-02
+16,Dobladora,Sala 2B,1130,87.1,0.0,102,77,NONE,2025-02-17
+23,Prensa hidráulica,Sala 1A,1139,78.4,0.0,208,83,NONE,2025-02-03
+2,Torno CNC,Sala 4C,891,77.8,0.37,158,96,NONE,2024-09-17
+17,Inyectora,Sala 4A,147,56.6,0.44,111,83,NONE,2025-02-18
+28,Máquina de soldadura,Sala 3A,1217,90.4,0.33,88,97,NONE,2024-11-09
+27,Dobladora,Sala 2B,1953,69.8,0.39,94,93,OVERHEAT,2025-02-11
+20,Dobladora,Sala 1C,484,78.7,0.28,106,99,NONE,2025-02-28
+24,Rectificadora,Sala 4C,686,66.1,0.39,188,74,NONE,2025-02-21
+12,Inyectora,Sala 3C,1752,73.1,0.53,155,70,NONE,2025-06-17
+18,Fresadora CNC,Sala 1A,1159,73.6,0.53,144,81,LOW_OIL,2025-03-16
+3,Fresadora CNC,Sala 1A,637,36.2,0.19,188,83,NONE,2024-08-01
+28,Rectificadora,Sala 1A,393,77.0,0.67,208,60,NONE,2024-11-12
+1,Cortadora láser,Sala 1C,1367,93.6,0.45,89,77,NONE,2024-12-29
+1,Fresadora CNC,Sala 4C,620,76.5,0.77,126,71,LOW_OIL,2025-04-21
+29,Prensa hidráulica,Sala 2C,1723,58.5,0.83,202,87,NONE,2024-08-11
+19,Torno CNC,Sala 4A,660,77.8,0.0,138,99,NONE,2024-09-01
+11,Dobladora,Sala 4B,1777,82.7,0.14,175,66,NONE,2025-02-04
+5,Dobladora,Sala 1C,292,76.1,0.64,182,82,NONE,2024-11-17
+12,Prensa hidráulica,Sala 3B,1904,69.1,0.0,203,80,NONE,2025-01-16
+3,Inyectora,Sala 4A,610,67.1,0.83,165,93,NONE,2025-01-07
+1,Fresadora CNC,Sala 1B,1009,67.0,0.3,191,70,NONE,2024-12-16
+1,Dobladora,Sala 3C,81,78.4,0.57,106,81,HIGH_VIBRATION,2025-07-01
+8,Máquina de soldadura,Sala 1C,440,53.1,0.37,97,94,OVERHEAT,2024-11-23
+10,Inyectora,Sala 2B,326,65.5,0.0,161,88,NONE,2024-09-04
+11,Torno CNC,Sala 4A,581,89.1,0.72,151,87,NONE,2025-03-19
+12,Torno CNC,Sala 3B,1227,89.6,1.23,133,77,NONE,2025-04-23
+29,Dobladora,Sala 1B,432,52.3,0.25,150,73,NONE,2024-09-28
+13,Rectificadora,Sala 2C,1141,56.4,0.3,117,77,NONE,2025-03-14
+12,Inyectora,Sala 4C,1951,66.8,0.0,216,87,NONE,2025-05-31
+14,Dobladora,Sala 2B,933,80.7,0.81,114,83,NONE,2025-02-17
+2,Rectificadora,Sala 4A,263,48.1,0.67,161,67,NONE,2025-06-26
+29,Dobladora,Sala 3C,1728,69.3,0.0,212,67,NONE,2024-12-26
+19,Máquina de soldadura,Sala 4C,425,64.3,0.0,83,63,NONE,2025-02-21
+18,Inyectora,Sala 2B,793,85.9,0.0,102,86,NONE,2024-10-05
+3,Cortadora láser,Sala 1B,262,49.9,0.59,127,95,NONE,2024-12-15
+23,Torno CNC,Sala 2B,128,71.1,0.62,204,64,OVERHEAT,2025-04-01
+17,Dobladora,Sala 4C,1799,65.3,0.12,134,92,NONE,2025-02-17
+26,Máquina de soldadura,Sala 2A,677,87.6,0.55,147,93,NONE,2024-11-08
+8,Rectificadora,Sala 4B,653,77.2,0.45,167,89,NONE,2024-11-16
+29,Rectificadora,Sala 3A,831,63.0,0.29,80,67,NONE,2025-03-25
+26,Torno CNC,Sala 2C,1996,80.2,0.69,214,98,OVERHEAT,2024-09-29
+10,Prensa hidráulica,Sala 1B,1454,65.3,0.04,174,85,NONE,2024-11-04
+26,Dobladora,Sala 4C,1050,82.0,0.74,219,96,NONE,2025-06-06
+30,Inyectora,Sala 4B,729,67.2,0.18,185,93,NONE,2024-08-30
+2,Fresadora CNC,Sala 4B,107,82.7,0.93,212,66,NONE,2024-10-01
+19,Rectificadora,Sala 2B,1869,75.2,0.1,187,99,HIGH_VIBRATION,2024-07-28
+9,Inyectora,Sala 3A,1099,100.0,0.29,121,87,NONE,2025-05-09
+7,Inyectora,Sala 4B,930,69.4,0.42,181,98,NONE,2025-03-20
+4,Cortadora láser,Sala 3A,496,74.6,0.42,203,98,NONE,2025-01-09
+26,Inyectora,Sala 2B,115,64.2,0.55,219,87,NONE,2024-12-16
+21,Inyectora,Sala 4C,1994,70.0,0.01,182,73,NONE,2025-04-25
+18,Cortadora láser,Sala 3C,1833,37.6,0.39,153,97,NONE,2025-07-17
+13,Rectificadora,Sala 2A,1327,75.6,0.44,187,63,NONE,2025-06-23
+11,Inyectora,Sala 4B,1972,86.1,0.24,201,77,NONE,2024-09-08
+29,Prensa hidráulica,Sala 1C,1117,74.8,0.52,96,84,LOW_OIL,2024-10-29
+24,Prensa hidráulica,Sala 2A,1170,54.2,-0.0,150,66,NONE,2025-01-15
+4,Máquina de soldadura,Sala 2B,1627,60.4,0.3,141,97,NONE,2024-08-10
+25,Cortadora láser,Sala 2C,1061,40.8,0.17,120,87,NONE,2025-02-12
+21,Máquina de soldadura,Sala 1C,276,81.7,0.3,198,64,NONE,2025-05-25
+29,Cortadora láser,Sala 1B,823,57.9,0.83,124,62,NONE,2024-11-03
+25,Dobladora,Sala 2A,728,69.7,0.84,137,90,NONE,2024-10-13
+4,Dobladora,Sala 2B,1509,68.2,0.78,205,79,NONE,2025-04-21
+10,Inyectora,Sala 2A,1864,87.9,0.26,123,78,NONE,2025-06-14
+5,Fresadora CNC,Sala 4B,650,71.0,0.67,94,70,NONE,2025-02-26
+9,Dobladora,Sala 4C,428,79.7,0.43,157,99,NONE,2025-01-02
+24,Fresadora CNC,Sala 1C,1251,76.6,0.41,149,62,NONE,2024-10-31
+3,Dobladora,Sala 3B,1500,86.3,0.38,180,82,NONE,2025-07-23
+17,Torno CNC,Sala 4A,1988,67.1,0.93,82,66,LOW_OIL,2025-01-28
+3,Dobladora,Sala 2A,758,92.4,0.81,165,82,LOW_OIL,2025-01-12
+16,Máquina de soldadura,Sala 1B,356,46.2,0.62,153,66,NONE,2024-08-23
+4,Rectificadora,Sala 1B,828,80.3,0.35,130,93,NONE,2025-01-10
+18,Inyectora,Sala 1A,553,59.6,0.41,146,78,NONE,2024-08-16
+17,Máquina de soldadura,Sala 2A,317,64.1,0.56,155,68,NONE,2024-11-18
+7,Rectificadora,Sala 4A,1659,76.8,0.24,172,77,LOW_OIL,2024-12-25
+24,Prensa hidráulica,Sala 3C,57,76.7,0.68,86,84,NONE,2025-02-22
+23,Máquina de soldadura,Sala 4B,1993,77.3,0.12,92,73,NONE,2025-02-17
+30,Prensa hidráulica,Sala 3A,557,53.4,0.52,199,84,NONE,2024-07-28
+5,Fresadora CNC,Sala 4C,525,87.4,0.0,145,78,NONE,2025-03-08
+12,Fresadora CNC,Sala 4A,1370,59.2,0.23,83,98,NONE,2024-12-16
+17,Torno CNC,Sala 3A,213,60.8,1.02,217,74,NONE,2024-10-25
+23,Dobladora,Sala 3A,534,77.7,0.71,167,75,NONE,2025-02-21
+13,Máquina de soldadura,Sala 3B,1670,66.6,0.86,96,86,NONE,2024-11-18
+23,Prensa hidráulica,Sala 1A,1145,73.7,0.2,131,99,NONE,2024-10-19
+25,Rectificadora,Sala 4A,616,44.1,0.43,213,69,NONE,2024-09-24
+3,Fresadora CNC,Sala 4A,954,73.4,0.78,148,63,NONE,2024-10-22
+9,Dobladora,Sala 3B,608,72.6,0.59,216,78,NONE,2025-07-23
+30,Fresadora CNC,Sala 2A,1984,63.9,0.55,100,87,NONE,2025-04-28
+17,Rectificadora,Sala 2A,287,45.1,0.89,103,80,LOW_OIL,2024-10-11
+17,Dobladora,Sala 2A,1177,67.4,0.09,83,73,LOW_OIL,2025-03-17
+30,Dobladora,Sala 2C,1283,69.6,0.34,82,92,LOW_OIL,2025-05-08
+20,Prensa hidráulica,Sala 3A,603,65.6,0.0,147,69,NONE,2024-11-07
+16,Prensa hidráulica,Sala 2C,877,48.0,0.07,180,78,NONE,2024-11-26
+25,Máquina de soldadura,Sala 1A,517,89.1,0.72,133,89,NONE,2025-03-06
+22,Máquina de soldadura,Sala 4C,1527,62.3,0.12,114,81,OVERHEAT,2024-12-09
+13,Cortadora láser,Sala 3B,1341,67.3,0.62,135,62,HIGH_VIBRATION,2025-02-12
+27,Inyectora,Sala 4A,435,41.1,0.9,187,96,OVERHEAT,2024-12-01
+19,Cortadora láser,Sala 4B,824,89.1,0.35,119,77,NONE,2025-03-19
+17,Torno CNC,Sala 3A,897,64.4,0.56,147,70,LOW_OIL,2025-01-06
+4,Fresadora CNC,Sala 2C,436,71.2,0.62,125,61,NONE,2025-06-24
+12,Máquina de soldadura,Sala 2C,926,83.4,0.03,157,71,NONE,2025-03-09
+29,Prensa hidráulica,Sala 2B,308,61.9,0.22,85,65,NONE,2025-07-04
+9,Rectificadora,Sala 2C,332,81.6,0.1,96,99,NONE,2024-12-03
+19,Prensa hidráulica,Sala 4C,1699,45.3,0.24,178,88,NONE,2025-01-04
+12,Fresadora CNC,Sala 3C,1948,76.6,0.61,160,89,NONE,2024-10-19
+9,Cortadora láser,Sala 4A,89,88.9,0.22,81,61,NONE,2025-03-16
+7,Prensa hidráulica,Sala 3C,535,63.0,0.39,156,68,NONE,2025-02-27
+28,Inyectora,Sala 4A,978,83.4,0.09,145,61,OVERHEAT,2025-06-26
+14,Torno CNC,Sala 3B,269,92.0,0.77,131,88,NONE,2024-07-29
+20,Fresadora CNC,Sala 4A,1202,66.9,0.24,171,92,NONE,2024-09-20
+19,Cortadora láser,Sala 3C,1064,65.9,0.86,101,69,NONE,2025-02-13
+26,Inyectora,Sala 4A,1073,59.2,0.42,190,93,LOW_OIL,2024-08-02
+15,Rectificadora,Sala 3B,1593,63.9,0.0,186,67,NONE,2024-08-19
+16,Cortadora láser,Sala 3B,662,60.2,0.35,146,96,NONE,2025-05-25
+21,Dobladora,Sala 1A,977,59.2,0.08,219,92,NONE,2025-03-22
+5,Inyectora,Sala 4A,1965,84.4,0.58,148,65,NONE,2025-05-15
+3,Inyectora,Sala 4B,737,60.5,0.32,163,99,NONE,2024-09-02
+12,Torno CNC,Sala 2B,1692,73.1,0.45,182,78,OVERHEAT,2024-07-26
+25,Fresadora CNC,Sala 2A,662,70.5,0.29,118,91,NONE,2024-11-24
+20,Rectificadora,Sala 1B,309,88.0,0.23,92,86,NONE,2024-11-18
+27,Torno CNC,Sala 3B,1039,64.0,0.11,120,60,OVERHEAT,2024-12-16
+21,Cortadora láser,Sala 1C,1015,74.6,0.65,136,92,LOW_OIL,2025-07-04
+4,Torno CNC,Sala 2A,415,79.5,0.35,91,99,NONE,2025-05-04
+21,Inyectora,Sala 4C,1831,87.9,0.31,92,91,LOW_OIL,2024-08-15
+23,Fresadora CNC,Sala 3A,1860,63.8,0.34,199,64,NONE,2025-07-15
+16,Máquina de soldadura,Sala 4A,593,62.6,0.2,176,76,NONE,2025-07-13
+25,Torno CNC,Sala 3C,698,57.3,0.31,136,67,NONE,2024-11-04
+7,Dobladora,Sala 1B,1597,96.8,0.46,119,93,NONE,2025-03-02
+13,Torno CNC,Sala 1C,1980,86.6,0.09,197,68,NONE,2025-01-14
+21,Cortadora láser,Sala 2A,863,69.5,0.13,159,82,NONE,2024-11-17
+10,Cortadora láser,Sala 4A,1960,93.2,0.81,207,94,NONE,2025-04-02
+26,Rectificadora,Sala 1A,1089,68.8,0.29,114,66,NONE,2025-06-29
+7,Cortadora láser,Sala 3A,1202,78.7,0.23,82,74,NONE,2024-10-27
+14,Prensa hidráulica,Sala 1B,624,70.1,-0.0,199,79,NONE,2025-06-22
+26,Fresadora CNC,Sala 2B,1182,74.8,0.66,84,84,NONE,2025-05-24
+5,Fresadora CNC,Sala 1A,1960,73.5,0.08,90,62,NONE,2024-12-08
+3,Máquina de soldadura,Sala 1C,1062,64.9,0.4,205,83,NONE,2024-09-25
+23,Máquina de soldadura,Sala 4C,1606,83.1,0.0,150,93,NONE,2025-04-21
+29,Fresadora CNC,Sala 1B,719,78.6,0.65,196,81,NONE,2025-06-20
+11,Dobladora,Sala 1A,318,82.3,0.75,217,70,NONE,2025-01-13
+11,Máquina de soldadura,Sala 3A,1235,73.8,0.55,185,67,NONE,2025-05-10
+18,Rectificadora,Sala 2B,1333,59.1,0.0,195,98,HIGH_VIBRATION,2024-11-18
+15,Cortadora láser,Sala 1A,973,90.5,0.65,146,94,NONE,2025-05-03
+12,Fresadora CNC,Sala 2C,1175,66.8,0.15,110,97,NONE,2025-06-30
+9,Inyectora,Sala 2B,1579,74.4,0.05,154,67,NONE,2025-05-29
+10,Máquina de soldadura,Sala 1C,1808,77.6,0.28,150,96,OVERHEAT,2025-06-23
+26,Fresadora CNC,Sala 4C,1644,74.3,0.28,145,86,NONE,2024-09-09
+12,Prensa hidráulica,Sala 3A,296,81.0,0.25,149,87,NONE,2025-07-13
+17,Torno CNC,Sala 4B,1713,82.9,0.78,120,99,NONE,2024-09-09
+29,Cortadora láser,Sala 4A,1868,67.3,1.0,99,93,NONE,2024-08-26
+6,Fresadora CNC,Sala 3C,1910,89.5,0.0,219,91,NONE,2025-04-24
+7,Torno CNC,Sala 3C,1610,66.8,0.19,118,74,NONE,2025-07-24
+14,Máquina de soldadura,Sala 3C,180,74.0,0.44,124,76,NONE,2024-09-02
+13,Torno CNC,Sala 1B,402,65.3,0.28,218,92,NONE,2025-03-11
+8,Cortadora láser,Sala 1C,245,61.9,0.52,149,75,NONE,2025-01-10
+10,Fresadora CNC,Sala 3A,1866,82.5,0.67,204,88,NONE,2025-03-14
+9,Prensa hidráulica,Sala 2B,1989,100.0,0.62,170,68,NONE,2025-04-30
+18,Dobladora,Sala 1B,979,65.7,0.58,149,92,NONE,2024-10-03
+27,Máquina de soldadura,Sala 1C,1739,84.6,0.9,209,88,LOW_OIL,2024-10-19
+26,Fresadora CNC,Sala 4A,1455,66.1,0.0,163,72,NONE,2024-09-04
+2,Cortadora láser,Sala 2C,1071,69.9,0.84,168,80,NONE,2025-01-26
+5,Máquina de soldadura,Sala 3A,694,91.1,0.28,158,80,NONE,2025-07-21
+29,Rectificadora,Sala 3C,276,57.1,0.64,192,64,NONE,2025-03-21
+5,Torno CNC,Sala 1A,750,53.9,0.09,172,69,NONE,2025-01-31
+6,Dobladora,Sala 4B,1549,69.0,0.13,151,65,NONE,2024-11-16
+19,Cortadora láser,Sala 3A,1550,78.0,0.6,128,72,HIGH_VIBRATION,2025-07-04
+8,Rectificadora,Sala 3B,314,75.6,0.0,131,60,NONE,2025-04-11
+16,Inyectora,Sala 4C,1445,74.3,0.7,112,79,NONE,2025-05-20
+13,Fresadora CNC,Sala 1C,1559,70.4,0.78,101,67,NONE,2024-11-04
+1,Prensa hidráulica,Sala 2A,1507,79.4,0.45,193,69,NONE,2025-06-06
+22,Máquina de soldadura,Sala 4A,695,35.0,0.44,212,68,NONE,2025-07-09
+20,Torno CNC,Sala 2C,260,61.0,0.15,97,62,NONE,2025-03-02
+17,Máquina de soldadura,Sala 4A,1645,68.9,0.6,197,70,NONE,2024-08-19
+7,Dobladora,Sala 3A,1450,78.5,0.5,196,71,OVERHEAT,2024-11-17
+25,Fresadora CNC,Sala 2A,1468,87.9,0.12,116,69,NONE,2024-08-16
+13,Máquina de soldadura,Sala 3B,1523,59.4,0.28,143,84,LOW_OIL,2024-08-05
+4,Torno CNC,Sala 2B,992,87.5,0.35,217,84,NONE,2025-05-11
+4,Fresadora CNC,Sala 1A,1437,64.6,0.28,158,70,NONE,2024-10-08
+6,Máquina de soldadura,Sala 2A,1949,68.4,0.0,202,95,NONE,2024-10-16
+28,Prensa hidráulica,Sala 1C,506,77.0,0.61,123,98,NONE,2025-05-20
+19,Cortadora láser,Sala 3C,774,67.6,0.33,161,85,HIGH_VIBRATION,2025-03-22
+29,Fresadora CNC,Sala 3B,1801,83.3,0.4,166,73,NONE,2024-09-09
+12,Cortadora láser,Sala 1A,1299,65.1,0.23,95,98,NONE,2025-04-29
+22,Inyectora,Sala 4B,1031,65.3,0.54,133,99,NONE,2025-06-14
+7,Fresadora CNC,Sala 2C,1204,82.6,0.46,181,60,NONE,2025-01-20
+27,Prensa hidráulica,Sala 3C,637,60.8,0.76,177,63,HIGH_VIBRATION,2024-08-05
+10,Cortadora láser,Sala 3A,525,73.0,0.54,81,89,NONE,2024-08-24
+26,Rectificadora,Sala 2A,1871,50.1,0.34,173,71,NONE,2024-11-01
+19,Torno CNC,Sala 1A,1035,91.8,0.18,138,94,NONE,2024-10-27
+7,Rectificadora,Sala 4C,1350,84.5,0.66,148,72,LOW_OIL,2025-06-13
+30,Máquina de soldadura,Sala 1B,205,100.0,0.32,198,90,NONE,2025-04-23
+3,Prensa hidráulica,Sala 4C,1833,86.1,0.35,171,97,NONE,2025-01-21
+13,Rectificadora,Sala 2B,1291,56.4,0.35,124,82,NONE,2024-12-22
+13,Fresadora CNC,Sala 4C,239,78.0,0.28,103,63,NONE,2025-07-08
+18,Máquina de soldadura,Sala 4B,1490,59.0,0.35,170,75,NONE,2024-11-02
+28,Máquina de soldadura,Sala 2B,1030,88.9,0.98,173,66,NONE,2025-04-02
+30,Rectificadora,Sala 3B,1748,56.8,0.09,137,81,NONE,2024-10-06
+26,Inyectora,Sala 2C,1765,56.2,0.16,207,88,NONE,2024-10-06
+20,Rectificadora,Sala 3B,595,50.7,0.82,86,70,NONE,2025-06-07
+28,Inyectora,Sala 1B,90,64.1,0.29,126,92,NONE,2024-09-21
+8,Prensa hidráulica,Sala 1C,356,61.7,0.26,132,88,NONE,2025-04-19
+29,Torno CNC,Sala 2C,992,54.9,0.71,117,98,OVERHEAT,2025-04-21
+9,Rectificadora,Sala 4C,387,93.9,0.0,132,71,LOW_OIL,2024-09-02
+7,Dobladora,Sala 4A,1387,76.4,0.65,127,66,NONE,2025-05-12
+1,Inyectora,Sala 1C,1148,74.9,0.41,174,98,NONE,2024-08-23
+3,Rectificadora,Sala 2C,1002,89.1,0.54,216,85,NONE,2025-05-18
+13,Cortadora láser,Sala 2C,328,73.1,0.53,143,99,NONE,2024-11-21
+28,Fresadora CNC,Sala 1B,1249,61.0,0.21,172,68,NONE,2025-05-09
+30,Dobladora,Sala 3A,945,49.6,0.72,204,93,NONE,2024-12-29
+25,Dobladora,Sala 4C,1735,60.3,0.23,118,72,NONE,2024-11-13
+28,Inyectora,Sala 1B,322,88.1,0.52,83,95,LOW_OIL,2024-12-16
+17,Cortadora láser,Sala 2C,886,54.9,0.77,205,84,NONE,2024-11-05
+25,Cortadora láser,Sala 1A,669,74.2,0.81,82,83,NONE,2024-08-28
+24,Máquina de soldadura,Sala 1C,1724,82.4,0.32,143,76,NONE,2024-08-15
+1,Inyectora,Sala 1B,911,73.4,0.54,108,61,NONE,2024-11-08
+6,Torno CNC,Sala 3A,1856,74.8,0.29,195,72,NONE,2024-09-20
+21,Fresadora CNC,Sala 2A,1932,77.9,1.15,90,90,NONE,2025-05-12
+6,Prensa hidráulica,Sala 3B,980,74.6,0.63,176,88,NONE,2025-03-22
+26,Dobladora,Sala 2C,338,89.3,0.43,181,87,NONE,2025-01-18
+12,Prensa hidráulica,Sala 4C,773,57.5,0.49,100,86,LOW_OIL,2024-11-13
+13,Rectificadora,Sala 4A,942,72.9,0.52,118,74,NONE,2024-09-07
+13,Rectificadora,Sala 2A,321,48.2,0.53,181,90,NONE,2024-09-20
+29,Prensa hidráulica,Sala 2B,1139,45.1,0.33,125,99,NONE,2024-12-02
+15,Rectificadora,Sala 3C,532,69.0,0.28,145,74,NONE,2024-11-17
+21,Torno CNC,Sala 3A,985,76.5,0.35,170,92,NONE,2024-08-27
+16,Cortadora láser,Sala 4A,297,89.6,0.06,190,79,NONE,2024-08-14
+22,Rectificadora,Sala 3C,205,99.0,0.62,161,71,HIGH_VIBRATION,2025-05-14
+21,Máquina de soldadura,Sala 3A,1120,85.8,0.16,202,96,LOW_OIL,2024-12-02
+11,Rectificadora,Sala 4C,503,78.7,0.08,178,68,NONE,2024-09-04
+28,Fresadora CNC,Sala 1A,250,71.9,0.4,114,82,OVERHEAT,2025-02-19
+5,Torno CNC,Sala 4C,1733,51.6,0.36,182,67,NONE,2025-04-01
+4,Fresadora CNC,Sala 3B,173,68.2,0.47,208,91,NONE,2024-09-15
+3,Fresadora CNC,Sala 2A,50,85.5,0.23,104,73,NONE,2024-12-09
+19,Máquina de soldadura,Sala 1C,1017,80.8,0.28,122,86,NONE,2024-09-06
+20,Torno CNC,Sala 3A,1832,54.6,0.61,163,84,NONE,2024-08-13
+25,Torno CNC,Sala 4C,904,77.4,0.59,130,72,NONE,2024-11-22
+18,Inyectora,Sala 1C,689,76.3,0.58,209,80,NONE,2024-09-22
+15,Torno CNC,Sala 3B,240,74.2,0.41,205,90,NONE,2025-07-11
+9,Torno CNC,Sala 2C,1652,69.7,0.45,148,96,NONE,2025-07-09
+17,Torno CNC,Sala 2B,565,78.0,0.47,88,64,LOW_OIL,2025-06-13
+14,Máquina de soldadura,Sala 2A,491,78.4,0.2,81,72,NONE,2025-04-06
+15,Rectificadora,Sala 3B,1994,62.3,0.84,89,87,NONE,2024-10-20
+1,Inyectora,Sala 3B,1888,75.5,0.8,193,84,NONE,2024-09-04
+21,Fresadora CNC,Sala 4C,1879,67.7,0.64,155,94,NONE,2025-07-06
+22,Torno CNC,Sala 1A,192,52.2,0.27,164,98,NONE,2025-05-20
+22,Dobladora,Sala 3C,1264,63.3,0.56,128,66,NONE,2025-02-08
+3,Rectificadora,Sala 2B,582,51.2,0.69,149,97,NONE,2025-05-13
+16,Rectificadora,Sala 2A,276,81.8,0.03,210,91,NONE,2024-09-18
+23,Fresadora CNC,Sala 2C,1386,74.3,0.91,212,62,NONE,2025-04-04
+25,Máquina de soldadura,Sala 2C,1702,65.7,0.0,169,98,NONE,2024-10-24
+11,Prensa hidráulica,Sala 1B,998,87.0,0.61,105,96,NONE,2025-05-01
+12,Prensa hidráulica,Sala 3B,1375,70.8,0.84,151,81,NONE,2025-03-08
+10,Rectificadora,Sala 3A,1727,52.8,0.37,84,67,HIGH_VIBRATION,2025-06-16
+16,Cortadora láser,Sala 1A,509,64.7,0.35,94,76,NONE,2025-04-11
+8,Cortadora láser,Sala 2B,1474,89.6,0.6,202,86,NONE,2024-09-04
+6,Fresadora CNC,Sala 4C,600,62.0,0.96,80,92,NONE,2024-10-17
+12,Prensa hidráulica,Sala 2C,442,73.3,0.32,82,76,NONE,2025-03-24
+24,Rectificadora,Sala 2A,1940,78.9,0.17,126,71,HIGH_VIBRATION,2024-12-19
+28,Máquina de soldadura,Sala 1B,1837,77.1,0.27,174,86,NONE,2025-05-25
+21,Prensa hidráulica,Sala 2A,894,99.4,0.0,92,67,NONE,2025-04-16
+8,Rectificadora,Sala 1A,1280,55.9,0.67,199,82,NONE,2024-09-21
+26,Rectificadora,Sala 3A,259,57.1,0.25,134,88,NONE,2024-08-05
+28,Torno CNC,Sala 1B,1188,56.1,0.34,145,79,NONE,2025-01-02
+4,Máquina de soldadura,Sala 1B,1810,66.4,0.67,169,75,NONE,2024-11-09
+26,Torno CNC,Sala 3C,695,83.2,0.29,141,76,NONE,2025-07-20
+8,Fresadora CNC,Sala 2B,1324,57.6,0.63,181,75,NONE,2025-01-09
+26,Torno CNC,Sala 1B,268,83.4,0.09,218,78,NONE,2025-01-26
+28,Dobladora,Sala 4B,456,70.4,0.69,87,67,OVERHEAT,2024-08-17
+18,Torno CNC,Sala 3C,1516,56.7,0.5,176,97,NONE,2025-03-14
+28,Dobladora,Sala 3C,1676,49.0,0.37,196,97,NONE,2024-09-04
+28,Prensa hidráulica,Sala 1A,1427,51.7,0.44,143,88,NONE,2024-11-14
+5,Cortadora láser,Sala 4B,937,62.0,0.01,100,95,NONE,2024-11-02
+9,Inyectora,Sala 1C,607,68.0,0.43,194,85,NONE,2025-04-23
+4,Inyectora,Sala 2A,599,86.2,0.36,164,90,NONE,2025-02-25
+27,Rectificadora,Sala 3A,191,79.6,0.02,99,71,NONE,2025-03-09
+22,Inyectora,Sala 4A,661,59.9,0.2,87,76,NONE,2024-12-29
+17,Dobladora,Sala 2A,550,74.9,0.36,137,74,NONE,2025-03-22
+9,Máquina de soldadura,Sala 1B,889,89.8,0.22,125,68,HIGH_VIBRATION,2024-12-03
+1,Torno CNC,Sala 3A,751,92.5,0.0,110,98,NONE,2025-05-25
+21,Dobladora,Sala 2C,1620,66.2,0.72,172,71,NONE,2024-09-21
+20,Máquina de soldadura,Sala 1C,1732,81.5,0.36,88,91,NONE,2024-11-01
+13,Cortadora láser,Sala 2C,1615,86.7,0.0,94,84,NONE,2025-03-13
+28,Inyectora,Sala 4B,1919,51.9,1.04,173,98,NONE,2024-09-10
+16,Cortadora láser,Sala 2C,1580,63.9,0.77,217,77,NONE,2025-04-03
+29,Inyectora,Sala 4C,645,96.6,0.3,108,74,NONE,2025-01-15
+13,Torno CNC,Sala 2B,1954,66.4,0.15,159,91,NONE,2025-01-19
+14,Fresadora CNC,Sala 2A,330,34.9,0.52,115,65,NONE,2024-09-09
+3,Torno CNC,Sala 4A,473,68.5,0.46,163,94,NONE,2025-04-27
+29,Prensa hidráulica,Sala 4C,905,83.5,0.56,188,93,NONE,2025-01-19
+6,Dobladora,Sala 1A,319,70.1,0.15,197,97,NONE,2024-09-21
+18,Rectificadora,Sala 4A,203,78.6,0.73,116,64,NONE,2025-03-15
+19,Fresadora CNC,Sala 2C,663,81.3,0.26,165,77,NONE,2024-07-30
+5,Torno CNC,Sala 1B,1800,65.7,0.6,150,75,NONE,2025-03-24
+15,Máquina de soldadura,Sala 1C,711,63.8,0.16,172,67,NONE,2025-06-07
+25,Fresadora CNC,Sala 3B,132,71.8,1.19,159,84,NONE,2024-10-10
+2,Dobladora,Sala 4A,1695,72.1,0.61,181,91,NONE,2025-01-27
+10,Inyectora,Sala 2C,996,70.6,1.27,93,85,NONE,2025-01-26
+24,Fresadora CNC,Sala 1C,948,71.1,0.65,196,81,NONE,2025-04-17
+30,Inyectora,Sala 3A,1499,61.0,0.23,152,90,NONE,2024-08-29
+18,Dobladora,Sala 2A,1348,79.0,0.65,170,69,NONE,2025-06-21
+27,Torno CNC,Sala 3C,1786,77.2,0.67,169,71,NONE,2025-05-16
+13,Dobladora,Sala 2B,333,54.0,0.51,108,87,NONE,2025-02-04
+5,Fresadora CNC,Sala 1C,1029,65.3,0.59,128,65,NONE,2024-10-26
+23,Máquina de soldadura,Sala 1B,222,71.1,0.63,151,79,NONE,2025-05-27
+24,Cortadora láser,Sala 4B,1400,63.6,0.1,212,64,NONE,2025-01-25
+1,Fresadora CNC,Sala 1B,1791,77.6,0.08,121,82,OVERHEAT,2025-07-06
+22,Dobladora,Sala 1C,1136,69.2,0.16,214,68,NONE,2024-12-11
+1,Cortadora láser,Sala 1B,1146,72.0,0.44,121,88,NONE,2025-04-21
+18,Dobladora,Sala 2A,812,65.2,0.33,184,75,NONE,2024-10-01
+15,Máquina de soldadura,Sala 1B,1709,46.1,0.11,106,81,NONE,2025-05-05
+17,Dobladora,Sala 4A,1448,45.4,0.63,137,67,NONE,2025-01-31
+11,Torno CNC,Sala 3C,682,77.1,0.48,125,79,NONE,2024-12-15
+21,Rectificadora,Sala 1B,1581,73.2,0.45,145,73,NONE,2025-04-13
+26,Inyectora,Sala 3C,836,75.3,0.32,104,98,NONE,2025-06-01
+25,Inyectora,Sala 2C,992,71.6,0.29,152,96,NONE,2025-01-23
+22,Fresadora CNC,Sala 1A,1061,72.6,0.15,196,93,NONE,2024-08-08
+27,Rectificadora,Sala 2A,447,81.6,0.68,208,70,NONE,2024-09-10
+27,Dobladora,Sala 1A,1193,75.3,0.19,166,99,NONE,2024-08-04
+17,Máquina de soldadura,Sala 2C,983,82.5,0.46,153,92,NONE,2024-08-10
+13,Fresadora CNC,Sala 2A,1510,72.1,0.9,204,90,NONE,2024-09-07
+1,Dobladora,Sala 1C,1902,66.4,0.3,146,93,NONE,2025-05-18
+2,Cortadora láser,Sala 1C,725,72.3,0.69,85,66,NONE,2025-06-27
+9,Prensa hidráulica,Sala 3C,985,60.0,0.57,204,82,NONE,2024-10-24
+3,Dobladora,Sala 2C,514,65.4,0.49,137,66,NONE,2024-10-16
+1,Rectificadora,Sala 3C,335,72.1,0.53,149,84,OVERHEAT,2024-07-30
+21,Fresadora CNC,Sala 2B,314,72.0,0.37,132,62,HIGH_VIBRATION,2024-09-17
+16,Rectificadora,Sala 1B,369,68.7,0.41,145,97,NONE,2025-03-28
+23,Fresadora CNC,Sala 3B,722,53.3,0.24,137,79,NONE,2025-03-13
+6,Dobladora,Sala 2B,1449,77.6,0.41,161,93,NONE,2025-03-18
+28,Torno CNC,Sala 1B,869,80.0,0.22,166,89,NONE,2025-07-17
+17,Cortadora láser,Sala 2A,138,89.7,0.7,81,76,NONE,2025-06-04
+5,Dobladora,Sala 3C,1727,75.3,0.0,116,69,NONE,2024-08-18
+5,Inyectora,Sala 2A,1276,70.0,0.54,182,94,LOW_OIL,2024-10-17
+6,Rectificadora,Sala 4C,870,57.8,0.5,103,79,NONE,2025-01-31
+3,Prensa hidráulica,Sala 4C,1812,87.9,0.47,191,77,NONE,2025-01-23
+21,Prensa hidráulica,Sala 4C,1050,73.0,0.71,144,86,NONE,2025-01-14
+23,Máquina de soldadura,Sala 2A,383,72.3,0.31,208,95,NONE,2024-11-18
+5,Fresadora CNC,Sala 1B,271,67.0,0.48,196,82,NONE,2024-12-02
+21,Rectificadora,Sala 4C,90,66.2,0.0,195,91,NONE,2025-05-03
+5,Máquina de soldadura,Sala 2C,1781,78.3,0.28,184,69,NONE,2025-04-23
+10,Rectificadora,Sala 4B,117,57.7,0.66,82,70,NONE,2024-09-16
+10,Inyectora,Sala 1B,1037,89.5,-0.0,125,97,NONE,2024-10-30
+19,Fresadora CNC,Sala 4C,1849,86.9,0.45,134,65,OVERHEAT,2025-03-27

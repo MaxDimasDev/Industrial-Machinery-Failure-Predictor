@@ -2,17 +2,20 @@ from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
 from datetime import datetime
+from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
 
 # Cargar modelo
 model = joblib.load("../ml/model.joblib")
 
-# Configurar LabelEncoder
+# Configurar LabelEncoder (debe coincidir con el frontend)
 le_error = LabelEncoder()
-le_error.classes_ = np.array(["NONE", "OVERHEAT", "LOW_OIL", "VIBRATION_ALERT"])
+le_error.classes_ = np.array(["NONE", "OVERHEAT", "LOW_OIL", "HIGH_VIBRATION"])
+
+# Threshold ajustable
+PREDICTION_THRESHOLD = 0.65  # 65% de confianza para considerar falla
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -23,16 +26,16 @@ def predict():
 
         input_data = request.json
         
-        # 2. Validar campos (ahora incluyendo los nuevos)
+        # 2. Validar campos
         required_fields = [
             "machine_id", "temperature", "vibration", 
             "oil_level", "error_code", "last_maintenance",
-            "pressure", "running_hours"  # ¡Nuevos campos requeridos!
+            "pressure", "running_hours"
         ]
         if not all(field in input_data for field in required_fields):
             return jsonify({"error": f"Missing fields: {required_fields}"}), 400
 
-        # 3. Preprocesamiento completo
+        # 3. Preprocesamiento
         input_df = pd.DataFrame({
             "running_hours": [int(input_data["running_hours"])],
             "temperature": [float(input_data["temperature"])],
@@ -45,32 +48,35 @@ def predict():
             ]
         })
 
-        # 4. Asegurar el orden correcto de features
-        features_order = [
-            "running_hours", "temperature", "vibration", 
-            "pressure", "oil_level", "error_code", 
-            "days_since_maintenance"
-        ]
+        # 4. Asegurar orden de features
+        features_order = model.feature_names_in_
         
-        # Debug: Verificar coincidencia con el modelo
-        print("Features en el modelo:", model.feature_names_in_)
-        print("Features enviadas:", features_order)
-
-        # 5. Predecir
-        prediction = model.predict(input_df[features_order])[0]
+        # 5. Predecir con threshold
         probability = model.predict_proba(input_df[features_order])[0][1]
+        prediction = 1 if probability > PREDICTION_THRESHOLD else 0
 
         return jsonify({
             "prediction": int(prediction),
             "probability": float(probability),
+            "threshold": float(PREDICTION_THRESHOLD),
             "status": "success",
-            "features_used": features_order
+            "features_used": list(features_order)
         })
 
     except Exception as e:
-        import traceback
-        traceback.print_exc()
-        return jsonify({"error": str(e)}), 500
+        return jsonify({
+            "error": str(e),
+            "status": "error"
+        }), 500
+
+@app.route("/model_info", methods=["GET"])
+def model_info():
+    return jsonify({
+        "feature_names": list(model.feature_names_in_),
+        "classes": list(model.classes_),
+        "threshold": PREDICTION_THRESHOLD,
+        "model_type": "RandomForest"
+    })
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

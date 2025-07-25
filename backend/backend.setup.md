@@ -4,6 +4,8 @@
 Make sure to chanche directories to backend before running the following commands:
 ```bash
 npm init -y
+npm install
+npm install cors
 npm install express axios cors
 npm install pg sequelize
 ```

@@ -15,16 +15,18 @@ Once created go to your database and:
 3. Delete any existing code in the script
 4. Enter the following SQL code:
 ```sql
-CREATE TABLE Machines (
+CREATE TABLE machines (
   machine_id INT PRIMARY KEY,
-  name VARCHAR(100),
+  name VARCHAR(100) NOT NULL,
   location VARCHAR(100),
   last_maintenance DATE,
-  temperature FLOAT,
-  vibration FLOAT,
-  pressure INT,
-  oil_level INT,
-  error_code VARCHAR(20)
+  temperature FLOAT NOT NULL,
+  vibration FLOAT NOT NULL,
+  pressure INT NOT NULL,
+  oil_level INT NOT NULL,
+  error_code VARCHAR(20) DEFAULT 'NONE',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
 5. Click "Execute" or press F5
